@@ -427,11 +427,14 @@ def build(loopStorage, allSubgraphs=False, singleInsLoop = False):
     else:
 
         # Default mode: only (weakly) connected component are considered
-
-        for weakConnectedComponent in nx.weakly_connected_components(G):
-            cc = '-' + str(weakConnectedComponent[0])
-            for node in weakConnectedComponent[1:]:
-                cc = cc + '-' + str(node)
+        setCopy = nx.weakly_connected_components(G)
+        for weakConnectedComponent in setCopy:
+            #cc = '-' + str(list(weakConnectedComponent)[0])
+            e = weakConnectedComponent.pop()
+            cc = '-' + str(e)
+            for e in  weakConnectedComponent:
+            #for node in weakConnectedComponent[1:]:
+                cc = cc + '-' + str(e)
             connectedComponents.add(cc)
 
     # Create one LDF for each connected component

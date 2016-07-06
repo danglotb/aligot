@@ -26,7 +26,7 @@ def inputMemoryAdjacency(ldf):
 		else:
 			# feed the memory map
 			for count in range(ip.length):
-				byteAddr = int(ip.startAddress,16) + count
+				byteAddr = int(ip.startAddress,32) + count
 				if byteAddr in memoryMap.keys():
 					print 'ERROR: Already seen address (heuristics.outputMemoryAdjacency())'
 					quit()
@@ -38,7 +38,7 @@ def inputMemoryAdjacency(ldf):
 			curP = parameter.parameter(hex(k)[2:],1,memoryMap[k])
 		else:
 			# is it adjacent ?
-			if k == (int(curP.startAddress,16) + curP.length):
+			if k == (int(curP.startAddress,32) + curP.length):
 				curP.incrementSize(memoryMap[k])
 			else:
 				newInputParameters[len(newInputParameters.keys())] = curP
@@ -72,7 +72,7 @@ def outputMemoryAdjacency(ldf):
 		else:
 			# feed the memory map
 			for count in range(op.length):
-				byteAddr = int(op.startAddress,16) + count
+				byteAddr = int(op.startAddress,32) + count
 				if byteAddr in memoryMap.keys():
 					print 'ERROR: Already seen address (heuristics.outputMemoryAdjacency())'
 					quit()
@@ -84,7 +84,7 @@ def outputMemoryAdjacency(ldf):
 			curP = parameter.parameter(hex(k)[2:],1,memoryMap[k])
 		else:
 			# is it adjacent ?
-			if k == (int(curP.startAddress,16) + curP.length):
+			if k == (int(curP.startAddress,32) + curP.length):
 				curP.incrementSize(memoryMap[k])
 			else:
 				newOutputParameters[len(newOutputParameters.keys())] = curP
