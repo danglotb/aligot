@@ -1,0 +1,1032 @@
+!SOT
+8048751!push ebp!RR_ebp_bf89a4e8_esp_bf89a4ac!WM_bf89a4a8_4_bf89a4e8!WR_esp_bf89a4a8
+8048752!mov ebp, esp!RR_esp_bf89a4a8!WR_ebp_bf89a4a8
+8048754!sub esp, 0x30!RR_esp_bf89a4a8!WR_esp_bf89a478
+8048757!mov eax, dword ptr [ebp+0x8]!RM_bf89a4b0_4_bf89a4d8!RR_ebp_bf89a4a8!WR_eax_bf89a4d8
+804875a!mov eax, dword ptr [eax]!RM_bf89a4d8_4_1234567!RR_eax_bf89a4d8!WR_eax_1234567
+804875c!mov dword ptr [ebp-0x24], eax!RR_eax_1234567_ebp_bf89a4a8!WM_bf89a484_4_1234567
+804875f!mov eax, dword ptr [ebp+0x8]!RM_bf89a4b0_4_bf89a4d8!RR_ebp_bf89a4a8!WR_eax_bf89a4d8
+8048762!mov eax, dword ptr [eax+0x4]!RM_bf89a4dc_4_89abcdef!RR_eax_bf89a4d8!WR_eax_89abcdef
+8048765!mov dword ptr [ebp-0x20], eax!RR_eax_89abcdef_ebp_bf89a4a8!WM_bf89a488_4_89abcdef
+8048768!mov dword ptr [ebp-0x1c], 0xc6ef3720!RR_ebp_bf89a4a8!WM_bf89a48c_4_c6ef3720
+804876f!mov dword ptr [ebp-0x14], 0x9e3779b9!RR_ebp_bf89a4a8!WM_bf89a494_4_9e3779b9
+8048776!mov eax, dword ptr [ebp+0xc]!RM_bf89a4b4_4_bf89a4c8!RR_ebp_bf89a4a8!WR_eax_bf89a4c8
+8048779!mov eax, dword ptr [eax]!RM_bf89a4c8_4_deadbee1!RR_eax_bf89a4c8!WR_eax_deadbee1
+804877b!mov dword ptr [ebp-0x10], eax!RR_eax_deadbee1_ebp_bf89a4a8!WM_bf89a498_4_deadbee1
+804877e!mov eax, dword ptr [ebp+0xc]!RM_bf89a4b4_4_bf89a4c8!RR_ebp_bf89a4a8!WR_eax_bf89a4c8
+8048781!mov eax, dword ptr [eax+0x4]!RM_bf89a4cc_4_deadbee2!RR_eax_bf89a4c8!WR_eax_deadbee2
+8048784!mov dword ptr [ebp-0xc], eax!RR_eax_deadbee2_ebp_bf89a4a8!WM_bf89a49c_4_deadbee2
+8048787!mov eax, dword ptr [ebp+0xc]!RM_bf89a4b4_4_bf89a4c8!RR_ebp_bf89a4a8!WR_eax_bf89a4c8
+804878a!mov eax, dword ptr [eax+0x8]!RM_bf89a4d0_4_deadbee3!RR_eax_bf89a4c8!WR_eax_deadbee3
+804878d!mov dword ptr [ebp-0x8], eax!RR_eax_deadbee3_ebp_bf89a4a8!WM_bf89a4a0_4_deadbee3
+8048790!mov eax, dword ptr [ebp+0xc]!RM_bf89a4b4_4_bf89a4c8!RR_ebp_bf89a4a8!WR_eax_bf89a4c8
+8048793!mov eax, dword ptr [eax+0xc]!RM_bf89a4d4_4_deadbee4!RR_eax_bf89a4c8!WR_eax_deadbee4
+8048796!mov dword ptr [ebp-0x4], eax!RR_eax_deadbee4_ebp_bf89a4a8!WM_bf89a4a4_4_deadbee4
+8048799!mov dword ptr [ebp-0x18], 0x0!RR_ebp_bf89a4a8!WM_bf89a490_4_0
+80487a0!jmp 0x80487ee
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_0!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_1234567!RR_ebp_bf89a4a8!WR_eax_1234567
+80487a5!shl eax, 0x4!RR_eax_1234567!WR_eax_12345670
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_12345670_ebp_bf89a4a8!WR_eax_f0e21553
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_c6ef3720!RR_ebp_bf89a4a8!WR_edx_c6ef3720
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_1234567!RR_ebp_bf89a4a8!WR_ecx_1234567
+80487b1!add edx, ecx!RR_ecx_1234567_edx_c6ef3720!WR_edx_c8127c87
+80487b3!xor edx, eax!RR_eax_f0e21553_edx_c8127c87!WR_edx_38f069d4
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_1234567!RR_ebp_bf89a4a8!WR_eax_1234567
+80487b8!shr eax, 0x5!RR_eax_1234567!WR_eax_91a2b
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_91a2b_ebp_bf89a4a8!WR_eax_deb6d90f
+80487be!xor eax, edx!RR_eax_deb6d90f_edx_38f069d4!WR_eax_e646b0db
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_89abcdef!RR_eax_e646b0db_ebp_bf89a4a8!WM_bf89a488_4_a3651d14
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_a3651d14!RR_ebp_bf89a4a8!WR_eax_a3651d14
+80487c6!shl eax, 0x4!RR_eax_a3651d14!WR_eax_3651d140
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_3651d140_ebp_bf89a4a8!WR_eax_14ff9021
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_c6ef3720!RR_ebp_bf89a4a8!WR_edx_c6ef3720
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_a3651d14!RR_ebp_bf89a4a8!WR_ecx_a3651d14
+80487d2!add edx, ecx!RR_ecx_a3651d14_edx_c6ef3720!WR_edx_6a545434
+80487d4!xor edx, eax!RR_eax_14ff9021_edx_6a545434!WR_edx_7eabc415
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_a3651d14!RR_ebp_bf89a4a8!WR_eax_a3651d14
+80487d9!shr eax, 0x5!RR_eax_a3651d14!WR_eax_51b28e8
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_51b28e8_ebp_bf89a4a8!WR_eax_e3c8e7ca
+80487df!xor eax, edx!RR_eax_e3c8e7ca_edx_7eabc415!WR_eax_9d6323df
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_1234567!RR_eax_9d6323df_ebp_bf89a4a8!WM_bf89a484_4_63c02188
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_c6ef3720!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_28b7bd67
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_0!RR_ebp_bf89a4a8!WM_bf89a490_4_1
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_1!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_63c02188!RR_ebp_bf89a4a8!WR_eax_63c02188
+80487a5!shl eax, 0x4!RR_eax_63c02188!WR_eax_3c021880
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_3c021880_ebp_bf89a4a8!WR_eax_1aafd763
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_28b7bd67!RR_ebp_bf89a4a8!WR_edx_28b7bd67
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_63c02188!RR_ebp_bf89a4a8!WR_ecx_63c02188
+80487b1!add edx, ecx!RR_ecx_63c02188_edx_28b7bd67!WR_edx_8c77deef
+80487b3!xor edx, eax!RR_eax_1aafd763_edx_8c77deef!WR_edx_96d8098c
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_63c02188!RR_ebp_bf89a4a8!WR_eax_63c02188
+80487b8!shr eax, 0x5!RR_eax_63c02188!WR_eax_31e010c
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_31e010c_ebp_bf89a4a8!WR_eax_e1cbbff0
+80487be!xor eax, edx!RR_eax_e1cbbff0_edx_96d8098c!WR_eax_7713b67c
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_a3651d14!RR_eax_7713b67c_ebp_bf89a4a8!WM_bf89a488_4_2c516698
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_2c516698!RR_ebp_bf89a4a8!WR_eax_2c516698
+80487c6!shl eax, 0x4!RR_eax_2c516698!WR_eax_c5166980
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_c5166980_ebp_bf89a4a8!WR_eax_a3c42861
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_28b7bd67!RR_ebp_bf89a4a8!WR_edx_28b7bd67
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_2c516698!RR_ebp_bf89a4a8!WR_ecx_2c516698
+80487d2!add edx, ecx!RR_ecx_2c516698_edx_28b7bd67!WR_edx_550923ff
+80487d4!xor edx, eax!RR_eax_a3c42861_edx_550923ff!WR_edx_f6cd0b9e
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_2c516698!RR_ebp_bf89a4a8!WR_eax_2c516698
+80487d9!shr eax, 0x5!RR_eax_2c516698!WR_eax_1628b34
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_1628b34_ebp_bf89a4a8!WR_eax_e0104a16
+80487df!xor eax, edx!RR_eax_e0104a16_edx_f6cd0b9e!WR_eax_16dd4188
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_63c02188!RR_eax_16dd4188_ebp_bf89a4a8!WM_bf89a484_4_4ce2e000
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_28b7bd67!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_8a8043ae
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_1!RR_ebp_bf89a4a8!WM_bf89a490_4_2
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_2!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_4ce2e000!RR_ebp_bf89a4a8!WR_eax_4ce2e000
+80487a5!shl eax, 0x4!RR_eax_4ce2e000!WR_eax_ce2e0000
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_ce2e0000_ebp_bf89a4a8!WR_eax_acdbbee3
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_8a8043ae!RR_ebp_bf89a4a8!WR_edx_8a8043ae
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_4ce2e000!RR_ebp_bf89a4a8!WR_ecx_4ce2e000
+80487b1!add edx, ecx!RR_ecx_4ce2e000_edx_8a8043ae!WR_edx_d76323ae
+80487b3!xor edx, eax!RR_eax_acdbbee3_edx_d76323ae!WR_edx_7bb89d4d
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_4ce2e000!RR_ebp_bf89a4a8!WR_eax_4ce2e000
+80487b8!shr eax, 0x5!RR_eax_4ce2e000!WR_eax_2671700
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_2671700_ebp_bf89a4a8!WR_eax_e114d5e4
+80487be!xor eax, edx!RR_eax_e114d5e4_edx_7bb89d4d!WR_eax_9aac48a9
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_2c516698!RR_eax_9aac48a9_ebp_bf89a4a8!WM_bf89a488_4_91a51def
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_91a51def!RR_ebp_bf89a4a8!WR_eax_91a51def
+80487c6!shl eax, 0x4!RR_eax_91a51def!WR_eax_1a51def0
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_1a51def0_ebp_bf89a4a8!WR_eax_f8ff9dd1
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_8a8043ae!RR_ebp_bf89a4a8!WR_edx_8a8043ae
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_91a51def!RR_ebp_bf89a4a8!WR_ecx_91a51def
+80487d2!add edx, ecx!RR_ecx_91a51def_edx_8a8043ae!WR_edx_1c25619d
+80487d4!xor edx, eax!RR_eax_f8ff9dd1_edx_1c25619d!WR_edx_e4dafc4c
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_91a51def!RR_ebp_bf89a4a8!WR_eax_91a51def
+80487d9!shr eax, 0x5!RR_eax_91a51def!WR_eax_48d28ef
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_48d28ef_ebp_bf89a4a8!WR_eax_e33ae7d1
+80487df!xor eax, edx!RR_eax_e33ae7d1_edx_e4dafc4c!WR_eax_7e01b9d
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_4ce2e000!RR_eax_7e01b9d_ebp_bf89a4a8!WM_bf89a484_4_4502c463
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_8a8043ae!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_ec48c9f5
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_2!RR_ebp_bf89a4a8!WM_bf89a490_4_3
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_3!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_4502c463!RR_ebp_bf89a4a8!WR_eax_4502c463
+80487a5!shl eax, 0x4!RR_eax_4502c463!WR_eax_502c4630
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_502c4630_ebp_bf89a4a8!WR_eax_2eda0513
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_ec48c9f5!RR_ebp_bf89a4a8!WR_edx_ec48c9f5
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_4502c463!RR_ebp_bf89a4a8!WR_ecx_4502c463
+80487b1!add edx, ecx!RR_ecx_4502c463_edx_ec48c9f5!WR_edx_314b8e58
+80487b3!xor edx, eax!RR_eax_2eda0513_edx_314b8e58!WR_edx_1f918b4b
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_4502c463!RR_ebp_bf89a4a8!WR_eax_4502c463
+80487b8!shr eax, 0x5!RR_eax_4502c463!WR_eax_2281623
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_2281623_ebp_bf89a4a8!WR_eax_e0d5d507
+80487be!xor eax, edx!RR_eax_e0d5d507_edx_1f918b4b!WR_eax_ff445e4c
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_91a51def!RR_eax_ff445e4c_ebp_bf89a4a8!WM_bf89a488_4_9260bfa3
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_9260bfa3!RR_ebp_bf89a4a8!WR_eax_9260bfa3
+80487c6!shl eax, 0x4!RR_eax_9260bfa3!WR_eax_260bfa30
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_260bfa30_ebp_bf89a4a8!WR_eax_4b9b911
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_ec48c9f5!RR_ebp_bf89a4a8!WR_edx_ec48c9f5
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_9260bfa3!RR_ebp_bf89a4a8!WR_ecx_9260bfa3
+80487d2!add edx, ecx!RR_ecx_9260bfa3_edx_ec48c9f5!WR_edx_7ea98998
+80487d4!xor edx, eax!RR_eax_4b9b911_edx_7ea98998!WR_edx_7a103089
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_9260bfa3!RR_ebp_bf89a4a8!WR_eax_9260bfa3
+80487d9!shr eax, 0x5!RR_eax_9260bfa3!WR_eax_49305fd
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_49305fd_ebp_bf89a4a8!WR_eax_e340c4df
+80487df!xor eax, edx!RR_eax_e340c4df_edx_7a103089!WR_eax_9950f456
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_4502c463!RR_eax_9950f456_ebp_bf89a4a8!WM_bf89a484_4_abb1d00d
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_ec48c9f5!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_4e11503c
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_3!RR_ebp_bf89a4a8!WM_bf89a490_4_4
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_4!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_abb1d00d!RR_ebp_bf89a4a8!WR_eax_abb1d00d
+80487a5!shl eax, 0x4!RR_eax_abb1d00d!WR_eax_bb1d00d0
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_bb1d00d0_ebp_bf89a4a8!WR_eax_99cabfb3
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_4e11503c!RR_ebp_bf89a4a8!WR_edx_4e11503c
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_abb1d00d!RR_ebp_bf89a4a8!WR_ecx_abb1d00d
+80487b1!add edx, ecx!RR_ecx_abb1d00d_edx_4e11503c!WR_edx_f9c32049
+80487b3!xor edx, eax!RR_eax_99cabfb3_edx_f9c32049!WR_edx_60099ffa
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_abb1d00d!RR_ebp_bf89a4a8!WR_eax_abb1d00d
+80487b8!shr eax, 0x5!RR_eax_abb1d00d!WR_eax_55d8e80
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_55d8e80_ebp_bf89a4a8!WR_eax_e40b4d64
+80487be!xor eax, edx!RR_eax_e40b4d64_edx_60099ffa!WR_eax_8402d29e
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_9260bfa3!RR_eax_8402d29e_ebp_bf89a4a8!WM_bf89a488_4_e5ded05
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_e5ded05!RR_ebp_bf89a4a8!WR_eax_e5ded05
+80487c6!shl eax, 0x4!RR_eax_e5ded05!WR_eax_e5ded050
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_e5ded050_ebp_bf89a4a8!WR_eax_c48c8f31
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_4e11503c!RR_ebp_bf89a4a8!WR_edx_4e11503c
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_e5ded05!RR_ebp_bf89a4a8!WR_ecx_e5ded05
+80487d2!add edx, ecx!RR_ecx_e5ded05_edx_4e11503c!WR_edx_5c6f3d41
+80487d4!xor edx, eax!RR_eax_c48c8f31_edx_5c6f3d41!WR_edx_98e3b270
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_e5ded05!RR_ebp_bf89a4a8!WR_eax_e5ded05
+80487d9!shr eax, 0x5!RR_eax_e5ded05!WR_eax_72ef68
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_72ef68_ebp_bf89a4a8!WR_eax_df20ae4a
+80487df!xor eax, edx!RR_eax_df20ae4a_edx_98e3b270!WR_eax_47c31c3a
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_abb1d00d!RR_eax_47c31c3a_ebp_bf89a4a8!WM_bf89a484_4_63eeb3d3
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_4e11503c!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_afd9d683
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_4!RR_ebp_bf89a4a8!WM_bf89a490_4_5
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_5!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_63eeb3d3!RR_ebp_bf89a4a8!WR_eax_63eeb3d3
+80487a5!shl eax, 0x4!RR_eax_63eeb3d3!WR_eax_3eeb3d30
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_3eeb3d30_ebp_bf89a4a8!WR_eax_1d98fc13
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_afd9d683!RR_ebp_bf89a4a8!WR_edx_afd9d683
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_63eeb3d3!RR_ebp_bf89a4a8!WR_ecx_63eeb3d3
+80487b1!add edx, ecx!RR_ecx_63eeb3d3_edx_afd9d683!WR_edx_13c88a56
+80487b3!xor edx, eax!RR_eax_1d98fc13_edx_13c88a56!WR_edx_e507645
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_63eeb3d3!RR_ebp_bf89a4a8!WR_eax_63eeb3d3
+80487b8!shr eax, 0x5!RR_eax_63eeb3d3!WR_eax_31f759e
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_31f759e_ebp_bf89a4a8!WR_eax_e1cd3482
+80487be!xor eax, edx!RR_eax_e1cd3482_edx_e507645!WR_eax_ef9d42c7
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_e5ded05!RR_eax_ef9d42c7_ebp_bf89a4a8!WM_bf89a488_4_1ec0aa3e
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_1ec0aa3e!RR_ebp_bf89a4a8!WR_eax_1ec0aa3e
+80487c6!shl eax, 0x4!RR_eax_1ec0aa3e!WR_eax_ec0aa3e0
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_ec0aa3e0_ebp_bf89a4a8!WR_eax_cab862c1
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_afd9d683!RR_ebp_bf89a4a8!WR_edx_afd9d683
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_1ec0aa3e!RR_ebp_bf89a4a8!WR_ecx_1ec0aa3e
+80487d2!add edx, ecx!RR_ecx_1ec0aa3e_edx_afd9d683!WR_edx_ce9a80c1
+80487d4!xor edx, eax!RR_eax_cab862c1_edx_ce9a80c1!WR_edx_422e200
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_1ec0aa3e!RR_ebp_bf89a4a8!WR_eax_1ec0aa3e
+80487d9!shr eax, 0x5!RR_eax_1ec0aa3e!WR_eax_f60551
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_f60551_ebp_bf89a4a8!WR_eax_dfa3c433
+80487df!xor eax, edx!RR_eax_dfa3c433_edx_422e200!WR_eax_db812633
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_63eeb3d3!RR_eax_db812633_ebp_bf89a4a8!WM_bf89a484_4_886d8da0
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_afd9d683!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_11a25cca
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_5!RR_ebp_bf89a4a8!WM_bf89a490_4_6
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_6!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_886d8da0!RR_ebp_bf89a4a8!WR_eax_886d8da0
+80487a5!shl eax, 0x4!RR_eax_886d8da0!WR_eax_86d8da00
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_86d8da00_ebp_bf89a4a8!WR_eax_658698e3
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_11a25cca!RR_ebp_bf89a4a8!WR_edx_11a25cca
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_886d8da0!RR_ebp_bf89a4a8!WR_ecx_886d8da0
+80487b1!add edx, ecx!RR_ecx_886d8da0_edx_11a25cca!WR_edx_9a0fea6a
+80487b3!xor edx, eax!RR_eax_658698e3_edx_9a0fea6a!WR_edx_ff897289
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_886d8da0!RR_ebp_bf89a4a8!WR_eax_886d8da0
+80487b8!shr eax, 0x5!RR_eax_886d8da0!WR_eax_4436c6d
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_4436c6d_ebp_bf89a4a8!WR_eax_e2f12b51
+80487be!xor eax, edx!RR_eax_e2f12b51_edx_ff897289!WR_eax_1d7859d8
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_1ec0aa3e!RR_eax_1d7859d8_ebp_bf89a4a8!WM_bf89a488_4_1485066
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_1485066!RR_ebp_bf89a4a8!WR_eax_1485066
+80487c6!shl eax, 0x4!RR_eax_1485066!WR_eax_14850660
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_14850660_ebp_bf89a4a8!WR_eax_f332c541
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_11a25cca!RR_ebp_bf89a4a8!WR_edx_11a25cca
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_1485066!RR_ebp_bf89a4a8!WR_ecx_1485066
+80487d2!add edx, ecx!RR_ecx_1485066_edx_11a25cca!WR_edx_12eaad30
+80487d4!xor edx, eax!RR_eax_f332c541_edx_12eaad30!WR_edx_e1d86871
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_1485066!RR_ebp_bf89a4a8!WR_eax_1485066
+80487d9!shr eax, 0x5!RR_eax_1485066!WR_eax_a4283
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_a4283_ebp_bf89a4a8!WR_eax_deb80165
+80487df!xor eax, edx!RR_eax_deb80165_edx_e1d86871!WR_eax_3f606914
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_886d8da0!RR_eax_3f606914_ebp_bf89a4a8!WM_bf89a484_4_490d248c
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_11a25cca!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_736ae311
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_6!RR_ebp_bf89a4a8!WM_bf89a490_4_7
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_7!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_490d248c!RR_ebp_bf89a4a8!WR_eax_490d248c
+80487a5!shl eax, 0x4!RR_eax_490d248c!WR_eax_90d248c0
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_90d248c0_ebp_bf89a4a8!WR_eax_6f8007a3
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_736ae311!RR_ebp_bf89a4a8!WR_edx_736ae311
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_490d248c!RR_ebp_bf89a4a8!WR_ecx_490d248c
+80487b1!add edx, ecx!RR_ecx_490d248c_edx_736ae311!WR_edx_bc78079d
+80487b3!xor edx, eax!RR_eax_6f8007a3_edx_bc78079d!WR_edx_d3f8003e
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_490d248c!RR_ebp_bf89a4a8!WR_eax_490d248c
+80487b8!shr eax, 0x5!RR_eax_490d248c!WR_eax_2486924
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_2486924_ebp_bf89a4a8!WR_eax_e0f62808
+80487be!xor eax, edx!RR_eax_e0f62808_edx_d3f8003e!WR_eax_330e2836
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_1485066!RR_eax_330e2836_ebp_bf89a4a8!WM_bf89a488_4_ce3a2830
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_ce3a2830!RR_ebp_bf89a4a8!WR_eax_ce3a2830
+80487c6!shl eax, 0x4!RR_eax_ce3a2830!WR_eax_e3a28300
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_e3a28300_ebp_bf89a4a8!WR_eax_c25041e1
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_736ae311!RR_ebp_bf89a4a8!WR_edx_736ae311
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_ce3a2830!RR_ebp_bf89a4a8!WR_ecx_ce3a2830
+80487d2!add edx, ecx!RR_ecx_ce3a2830_edx_736ae311!WR_edx_41a50b41
+80487d4!xor edx, eax!RR_eax_c25041e1_edx_41a50b41!WR_edx_83f54aa0
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_ce3a2830!RR_ebp_bf89a4a8!WR_eax_ce3a2830
+80487d9!shr eax, 0x5!RR_eax_ce3a2830!WR_eax_671d141
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_671d141_ebp_bf89a4a8!WR_eax_e51f9023
+80487df!xor eax, edx!RR_eax_e51f9023_edx_83f54aa0!WR_eax_66eada83
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_490d248c!RR_eax_66eada83_ebp_bf89a4a8!WM_bf89a484_4_e2224a09
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_736ae311!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_d5336958
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_7!RR_ebp_bf89a4a8!WM_bf89a490_4_8
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_8!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_e2224a09!RR_ebp_bf89a4a8!WR_eax_e2224a09
+80487a5!shl eax, 0x4!RR_eax_e2224a09!WR_eax_2224a090
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_2224a090_ebp_bf89a4a8!WR_eax_d25f73
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_d5336958!RR_ebp_bf89a4a8!WR_edx_d5336958
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_e2224a09!RR_ebp_bf89a4a8!WR_ecx_e2224a09
+80487b1!add edx, ecx!RR_ecx_e2224a09_edx_d5336958!WR_edx_b755b361
+80487b3!xor edx, eax!RR_eax_d25f73_edx_b755b361!WR_edx_b787ec12
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_e2224a09!RR_ebp_bf89a4a8!WR_eax_e2224a09
+80487b8!shr eax, 0x5!RR_eax_e2224a09!WR_eax_7111250
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_7111250_ebp_bf89a4a8!WR_eax_e5bed134
+80487be!xor eax, edx!RR_eax_e5bed134_edx_b787ec12!WR_eax_52393d26
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_ce3a2830!RR_eax_52393d26_ebp_bf89a4a8!WM_bf89a488_4_7c00eb0a
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_7c00eb0a!RR_ebp_bf89a4a8!WR_eax_7c00eb0a
+80487c6!shl eax, 0x4!RR_eax_7c00eb0a!WR_eax_c00eb0a0
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_c00eb0a0_ebp_bf89a4a8!WR_eax_9ebc6f81
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_d5336958!RR_ebp_bf89a4a8!WR_edx_d5336958
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_7c00eb0a!RR_ebp_bf89a4a8!WR_ecx_7c00eb0a
+80487d2!add edx, ecx!RR_ecx_7c00eb0a_edx_d5336958!WR_edx_51345462
+80487d4!xor edx, eax!RR_eax_9ebc6f81_edx_51345462!WR_edx_cf883be3
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_7c00eb0a!RR_ebp_bf89a4a8!WR_eax_7c00eb0a
+80487d9!shr eax, 0x5!RR_eax_7c00eb0a!WR_eax_3e00758
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_3e00758_ebp_bf89a4a8!WR_eax_e28dc63a
+80487df!xor eax, edx!RR_eax_e28dc63a_edx_cf883be3!WR_eax_2d05fdd9
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_e2224a09!RR_eax_2d05fdd9_ebp_bf89a4a8!WM_bf89a484_4_b51c4c30
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_d5336958!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_36fbef9f
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_8!RR_ebp_bf89a4a8!WM_bf89a490_4_9
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_9!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_b51c4c30!RR_ebp_bf89a4a8!WR_eax_b51c4c30
+80487a5!shl eax, 0x4!RR_eax_b51c4c30!WR_eax_51c4c300
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_51c4c300_ebp_bf89a4a8!WR_eax_307281e3
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_36fbef9f!RR_ebp_bf89a4a8!WR_edx_36fbef9f
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_b51c4c30!RR_ebp_bf89a4a8!WR_ecx_b51c4c30
+80487b1!add edx, ecx!RR_ecx_b51c4c30_edx_36fbef9f!WR_edx_ec183bcf
+80487b3!xor edx, eax!RR_eax_307281e3_edx_ec183bcf!WR_edx_dc6aba2c
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_b51c4c30!RR_ebp_bf89a4a8!WR_eax_b51c4c30
+80487b8!shr eax, 0x5!RR_eax_b51c4c30!WR_eax_5a8e261
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_5a8e261_ebp_bf89a4a8!WR_eax_e456a145
+80487be!xor eax, edx!RR_eax_e456a145_edx_dc6aba2c!WR_eax_383c1b69
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_7c00eb0a!RR_eax_383c1b69_ebp_bf89a4a8!WM_bf89a488_4_43c4cfa1
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_43c4cfa1!RR_ebp_bf89a4a8!WR_eax_43c4cfa1
+80487c6!shl eax, 0x4!RR_eax_43c4cfa1!WR_eax_3c4cfa10
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_3c4cfa10_ebp_bf89a4a8!WR_eax_1afab8f1
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_36fbef9f!RR_ebp_bf89a4a8!WR_edx_36fbef9f
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_43c4cfa1!RR_ebp_bf89a4a8!WR_ecx_43c4cfa1
+80487d2!add edx, ecx!RR_ecx_43c4cfa1_edx_36fbef9f!WR_edx_7ac0bf40
+80487d4!xor edx, eax!RR_eax_1afab8f1_edx_7ac0bf40!WR_edx_603a07b1
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_43c4cfa1!RR_ebp_bf89a4a8!WR_eax_43c4cfa1
+80487d9!shr eax, 0x5!RR_eax_43c4cfa1!WR_eax_21e267d
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_21e267d_ebp_bf89a4a8!WR_eax_e0cbe55f
+80487df!xor eax, edx!RR_eax_e0cbe55f_edx_603a07b1!WR_eax_80f1e2ee
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_b51c4c30!RR_eax_80f1e2ee_ebp_bf89a4a8!WM_bf89a484_4_342a6942
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_36fbef9f!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_98c475e6
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_9!RR_ebp_bf89a4a8!WM_bf89a490_4_a
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_a!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_342a6942!RR_ebp_bf89a4a8!WR_eax_342a6942
+80487a5!shl eax, 0x4!RR_eax_342a6942!WR_eax_42a69420
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_42a69420_ebp_bf89a4a8!WR_eax_21545303
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_98c475e6!RR_ebp_bf89a4a8!WR_edx_98c475e6
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_342a6942!RR_ebp_bf89a4a8!WR_ecx_342a6942
+80487b1!add edx, ecx!RR_ecx_342a6942_edx_98c475e6!WR_edx_cceedf28
+80487b3!xor edx, eax!RR_eax_21545303_edx_cceedf28!WR_edx_edba8c2b
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_342a6942!RR_ebp_bf89a4a8!WR_eax_342a6942
+80487b8!shr eax, 0x5!RR_eax_342a6942!WR_eax_1a1534a
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_1a1534a_ebp_bf89a4a8!WR_eax_e04f122e
+80487be!xor eax, edx!RR_eax_e04f122e_edx_edba8c2b!WR_eax_df59e05
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_43c4cfa1!RR_eax_df59e05_ebp_bf89a4a8!WM_bf89a488_4_35cf319c
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_35cf319c!RR_ebp_bf89a4a8!WR_eax_35cf319c
+80487c6!shl eax, 0x4!RR_eax_35cf319c!WR_eax_5cf319c0
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_5cf319c0_ebp_bf89a4a8!WR_eax_3ba0d8a1
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_98c475e6!RR_ebp_bf89a4a8!WR_edx_98c475e6
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_35cf319c!RR_ebp_bf89a4a8!WR_ecx_35cf319c
+80487d2!add edx, ecx!RR_ecx_35cf319c_edx_98c475e6!WR_edx_ce93a782
+80487d4!xor edx, eax!RR_eax_3ba0d8a1_edx_ce93a782!WR_edx_f5337f23
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_35cf319c!RR_ebp_bf89a4a8!WR_eax_35cf319c
+80487d9!shr eax, 0x5!RR_eax_35cf319c!WR_eax_1ae798c
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_1ae798c_ebp_bf89a4a8!WR_eax_e05c386e
+80487df!xor eax, edx!RR_eax_e05c386e_edx_f5337f23!WR_eax_156f474d
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_342a6942!RR_eax_156f474d_ebp_bf89a4a8!WM_bf89a484_4_1ebb21f5
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_98c475e6!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_fa8cfc2d
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_a!RR_ebp_bf89a4a8!WM_bf89a490_4_b
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_b!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_1ebb21f5!RR_ebp_bf89a4a8!WR_eax_1ebb21f5
+80487a5!shl eax, 0x4!RR_eax_1ebb21f5!WR_eax_ebb21f50
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_ebb21f50_ebp_bf89a4a8!WR_eax_ca5fde33
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_fa8cfc2d!RR_ebp_bf89a4a8!WR_edx_fa8cfc2d
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_1ebb21f5!RR_ebp_bf89a4a8!WR_ecx_1ebb21f5
+80487b1!add edx, ecx!RR_ecx_1ebb21f5_edx_fa8cfc2d!WR_edx_19481e22
+80487b3!xor edx, eax!RR_eax_ca5fde33_edx_19481e22!WR_edx_d317c011
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_1ebb21f5!RR_ebp_bf89a4a8!WR_eax_1ebb21f5
+80487b8!shr eax, 0x5!RR_eax_1ebb21f5!WR_eax_f5d90f
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_f5d90f_ebp_bf89a4a8!WR_eax_dfa397f3
+80487be!xor eax, edx!RR_eax_dfa397f3_edx_d317c011!WR_eax_cb457e2
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_35cf319c!RR_eax_cb457e2_ebp_bf89a4a8!WM_bf89a488_4_291ad9ba
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_291ad9ba!RR_ebp_bf89a4a8!WR_eax_291ad9ba
+80487c6!shl eax, 0x4!RR_eax_291ad9ba!WR_eax_91ad9ba0
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_91ad9ba0_ebp_bf89a4a8!WR_eax_705b5a81
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_fa8cfc2d!RR_ebp_bf89a4a8!WR_edx_fa8cfc2d
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_291ad9ba!RR_ebp_bf89a4a8!WR_ecx_291ad9ba
+80487d2!add edx, ecx!RR_ecx_291ad9ba_edx_fa8cfc2d!WR_edx_23a7d5e7
+80487d4!xor edx, eax!RR_eax_705b5a81_edx_23a7d5e7!WR_edx_53fc8f66
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_291ad9ba!RR_ebp_bf89a4a8!WR_eax_291ad9ba
+80487d9!shr eax, 0x5!RR_eax_291ad9ba!WR_eax_148d6cd
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_148d6cd_ebp_bf89a4a8!WR_eax_dff695af
+80487df!xor eax, edx!RR_eax_dff695af_edx_53fc8f66!WR_eax_8c0a1ac9
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_1ebb21f5!RR_eax_8c0a1ac9_ebp_bf89a4a8!WM_bf89a484_4_92b1072c
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_fa8cfc2d!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_5c558274
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_b!RR_ebp_bf89a4a8!WM_bf89a490_4_c
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_c!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_92b1072c!RR_ebp_bf89a4a8!WR_eax_92b1072c
+80487a5!shl eax, 0x4!RR_eax_92b1072c!WR_eax_2b1072c0
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_2b1072c0_ebp_bf89a4a8!WR_eax_9be31a3
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_5c558274!RR_ebp_bf89a4a8!WR_edx_5c558274
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_92b1072c!RR_ebp_bf89a4a8!WR_ecx_92b1072c
+80487b1!add edx, ecx!RR_ecx_92b1072c_edx_5c558274!WR_edx_ef0689a0
+80487b3!xor edx, eax!RR_eax_9be31a3_edx_ef0689a0!WR_edx_e6b8b803
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_92b1072c!RR_ebp_bf89a4a8!WR_eax_92b1072c
+80487b8!shr eax, 0x5!RR_eax_92b1072c!WR_eax_4958839
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_4958839_ebp_bf89a4a8!WR_eax_e343471d
+80487be!xor eax, edx!RR_eax_e343471d_edx_e6b8b803!WR_eax_5fbff1e
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_291ad9ba!RR_eax_5fbff1e_ebp_bf89a4a8!WM_bf89a488_4_231eda9c
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_231eda9c!RR_ebp_bf89a4a8!WR_eax_231eda9c
+80487c6!shl eax, 0x4!RR_eax_231eda9c!WR_eax_31eda9c0
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_31eda9c0_ebp_bf89a4a8!WR_eax_109b68a1
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_5c558274!RR_ebp_bf89a4a8!WR_edx_5c558274
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_231eda9c!RR_ebp_bf89a4a8!WR_ecx_231eda9c
+80487d2!add edx, ecx!RR_ecx_231eda9c_edx_5c558274!WR_edx_7f745d10
+80487d4!xor edx, eax!RR_eax_109b68a1_edx_7f745d10!WR_edx_6fef35b1
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_231eda9c!RR_ebp_bf89a4a8!WR_eax_231eda9c
+80487d9!shr eax, 0x5!RR_eax_231eda9c!WR_eax_118f6d4
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_118f6d4_ebp_bf89a4a8!WR_eax_dfc6b5b6
+80487df!xor eax, edx!RR_eax_dfc6b5b6_edx_6fef35b1!WR_eax_b0298007
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_92b1072c!RR_eax_b0298007_ebp_bf89a4a8!WM_bf89a484_4_e2878725
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_5c558274!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_be1e08bb
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_c!RR_ebp_bf89a4a8!WM_bf89a490_4_d
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_d!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_e2878725!RR_ebp_bf89a4a8!WR_eax_e2878725
+80487a5!shl eax, 0x4!RR_eax_e2878725!WR_eax_28787250
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_28787250_ebp_bf89a4a8!WR_eax_7263133
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_be1e08bb!RR_ebp_bf89a4a8!WR_edx_be1e08bb
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_e2878725!RR_ebp_bf89a4a8!WR_ecx_e2878725
+80487b1!add edx, ecx!RR_ecx_e2878725_edx_be1e08bb!WR_edx_a0a58fe0
+80487b3!xor edx, eax!RR_eax_7263133_edx_a0a58fe0!WR_edx_a783bed3
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_e2878725!RR_ebp_bf89a4a8!WR_eax_e2878725
+80487b8!shr eax, 0x5!RR_eax_e2878725!WR_eax_7143c39
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_7143c39_ebp_bf89a4a8!WR_eax_e5c1fb1d
+80487be!xor eax, edx!RR_eax_e5c1fb1d_edx_a783bed3!WR_eax_424245ce
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_231eda9c!RR_eax_424245ce_ebp_bf89a4a8!WM_bf89a488_4_e0dc94ce
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_e0dc94ce!RR_ebp_bf89a4a8!WR_eax_e0dc94ce
+80487c6!shl eax, 0x4!RR_eax_e0dc94ce!WR_eax_dc94ce0
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_dc94ce0_ebp_bf89a4a8!WR_eax_ec770bc1
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_be1e08bb!RR_ebp_bf89a4a8!WR_edx_be1e08bb
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_e0dc94ce!RR_ebp_bf89a4a8!WR_ecx_e0dc94ce
+80487d2!add edx, ecx!RR_ecx_e0dc94ce_edx_be1e08bb!WR_edx_9efa9d89
+80487d4!xor edx, eax!RR_eax_ec770bc1_edx_9efa9d89!WR_edx_728d9648
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_e0dc94ce!RR_ebp_bf89a4a8!WR_eax_e0dc94ce
+80487d9!shr eax, 0x5!RR_eax_e0dc94ce!WR_eax_706e4a6
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_706e4a6_ebp_bf89a4a8!WR_eax_e5b4a388
+80487df!xor eax, edx!RR_eax_e5b4a388_edx_728d9648!WR_eax_973935c0
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_e2878725!RR_eax_973935c0_ebp_bf89a4a8!WM_bf89a484_4_4b4e5165
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_be1e08bb!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_1fe68f02
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_d!RR_ebp_bf89a4a8!WM_bf89a490_4_e
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_e!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_4b4e5165!RR_ebp_bf89a4a8!WR_eax_4b4e5165
+80487a5!shl eax, 0x4!RR_eax_4b4e5165!WR_eax_b4e51650
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_b4e51650_ebp_bf89a4a8!WR_eax_9392d533
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_1fe68f02!RR_ebp_bf89a4a8!WR_edx_1fe68f02
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_4b4e5165!RR_ebp_bf89a4a8!WR_ecx_4b4e5165
+80487b1!add edx, ecx!RR_ecx_4b4e5165_edx_1fe68f02!WR_edx_6b34e067
+80487b3!xor edx, eax!RR_eax_9392d533_edx_6b34e067!WR_edx_f8a63554
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_4b4e5165!RR_ebp_bf89a4a8!WR_eax_4b4e5165
+80487b8!shr eax, 0x5!RR_eax_4b4e5165!WR_eax_25a728b
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_25a728b_ebp_bf89a4a8!WR_eax_e108316f
+80487be!xor eax, edx!RR_eax_e108316f_edx_f8a63554!WR_eax_19ae043b
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_e0dc94ce!RR_eax_19ae043b_ebp_bf89a4a8!WM_bf89a488_4_c72e9093
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_c72e9093!RR_ebp_bf89a4a8!WR_eax_c72e9093
+80487c6!shl eax, 0x4!RR_eax_c72e9093!WR_eax_72e90930
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_72e90930_ebp_bf89a4a8!WR_eax_5196c811
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_1fe68f02!RR_ebp_bf89a4a8!WR_edx_1fe68f02
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_c72e9093!RR_ebp_bf89a4a8!WR_ecx_c72e9093
+80487d2!add edx, ecx!RR_ecx_c72e9093_edx_1fe68f02!WR_edx_e7151f95
+80487d4!xor edx, eax!RR_eax_5196c811_edx_e7151f95!WR_edx_b683d784
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_c72e9093!RR_ebp_bf89a4a8!WR_eax_c72e9093
+80487d9!shr eax, 0x5!RR_eax_c72e9093!WR_eax_6397484
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_6397484_ebp_bf89a4a8!WR_eax_e4e73366
+80487df!xor eax, edx!RR_eax_e4e73366_edx_b683d784!WR_eax_5264e4e2
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_4b4e5165!RR_eax_5264e4e2_ebp_bf89a4a8!WM_bf89a484_4_f8e96c83
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_1fe68f02!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_81af1549
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_e!RR_ebp_bf89a4a8!WM_bf89a490_4_f
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_f!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_f8e96c83!RR_ebp_bf89a4a8!WR_eax_f8e96c83
+80487a5!shl eax, 0x4!RR_eax_f8e96c83!WR_eax_8e96c830
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_8e96c830_ebp_bf89a4a8!WR_eax_6d448713
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_81af1549!RR_ebp_bf89a4a8!WR_edx_81af1549
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_f8e96c83!RR_ebp_bf89a4a8!WR_ecx_f8e96c83
+80487b1!add edx, ecx!RR_ecx_f8e96c83_edx_81af1549!WR_edx_7a9881cc
+80487b3!xor edx, eax!RR_eax_6d448713_edx_7a9881cc!WR_edx_17dc06df
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_f8e96c83!RR_ebp_bf89a4a8!WR_eax_f8e96c83
+80487b8!shr eax, 0x5!RR_eax_f8e96c83!WR_eax_7c74b64
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_7c74b64_ebp_bf89a4a8!WR_eax_e6750a48
+80487be!xor eax, edx!RR_eax_e6750a48_edx_17dc06df!WR_eax_f1a90c97
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_c72e9093!RR_eax_f1a90c97_ebp_bf89a4a8!WM_bf89a488_4_d58583fc
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_d58583fc!RR_ebp_bf89a4a8!WR_eax_d58583fc
+80487c6!shl eax, 0x4!RR_eax_d58583fc!WR_eax_58583fc0
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_58583fc0_ebp_bf89a4a8!WR_eax_3705fea1
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_81af1549!RR_ebp_bf89a4a8!WR_edx_81af1549
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_d58583fc!RR_ebp_bf89a4a8!WR_ecx_d58583fc
+80487d2!add edx, ecx!RR_ecx_d58583fc_edx_81af1549!WR_edx_57349945
+80487d4!xor edx, eax!RR_eax_3705fea1_edx_57349945!WR_edx_603167e4
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_d58583fc!RR_ebp_bf89a4a8!WR_eax_d58583fc
+80487d9!shr eax, 0x5!RR_eax_d58583fc!WR_eax_6ac2c1f
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_6ac2c1f_ebp_bf89a4a8!WR_eax_e559eb01
+80487df!xor eax, edx!RR_eax_e559eb01_edx_603167e4!WR_eax_85688ce5
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_f8e96c83!RR_eax_85688ce5_ebp_bf89a4a8!WM_bf89a484_4_7380df9e
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_81af1549!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_e3779b90
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_f!RR_ebp_bf89a4a8!WM_bf89a490_4_10
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_10!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_7380df9e!RR_ebp_bf89a4a8!WR_eax_7380df9e
+80487a5!shl eax, 0x4!RR_eax_7380df9e!WR_eax_380df9e0
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_380df9e0_ebp_bf89a4a8!WR_eax_16bbb8c3
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_e3779b90!RR_ebp_bf89a4a8!WR_edx_e3779b90
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_7380df9e!RR_ebp_bf89a4a8!WR_ecx_7380df9e
+80487b1!add edx, ecx!RR_ecx_7380df9e_edx_e3779b90!WR_edx_56f87b2e
+80487b3!xor edx, eax!RR_eax_16bbb8c3_edx_56f87b2e!WR_edx_4043c3ed
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_7380df9e!RR_ebp_bf89a4a8!WR_eax_7380df9e
+80487b8!shr eax, 0x5!RR_eax_7380df9e!WR_eax_39c06fc
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_39c06fc_ebp_bf89a4a8!WR_eax_e249c5e0
+80487be!xor eax, edx!RR_eax_e249c5e0_edx_4043c3ed!WR_eax_a20a060d
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_d58583fc!RR_eax_a20a060d_ebp_bf89a4a8!WM_bf89a488_4_337b7def
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_337b7def!RR_ebp_bf89a4a8!WR_eax_337b7def
+80487c6!shl eax, 0x4!RR_eax_337b7def!WR_eax_37b7def0
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_37b7def0_ebp_bf89a4a8!WR_eax_16659dd1
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_e3779b90!RR_ebp_bf89a4a8!WR_edx_e3779b90
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_337b7def!RR_ebp_bf89a4a8!WR_ecx_337b7def
+80487d2!add edx, ecx!RR_ecx_337b7def_edx_e3779b90!WR_edx_16f3197f
+80487d4!xor edx, eax!RR_eax_16659dd1_edx_16f3197f!WR_edx_9684ae
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_337b7def!RR_ebp_bf89a4a8!WR_eax_337b7def
+80487d9!shr eax, 0x5!RR_eax_337b7def!WR_eax_19bdbef
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_19bdbef_ebp_bf89a4a8!WR_eax_e0499ad1
+80487df!xor eax, edx!RR_eax_e0499ad1_edx_9684ae!WR_eax_e0df1e7f
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_7380df9e!RR_eax_e0df1e7f_ebp_bf89a4a8!WM_bf89a484_4_92a1c11f
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_e3779b90!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_454021d7
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_10!RR_ebp_bf89a4a8!WM_bf89a490_4_11
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_11!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_92a1c11f!RR_ebp_bf89a4a8!WR_eax_92a1c11f
+80487a5!shl eax, 0x4!RR_eax_92a1c11f!WR_eax_2a1c11f0
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_2a1c11f0_ebp_bf89a4a8!WR_eax_8c9d0d3
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_454021d7!RR_ebp_bf89a4a8!WR_edx_454021d7
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_92a1c11f!RR_ebp_bf89a4a8!WR_ecx_92a1c11f
+80487b1!add edx, ecx!RR_ecx_92a1c11f_edx_454021d7!WR_edx_d7e1e2f6
+80487b3!xor edx, eax!RR_eax_8c9d0d3_edx_d7e1e2f6!WR_edx_df283225
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_92a1c11f!RR_ebp_bf89a4a8!WR_eax_92a1c11f
+80487b8!shr eax, 0x5!RR_eax_92a1c11f!WR_eax_4950e08
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_4950e08_ebp_bf89a4a8!WR_eax_e342ccec
+80487be!xor eax, edx!RR_eax_e342ccec_edx_df283225!WR_eax_3c6afec9
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_337b7def!RR_eax_3c6afec9_ebp_bf89a4a8!WM_bf89a488_4_f7107f26
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_f7107f26!RR_ebp_bf89a4a8!WR_eax_f7107f26
+80487c6!shl eax, 0x4!RR_eax_f7107f26!WR_eax_7107f260
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_7107f260_ebp_bf89a4a8!WR_eax_4fb5b141
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_454021d7!RR_ebp_bf89a4a8!WR_edx_454021d7
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_f7107f26!RR_ebp_bf89a4a8!WR_ecx_f7107f26
+80487d2!add edx, ecx!RR_ecx_f7107f26_edx_454021d7!WR_edx_3c50a0fd
+80487d4!xor edx, eax!RR_eax_4fb5b141_edx_3c50a0fd!WR_edx_73e511bc
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_f7107f26!RR_ebp_bf89a4a8!WR_eax_f7107f26
+80487d9!shr eax, 0x5!RR_eax_f7107f26!WR_eax_7b883f9
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_7b883f9_ebp_bf89a4a8!WR_eax_e66642db
+80487df!xor eax, edx!RR_eax_e66642db_edx_73e511bc!WR_eax_95835367
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_92a1c11f!RR_eax_95835367_ebp_bf89a4a8!WM_bf89a484_4_fd1e6db8
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_454021d7!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_a708a81e
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_11!RR_ebp_bf89a4a8!WM_bf89a490_4_12
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_12!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_fd1e6db8!RR_ebp_bf89a4a8!WR_eax_fd1e6db8
+80487a5!shl eax, 0x4!RR_eax_fd1e6db8!WR_eax_d1e6db80
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_d1e6db80_ebp_bf89a4a8!WR_eax_b0949a63
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_a708a81e!RR_ebp_bf89a4a8!WR_edx_a708a81e
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_fd1e6db8!RR_ebp_bf89a4a8!WR_ecx_fd1e6db8
+80487b1!add edx, ecx!RR_ecx_fd1e6db8_edx_a708a81e!WR_edx_a42715d6
+80487b3!xor edx, eax!RR_eax_b0949a63_edx_a42715d6!WR_edx_14b38fb5
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_fd1e6db8!RR_ebp_bf89a4a8!WR_eax_fd1e6db8
+80487b8!shr eax, 0x5!RR_eax_fd1e6db8!WR_eax_7e8f36d
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_7e8f36d_ebp_bf89a4a8!WR_eax_e696b251
+80487be!xor eax, edx!RR_eax_e696b251_edx_14b38fb5!WR_eax_f2253de4
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_f7107f26!RR_eax_f2253de4_ebp_bf89a4a8!WM_bf89a488_4_4eb4142
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_4eb4142!RR_ebp_bf89a4a8!WR_eax_4eb4142
+80487c6!shl eax, 0x4!RR_eax_4eb4142!WR_eax_4eb41420
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_4eb41420_ebp_bf89a4a8!WR_eax_2d61d301
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_a708a81e!RR_ebp_bf89a4a8!WR_edx_a708a81e
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_4eb4142!RR_ebp_bf89a4a8!WR_ecx_4eb4142
+80487d2!add edx, ecx!RR_ecx_4eb4142_edx_a708a81e!WR_edx_abf3e960
+80487d4!xor edx, eax!RR_eax_2d61d301_edx_abf3e960!WR_edx_86923a61
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_4eb4142!RR_ebp_bf89a4a8!WR_eax_4eb4142
+80487d9!shr eax, 0x5!RR_eax_4eb4142!WR_eax_275a0a
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_275a0a_ebp_bf89a4a8!WR_eax_ded518ec
+80487df!xor eax, edx!RR_eax_ded518ec_edx_86923a61!WR_eax_5847228d
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_fd1e6db8!RR_eax_5847228d_ebp_bf89a4a8!WM_bf89a484_4_a4d74b2b
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_a708a81e!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_8d12e65
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_12!RR_ebp_bf89a4a8!WM_bf89a490_4_13
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_13!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_a4d74b2b!RR_ebp_bf89a4a8!WR_eax_a4d74b2b
+80487a5!shl eax, 0x4!RR_eax_a4d74b2b!WR_eax_4d74b2b0
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_4d74b2b0_ebp_bf89a4a8!WR_eax_2c227193
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_8d12e65!RR_ebp_bf89a4a8!WR_edx_8d12e65
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_a4d74b2b!RR_ebp_bf89a4a8!WR_ecx_a4d74b2b
+80487b1!add edx, ecx!RR_ecx_a4d74b2b_edx_8d12e65!WR_edx_ada87990
+80487b3!xor edx, eax!RR_eax_2c227193_edx_ada87990!WR_edx_818a0803
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_a4d74b2b!RR_ebp_bf89a4a8!WR_eax_a4d74b2b
+80487b8!shr eax, 0x5!RR_eax_a4d74b2b!WR_eax_526ba59
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_526ba59_ebp_bf89a4a8!WR_eax_e3d4793d
+80487be!xor eax, edx!RR_eax_e3d4793d_edx_818a0803!WR_eax_625e713e
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_4eb4142!RR_eax_625e713e_ebp_bf89a4a8!WM_bf89a488_4_a28cd004
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_a28cd004!RR_ebp_bf89a4a8!WR_eax_a28cd004
+80487c6!shl eax, 0x4!RR_eax_a28cd004!WR_eax_28cd0040
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_28cd0040_ebp_bf89a4a8!WR_eax_77abf21
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_8d12e65!RR_ebp_bf89a4a8!WR_edx_8d12e65
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_a28cd004!RR_ebp_bf89a4a8!WR_ecx_a28cd004
+80487d2!add edx, ecx!RR_ecx_a28cd004_edx_8d12e65!WR_edx_ab5dfe69
+80487d4!xor edx, eax!RR_eax_77abf21_edx_ab5dfe69!WR_edx_ac274148
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_a28cd004!RR_ebp_bf89a4a8!WR_eax_a28cd004
+80487d9!shr eax, 0x5!RR_eax_a28cd004!WR_eax_5146680
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_5146680_ebp_bf89a4a8!WR_eax_e3c22562
+80487df!xor eax, edx!RR_eax_e3c22562_edx_ac274148!WR_eax_4fe5642a
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_a4d74b2b!RR_eax_4fe5642a_ebp_bf89a4a8!WM_bf89a484_4_54f1e701
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_8d12e65!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_6a99b4ac
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_13!RR_ebp_bf89a4a8!WM_bf89a490_4_14
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_14!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_54f1e701!RR_ebp_bf89a4a8!WR_eax_54f1e701
+80487a5!shl eax, 0x4!RR_eax_54f1e701!WR_eax_4f1e7010
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_4f1e7010_ebp_bf89a4a8!WR_eax_2dcc2ef3
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_6a99b4ac!RR_ebp_bf89a4a8!WR_edx_6a99b4ac
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_54f1e701!RR_ebp_bf89a4a8!WR_ecx_54f1e701
+80487b1!add edx, ecx!RR_ecx_54f1e701_edx_6a99b4ac!WR_edx_bf8b9bad
+80487b3!xor edx, eax!RR_eax_2dcc2ef3_edx_bf8b9bad!WR_edx_9247b55e
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_54f1e701!RR_ebp_bf89a4a8!WR_eax_54f1e701
+80487b8!shr eax, 0x5!RR_eax_54f1e701!WR_eax_2a78f38
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_2a78f38_ebp_bf89a4a8!WR_eax_e1554e1c
+80487be!xor eax, edx!RR_eax_e1554e1c_edx_9247b55e!WR_eax_7312fb42
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_a28cd004!RR_eax_7312fb42_ebp_bf89a4a8!WM_bf89a488_4_2f79d4c2
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_2f79d4c2!RR_ebp_bf89a4a8!WR_eax_2f79d4c2
+80487c6!shl eax, 0x4!RR_eax_2f79d4c2!WR_eax_f79d4c20
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_f79d4c20_ebp_bf89a4a8!WR_eax_d64b0b01
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_6a99b4ac!RR_ebp_bf89a4a8!WR_edx_6a99b4ac
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_2f79d4c2!RR_ebp_bf89a4a8!WR_ecx_2f79d4c2
+80487d2!add edx, ecx!RR_ecx_2f79d4c2_edx_6a99b4ac!WR_edx_9a13896e
+80487d4!xor edx, eax!RR_eax_d64b0b01_edx_9a13896e!WR_edx_4c58826f
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_2f79d4c2!RR_ebp_bf89a4a8!WR_eax_2f79d4c2
+80487d9!shr eax, 0x5!RR_eax_2f79d4c2!WR_eax_17bcea6
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_17bcea6_ebp_bf89a4a8!WR_eax_e0298d88
+80487df!xor eax, edx!RR_eax_e0298d88_edx_4c58826f!WR_eax_ac710fe7
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_54f1e701!RR_eax_ac710fe7_ebp_bf89a4a8!WM_bf89a484_4_a880d71a
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_6a99b4ac!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_cc623af3
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_14!RR_ebp_bf89a4a8!WM_bf89a490_4_15
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_15!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_a880d71a!RR_ebp_bf89a4a8!WR_eax_a880d71a
+80487a5!shl eax, 0x4!RR_eax_a880d71a!WR_eax_880d71a0
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_880d71a0_ebp_bf89a4a8!WR_eax_66bb3083
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_cc623af3!RR_ebp_bf89a4a8!WR_edx_cc623af3
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_a880d71a!RR_ebp_bf89a4a8!WR_ecx_a880d71a
+80487b1!add edx, ecx!RR_ecx_a880d71a_edx_cc623af3!WR_edx_74e3120d
+80487b3!xor edx, eax!RR_eax_66bb3083_edx_74e3120d!WR_edx_1258228e
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_a880d71a!RR_ebp_bf89a4a8!WR_eax_a880d71a
+80487b8!shr eax, 0x5!RR_eax_a880d71a!WR_eax_54406b8
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_54406b8_ebp_bf89a4a8!WR_eax_e3f1c59c
+80487be!xor eax, edx!RR_eax_e3f1c59c_edx_1258228e!WR_eax_f1a9e712
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_2f79d4c2!RR_eax_f1a9e712_ebp_bf89a4a8!WM_bf89a488_4_3dcfedb0
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_3dcfedb0!RR_ebp_bf89a4a8!WR_eax_3dcfedb0
+80487c6!shl eax, 0x4!RR_eax_3dcfedb0!WR_eax_dcfedb00
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_dcfedb00_ebp_bf89a4a8!WR_eax_bbac99e1
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_cc623af3!RR_ebp_bf89a4a8!WR_edx_cc623af3
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_3dcfedb0!RR_ebp_bf89a4a8!WR_ecx_3dcfedb0
+80487d2!add edx, ecx!RR_ecx_3dcfedb0_edx_cc623af3!WR_edx_a3228a3
+80487d4!xor edx, eax!RR_eax_bbac99e1_edx_a3228a3!WR_edx_b19eb142
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_3dcfedb0!RR_ebp_bf89a4a8!WR_eax_3dcfedb0
+80487d9!shr eax, 0x5!RR_eax_3dcfedb0!WR_eax_1ee7f6d
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_1ee7f6d_ebp_bf89a4a8!WR_eax_e09c3e4f
+80487df!xor eax, edx!RR_eax_e09c3e4f_edx_b19eb142!WR_eax_51028f0d
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_a880d71a!RR_eax_51028f0d_ebp_bf89a4a8!WM_bf89a484_4_577e480d
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_cc623af3!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_2e2ac13a
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_15!RR_ebp_bf89a4a8!WM_bf89a490_4_16
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_16!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_577e480d!RR_ebp_bf89a4a8!WR_eax_577e480d
+80487a5!shl eax, 0x4!RR_eax_577e480d!WR_eax_77e480d0
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_77e480d0_ebp_bf89a4a8!WR_eax_56923fb3
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_2e2ac13a!RR_ebp_bf89a4a8!WR_edx_2e2ac13a
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_577e480d!RR_ebp_bf89a4a8!WR_ecx_577e480d
+80487b1!add edx, ecx!RR_ecx_577e480d_edx_2e2ac13a!WR_edx_85a90947
+80487b3!xor edx, eax!RR_eax_56923fb3_edx_85a90947!WR_edx_d33b36f4
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_577e480d!RR_ebp_bf89a4a8!WR_eax_577e480d
+80487b8!shr eax, 0x5!RR_eax_577e480d!WR_eax_2bbf240
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_2bbf240_ebp_bf89a4a8!WR_eax_e169b124
+80487be!xor eax, edx!RR_eax_e169b124_edx_d33b36f4!WR_eax_325287d0
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_3dcfedb0!RR_eax_325287d0_ebp_bf89a4a8!WM_bf89a488_4_b7d65e0
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_b7d65e0!RR_ebp_bf89a4a8!WR_eax_b7d65e0
+80487c6!shl eax, 0x4!RR_eax_b7d65e0!WR_eax_b7d65e00
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_b7d65e00_ebp_bf89a4a8!WR_eax_96841ce1
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_2e2ac13a!RR_ebp_bf89a4a8!WR_edx_2e2ac13a
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_b7d65e0!RR_ebp_bf89a4a8!WR_ecx_b7d65e0
+80487d2!add edx, ecx!RR_ecx_b7d65e0_edx_2e2ac13a!WR_edx_39a8271a
+80487d4!xor edx, eax!RR_eax_96841ce1_edx_39a8271a!WR_edx_af2c3bfb
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_b7d65e0!RR_ebp_bf89a4a8!WR_eax_b7d65e0
+80487d9!shr eax, 0x5!RR_eax_b7d65e0!WR_eax_5beb2f
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_5beb2f_ebp_bf89a4a8!WR_eax_df09aa11
+80487df!xor eax, edx!RR_eax_df09aa11_edx_af2c3bfb!WR_eax_702591ea
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_577e480d!RR_eax_702591ea_ebp_bf89a4a8!WM_bf89a484_4_e758b623
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_2e2ac13a!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_8ff34781
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_16!RR_ebp_bf89a4a8!WM_bf89a490_4_17
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_17!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_e758b623!RR_ebp_bf89a4a8!WR_eax_e758b623
+80487a5!shl eax, 0x4!RR_eax_e758b623!WR_eax_758b6230
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_758b6230_ebp_bf89a4a8!WR_eax_54392113
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_8ff34781!RR_ebp_bf89a4a8!WR_edx_8ff34781
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_e758b623!RR_ebp_bf89a4a8!WR_ecx_e758b623
+80487b1!add edx, ecx!RR_ecx_e758b623_edx_8ff34781!WR_edx_774bfda4
+80487b3!xor edx, eax!RR_eax_54392113_edx_774bfda4!WR_edx_2372dcb7
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_e758b623!RR_ebp_bf89a4a8!WR_eax_e758b623
+80487b8!shr eax, 0x5!RR_eax_e758b623!WR_eax_73ac5b1
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_73ac5b1_ebp_bf89a4a8!WR_eax_e5e88495
+80487be!xor eax, edx!RR_eax_e5e88495_edx_2372dcb7!WR_eax_c69a5822
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_b7d65e0!RR_eax_c69a5822_ebp_bf89a4a8!WM_bf89a488_4_44e30dbe
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_44e30dbe!RR_ebp_bf89a4a8!WR_eax_44e30dbe
+80487c6!shl eax, 0x4!RR_eax_44e30dbe!WR_eax_4e30dbe0
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_4e30dbe0_ebp_bf89a4a8!WR_eax_2cde9ac1
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_8ff34781!RR_ebp_bf89a4a8!WR_edx_8ff34781
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_44e30dbe!RR_ebp_bf89a4a8!WR_ecx_44e30dbe
+80487d2!add edx, ecx!RR_ecx_44e30dbe_edx_8ff34781!WR_edx_d4d6553f
+80487d4!xor edx, eax!RR_eax_2cde9ac1_edx_d4d6553f!WR_edx_f808cffe
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_44e30dbe!RR_ebp_bf89a4a8!WR_eax_44e30dbe
+80487d9!shr eax, 0x5!RR_eax_44e30dbe!WR_eax_227186d
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_227186d_ebp_bf89a4a8!WR_eax_e0d4d74f
+80487df!xor eax, edx!RR_eax_e0d4d74f_edx_f808cffe!WR_eax_18dc18b1
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_e758b623!RR_eax_18dc18b1_ebp_bf89a4a8!WM_bf89a484_4_ce7c9d72
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_8ff34781!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_f1bbcdc8
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_17!RR_ebp_bf89a4a8!WM_bf89a490_4_18
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_18!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_ce7c9d72!RR_ebp_bf89a4a8!WR_eax_ce7c9d72
+80487a5!shl eax, 0x4!RR_eax_ce7c9d72!WR_eax_e7c9d720
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_e7c9d720_ebp_bf89a4a8!WR_eax_c6779603
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_f1bbcdc8!RR_ebp_bf89a4a8!WR_edx_f1bbcdc8
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_ce7c9d72!RR_ebp_bf89a4a8!WR_ecx_ce7c9d72
+80487b1!add edx, ecx!RR_ecx_ce7c9d72_edx_f1bbcdc8!WR_edx_c0386b3a
+80487b3!xor edx, eax!RR_eax_c6779603_edx_c0386b3a!WR_edx_64ffd39
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_ce7c9d72!RR_ebp_bf89a4a8!WR_eax_ce7c9d72
+80487b8!shr eax, 0x5!RR_eax_ce7c9d72!WR_eax_673e4eb
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_673e4eb_ebp_bf89a4a8!WR_eax_e521a3cf
+80487be!xor eax, edx!RR_eax_e521a3cf_edx_64ffd39!WR_eax_e36e5ef6
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_44e30dbe!RR_eax_e36e5ef6_ebp_bf89a4a8!WM_bf89a488_4_6174aec8
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_6174aec8!RR_ebp_bf89a4a8!WR_eax_6174aec8
+80487c6!shl eax, 0x4!RR_eax_6174aec8!WR_eax_174aec80
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_174aec80_ebp_bf89a4a8!WR_eax_f5f8ab61
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_f1bbcdc8!RR_ebp_bf89a4a8!WR_edx_f1bbcdc8
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_6174aec8!RR_ebp_bf89a4a8!WR_ecx_6174aec8
+80487d2!add edx, ecx!RR_ecx_6174aec8_edx_f1bbcdc8!WR_edx_53307c90
+80487d4!xor edx, eax!RR_eax_f5f8ab61_edx_53307c90!WR_edx_a6c8d7f1
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_6174aec8!RR_ebp_bf89a4a8!WR_eax_6174aec8
+80487d9!shr eax, 0x5!RR_eax_6174aec8!WR_eax_30ba576
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_30ba576_ebp_bf89a4a8!WR_eax_e1b96458
+80487df!xor eax, edx!RR_eax_e1b96458_edx_a6c8d7f1!WR_eax_4771b3a9
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_ce7c9d72!RR_eax_4771b3a9_ebp_bf89a4a8!WM_bf89a484_4_870ae9c9
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_f1bbcdc8!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_5384540f
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_18!RR_ebp_bf89a4a8!WM_bf89a490_4_19
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_19!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_870ae9c9!RR_ebp_bf89a4a8!WR_eax_870ae9c9
+80487a5!shl eax, 0x4!RR_eax_870ae9c9!WR_eax_70ae9c90
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_70ae9c90_ebp_bf89a4a8!WR_eax_4f5c5b73
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_5384540f!RR_ebp_bf89a4a8!WR_edx_5384540f
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_870ae9c9!RR_ebp_bf89a4a8!WR_ecx_870ae9c9
+80487b1!add edx, ecx!RR_ecx_870ae9c9_edx_5384540f!WR_edx_da8f3dd8
+80487b3!xor edx, eax!RR_eax_4f5c5b73_edx_da8f3dd8!WR_edx_95d366ab
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_870ae9c9!RR_ebp_bf89a4a8!WR_eax_870ae9c9
+80487b8!shr eax, 0x5!RR_eax_870ae9c9!WR_eax_438574e
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_438574e_ebp_bf89a4a8!WR_eax_e2e61632
+80487be!xor eax, edx!RR_eax_e2e61632_edx_95d366ab!WR_eax_77357099
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_6174aec8!RR_eax_77357099_ebp_bf89a4a8!WM_bf89a488_4_ea3f3e2f
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_ea3f3e2f!RR_ebp_bf89a4a8!WR_eax_ea3f3e2f
+80487c6!shl eax, 0x4!RR_eax_ea3f3e2f!WR_eax_a3f3e2f0
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_a3f3e2f0_ebp_bf89a4a8!WR_eax_82a1a1d1
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_5384540f!RR_ebp_bf89a4a8!WR_edx_5384540f
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_ea3f3e2f!RR_ebp_bf89a4a8!WR_ecx_ea3f3e2f
+80487d2!add edx, ecx!RR_ecx_ea3f3e2f_edx_5384540f!WR_edx_3dc3923e
+80487d4!xor edx, eax!RR_eax_82a1a1d1_edx_3dc3923e!WR_edx_bf6233ef
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_ea3f3e2f!RR_ebp_bf89a4a8!WR_eax_ea3f3e2f
+80487d9!shr eax, 0x5!RR_eax_ea3f3e2f!WR_eax_751f9f1
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_751f9f1_ebp_bf89a4a8!WR_eax_e5ffb8d3
+80487df!xor eax, edx!RR_eax_e5ffb8d3_edx_bf6233ef!WR_eax_5a9d8b3c
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_870ae9c9!RR_eax_5a9d8b3c_ebp_bf89a4a8!WM_bf89a484_4_2c6d5e8d
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_5384540f!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_b54cda56
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_19!RR_ebp_bf89a4a8!WM_bf89a490_4_1a
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_1a!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_2c6d5e8d!RR_ebp_bf89a4a8!WR_eax_2c6d5e8d
+80487a5!shl eax, 0x4!RR_eax_2c6d5e8d!WR_eax_c6d5e8d0
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_c6d5e8d0_ebp_bf89a4a8!WR_eax_a583a7b3
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_b54cda56!RR_ebp_bf89a4a8!WR_edx_b54cda56
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_2c6d5e8d!RR_ebp_bf89a4a8!WR_ecx_2c6d5e8d
+80487b1!add edx, ecx!RR_ecx_2c6d5e8d_edx_b54cda56!WR_edx_e1ba38e3
+80487b3!xor edx, eax!RR_eax_a583a7b3_edx_e1ba38e3!WR_edx_44399f50
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_2c6d5e8d!RR_ebp_bf89a4a8!WR_eax_2c6d5e8d
+80487b8!shr eax, 0x5!RR_eax_2c6d5e8d!WR_eax_1636af4
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_1636af4_ebp_bf89a4a8!WR_eax_e01129d8
+80487be!xor eax, edx!RR_eax_e01129d8_edx_44399f50!WR_eax_a428b688
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_ea3f3e2f!RR_eax_a428b688_ebp_bf89a4a8!WM_bf89a488_4_461687a7
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_461687a7!RR_ebp_bf89a4a8!WR_eax_461687a7
+80487c6!shl eax, 0x4!RR_eax_461687a7!WR_eax_61687a70
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_61687a70_ebp_bf89a4a8!WR_eax_40163951
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_b54cda56!RR_ebp_bf89a4a8!WR_edx_b54cda56
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_461687a7!RR_ebp_bf89a4a8!WR_ecx_461687a7
+80487d2!add edx, ecx!RR_ecx_461687a7_edx_b54cda56!WR_edx_fb6361fd
+80487d4!xor edx, eax!RR_eax_40163951_edx_fb6361fd!WR_edx_bb7558ac
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_461687a7!RR_ebp_bf89a4a8!WR_eax_461687a7
+80487d9!shr eax, 0x5!RR_eax_461687a7!WR_eax_230b43d
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_230b43d_ebp_bf89a4a8!WR_eax_e0de731f
+80487df!xor eax, edx!RR_eax_e0de731f_edx_bb7558ac!WR_eax_5bab2bb3
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_2c6d5e8d!RR_eax_5bab2bb3_ebp_bf89a4a8!WM_bf89a484_4_d0c232da
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_b54cda56!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_1715609d
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_1a!RR_ebp_bf89a4a8!WM_bf89a490_4_1b
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_1b!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_d0c232da!RR_ebp_bf89a4a8!WR_eax_d0c232da
+80487a5!shl eax, 0x4!RR_eax_d0c232da!WR_eax_c232da0
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_c232da0_ebp_bf89a4a8!WR_eax_ead0ec83
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_1715609d!RR_ebp_bf89a4a8!WR_edx_1715609d
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_d0c232da!RR_ebp_bf89a4a8!WR_ecx_d0c232da
+80487b1!add edx, ecx!RR_ecx_d0c232da_edx_1715609d!WR_edx_e7d79377
+80487b3!xor edx, eax!RR_eax_ead0ec83_edx_e7d79377!WR_edx_d077ff4
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_d0c232da!RR_ebp_bf89a4a8!WR_eax_d0c232da
+80487b8!shr eax, 0x5!RR_eax_d0c232da!WR_eax_6861196
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_6861196_ebp_bf89a4a8!WR_eax_e533d07a
+80487be!xor eax, edx!RR_eax_e533d07a_edx_d077ff4!WR_eax_e834af8e
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_461687a7!RR_eax_e834af8e_ebp_bf89a4a8!WM_bf89a488_4_5de1d819
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_5de1d819!RR_ebp_bf89a4a8!WR_eax_5de1d819
+80487c6!shl eax, 0x4!RR_eax_5de1d819!WR_eax_de1d8190
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_de1d8190_ebp_bf89a4a8!WR_eax_bccb4071
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_1715609d!RR_ebp_bf89a4a8!WR_edx_1715609d
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_5de1d819!RR_ebp_bf89a4a8!WR_ecx_5de1d819
+80487d2!add edx, ecx!RR_ecx_5de1d819_edx_1715609d!WR_edx_74f738b6
+80487d4!xor edx, eax!RR_eax_bccb4071_edx_74f738b6!WR_edx_c83c78c7
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_5de1d819!RR_ebp_bf89a4a8!WR_eax_5de1d819
+80487d9!shr eax, 0x5!RR_eax_5de1d819!WR_eax_2ef0ec0
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_2ef0ec0_ebp_bf89a4a8!WR_eax_e19ccda2
+80487df!xor eax, edx!RR_eax_e19ccda2_edx_c83c78c7!WR_eax_29a0b565
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_d0c232da!RR_eax_29a0b565_ebp_bf89a4a8!WM_bf89a484_4_a7217d75
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_1715609d!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_78dde6e4
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_1b!RR_ebp_bf89a4a8!WM_bf89a490_4_1c
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_1c!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_a7217d75!RR_ebp_bf89a4a8!WR_eax_a7217d75
+80487a5!shl eax, 0x4!RR_eax_a7217d75!WR_eax_7217d750
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_7217d750_ebp_bf89a4a8!WR_eax_50c59633
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_78dde6e4!RR_ebp_bf89a4a8!WR_edx_78dde6e4
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_a7217d75!RR_ebp_bf89a4a8!WR_ecx_a7217d75
+80487b1!add edx, ecx!RR_ecx_a7217d75_edx_78dde6e4!WR_edx_1fff6459
+80487b3!xor edx, eax!RR_eax_50c59633_edx_1fff6459!WR_edx_4f3af26a
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_a7217d75!RR_ebp_bf89a4a8!WR_eax_a7217d75
+80487b8!shr eax, 0x5!RR_eax_a7217d75!WR_eax_5390beb
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_5390beb_ebp_bf89a4a8!WR_eax_e3e6cacf
+80487be!xor eax, edx!RR_eax_e3e6cacf_edx_4f3af26a!WR_eax_acdc38a5
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_5de1d819!RR_eax_acdc38a5_ebp_bf89a4a8!WM_bf89a488_4_b1059f74
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_b1059f74!RR_ebp_bf89a4a8!WR_eax_b1059f74
+80487c6!shl eax, 0x4!RR_eax_b1059f74!WR_eax_1059f740
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_1059f740_ebp_bf89a4a8!WR_eax_ef07b621
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_78dde6e4!RR_ebp_bf89a4a8!WR_edx_78dde6e4
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_b1059f74!RR_ebp_bf89a4a8!WR_ecx_b1059f74
+80487d2!add edx, ecx!RR_ecx_b1059f74_edx_78dde6e4!WR_edx_29e38658
+80487d4!xor edx, eax!RR_eax_ef07b621_edx_29e38658!WR_edx_c6e43079
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_b1059f74!RR_ebp_bf89a4a8!WR_eax_b1059f74
+80487d9!shr eax, 0x5!RR_eax_b1059f74!WR_eax_5882cfb
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_5882cfb_ebp_bf89a4a8!WR_eax_e435ebdd
+80487df!xor eax, edx!RR_eax_e435ebdd_edx_c6e43079!WR_eax_22d1dba4
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_a7217d75!RR_eax_22d1dba4_ebp_bf89a4a8!WM_bf89a484_4_844fa1d1
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_78dde6e4!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_daa66d2b
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_1c!RR_ebp_bf89a4a8!WM_bf89a490_4_1d
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_1d!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_844fa1d1!RR_ebp_bf89a4a8!WR_eax_844fa1d1
+80487a5!shl eax, 0x4!RR_eax_844fa1d1!WR_eax_44fa1d10
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_44fa1d10_ebp_bf89a4a8!WR_eax_23a7dbf3
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_daa66d2b!RR_ebp_bf89a4a8!WR_edx_daa66d2b
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_844fa1d1!RR_ebp_bf89a4a8!WR_ecx_844fa1d1
+80487b1!add edx, ecx!RR_ecx_844fa1d1_edx_daa66d2b!WR_edx_5ef60efc
+80487b3!xor edx, eax!RR_eax_23a7dbf3_edx_5ef60efc!WR_edx_7d51d50f
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_844fa1d1!RR_ebp_bf89a4a8!WR_eax_844fa1d1
+80487b8!shr eax, 0x5!RR_eax_844fa1d1!WR_eax_4227d0e
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_4227d0e_ebp_bf89a4a8!WR_eax_e2d03bf2
+80487be!xor eax, edx!RR_eax_e2d03bf2_edx_7d51d50f!WR_eax_9f81eefd
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_b1059f74!RR_eax_9f81eefd_ebp_bf89a4a8!WM_bf89a488_4_1183b077
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_1183b077!RR_ebp_bf89a4a8!WR_eax_1183b077
+80487c6!shl eax, 0x4!RR_eax_1183b077!WR_eax_183b0770
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_183b0770_ebp_bf89a4a8!WR_eax_f6e8c651
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_daa66d2b!RR_ebp_bf89a4a8!WR_edx_daa66d2b
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_1183b077!RR_ebp_bf89a4a8!WR_ecx_1183b077
+80487d2!add edx, ecx!RR_ecx_1183b077_edx_daa66d2b!WR_edx_ec2a1da2
+80487d4!xor edx, eax!RR_eax_f6e8c651_edx_ec2a1da2!WR_edx_1ac2dbf3
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_1183b077!RR_ebp_bf89a4a8!WR_eax_1183b077
+80487d9!shr eax, 0x5!RR_eax_1183b077!WR_eax_8c1d83
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_8c1d83_ebp_bf89a4a8!WR_eax_df39dc65
+80487df!xor eax, edx!RR_eax_df39dc65_edx_1ac2dbf3!WR_eax_c5fb0796
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_844fa1d1!RR_eax_c5fb0796_ebp_bf89a4a8!WM_bf89a484_4_be549a3b
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_daa66d2b!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_3c6ef372
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_1d!RR_ebp_bf89a4a8!WM_bf89a490_4_1e
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_1e!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_be549a3b!RR_ebp_bf89a4a8!WR_eax_be549a3b
+80487a5!shl eax, 0x4!RR_eax_be549a3b!WR_eax_e549a3b0
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_e549a3b0_ebp_bf89a4a8!WR_eax_c3f76293
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_3c6ef372!RR_ebp_bf89a4a8!WR_edx_3c6ef372
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_be549a3b!RR_ebp_bf89a4a8!WR_ecx_be549a3b
+80487b1!add edx, ecx!RR_ecx_be549a3b_edx_3c6ef372!WR_edx_fac38dad
+80487b3!xor edx, eax!RR_eax_c3f76293_edx_fac38dad!WR_edx_3934ef3e
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_be549a3b!RR_ebp_bf89a4a8!WR_eax_be549a3b
+80487b8!shr eax, 0x5!RR_eax_be549a3b!WR_eax_5f2a4d1
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_5f2a4d1_ebp_bf89a4a8!WR_eax_e4a063b5
+80487be!xor eax, edx!RR_eax_e4a063b5_edx_3934ef3e!WR_eax_dd948c8b
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_1183b077!RR_eax_dd948c8b_ebp_bf89a4a8!WM_bf89a488_4_33ef23ec
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_33ef23ec!RR_ebp_bf89a4a8!WR_eax_33ef23ec
+80487c6!shl eax, 0x4!RR_eax_33ef23ec!WR_eax_3ef23ec0
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_3ef23ec0_ebp_bf89a4a8!WR_eax_1d9ffda1
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_3c6ef372!RR_ebp_bf89a4a8!WR_edx_3c6ef372
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_33ef23ec!RR_ebp_bf89a4a8!WR_ecx_33ef23ec
+80487d2!add edx, ecx!RR_ecx_33ef23ec_edx_3c6ef372!WR_edx_705e175e
+80487d4!xor edx, eax!RR_eax_1d9ffda1_edx_705e175e!WR_edx_6dc1eaff
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_33ef23ec!RR_ebp_bf89a4a8!WR_eax_33ef23ec
+80487d9!shr eax, 0x5!RR_eax_33ef23ec!WR_eax_19f791f
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_19f791f_ebp_bf89a4a8!WR_eax_e04d3801
+80487df!xor eax, edx!RR_eax_e04d3801_edx_6dc1eaff!WR_eax_8d8cd2fe
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_be549a3b!RR_eax_8d8cd2fe_ebp_bf89a4a8!WM_bf89a484_4_30c7c73d
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_3c6ef372!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_9e3779b9
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_1e!RR_ebp_bf89a4a8!WM_bf89a490_4_1f
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_1f!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_1
+80487f5!test al, al!RR_al_1
+80487f7!jnz 0x80487a2
+80487a2!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_30c7c73d!RR_ebp_bf89a4a8!WR_eax_30c7c73d
+80487a5!shl eax, 0x4!RR_eax_30c7c73d!WR_eax_c7c73d0
+80487a8!add eax, dword ptr [ebp-0x8]!RM_bf89a4a0_4_deadbee3!RR_eax_c7c73d0_ebp_bf89a4a8!WR_eax_eb2a32b3
+80487ab!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_9e3779b9!RR_ebp_bf89a4a8!WR_edx_9e3779b9
+80487ae!mov ecx, dword ptr [ebp-0x24]!RM_bf89a484_4_30c7c73d!RR_ebp_bf89a4a8!WR_ecx_30c7c73d
+80487b1!add edx, ecx!RR_ecx_30c7c73d_edx_9e3779b9!WR_edx_ceff40f6
+80487b3!xor edx, eax!RR_eax_eb2a32b3_edx_ceff40f6!WR_edx_25d57245
+80487b5!mov eax, dword ptr [ebp-0x24]!RM_bf89a484_4_30c7c73d!RR_ebp_bf89a4a8!WR_eax_30c7c73d
+80487b8!shr eax, 0x5!RR_eax_30c7c73d!WR_eax_1863e39
+80487bb!add eax, dword ptr [ebp-0x4]!RM_bf89a4a4_4_deadbee4!RR_eax_1863e39_ebp_bf89a4a8!WR_eax_e033fd1d
+80487be!xor eax, edx!RR_eax_e033fd1d_edx_25d57245!WR_eax_c5e68f58
+80487c0!sub dword ptr [ebp-0x20], eax!RM_bf89a488_4_33ef23ec!RR_eax_c5e68f58_ebp_bf89a4a8!WM_bf89a488_4_6e089494
+80487c3!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_6e089494!RR_ebp_bf89a4a8!WR_eax_6e089494
+80487c6!shl eax, 0x4!RR_eax_6e089494!WR_eax_e0894940
+80487c9!add eax, dword ptr [ebp-0x10]!RM_bf89a498_4_deadbee1!RR_eax_e0894940_ebp_bf89a4a8!WR_eax_bf370821
+80487cc!mov edx, dword ptr [ebp-0x1c]!RM_bf89a48c_4_9e3779b9!RR_ebp_bf89a4a8!WR_edx_9e3779b9
+80487cf!mov ecx, dword ptr [ebp-0x20]!RM_bf89a488_4_6e089494!RR_ebp_bf89a4a8!WR_ecx_6e089494
+80487d2!add edx, ecx!RR_ecx_6e089494_edx_9e3779b9!WR_edx_c400e4d
+80487d4!xor edx, eax!RR_eax_bf370821_edx_c400e4d!WR_edx_b377066c
+80487d6!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_6e089494!RR_ebp_bf89a4a8!WR_eax_6e089494
+80487d9!shr eax, 0x5!RR_eax_6e089494!WR_eax_37044a4
+80487dc!add eax, dword ptr [ebp-0xc]!RM_bf89a49c_4_deadbee2!RR_eax_37044a4_ebp_bf89a4a8!WR_eax_e21e0386
+80487df!xor eax, edx!RR_eax_e21e0386_edx_b377066c!WR_eax_516905ea
+80487e1!sub dword ptr [ebp-0x24], eax!RM_bf89a484_4_30c7c73d!RR_eax_516905ea_ebp_bf89a4a8!WM_bf89a484_4_df5ec153
+80487e4!mov eax, dword ptr [ebp-0x14]!RM_bf89a494_4_9e3779b9!RR_ebp_bf89a4a8!WR_eax_9e3779b9
+80487e7!sub dword ptr [ebp-0x1c], eax!RM_bf89a48c_4_9e3779b9!RR_eax_9e3779b9_ebp_bf89a4a8!WM_bf89a48c_4_0
+80487ea!add dword ptr [ebp-0x18], 0x1!RM_bf89a490_4_1f!RR_ebp_bf89a4a8!WM_bf89a490_4_20
+80487ee!cmp dword ptr [ebp-0x18], 0x1f!RM_bf89a490_4_20!RR_ebp_bf89a4a8
+80487f2!setbe al!WR_al_0
+80487f5!test al, al!RR_al_0
+80487f7!jnz 0x80487a2
+80487f9!mov eax, dword ptr [ebp+0x8]!RM_bf89a4b0_4_bf89a4d8!RR_ebp_bf89a4a8!WR_eax_bf89a4d8
+80487fc!mov edx, dword ptr [ebp-0x24]!RM_bf89a484_4_df5ec153!RR_ebp_bf89a4a8!WR_edx_df5ec153
+80487ff!mov dword ptr [eax], edx!RR_eax_bf89a4d8_edx_df5ec153!WM_bf89a4d8_4_df5ec153
+8048801!mov eax, dword ptr [ebp+0x8]!RM_bf89a4b0_4_bf89a4d8!RR_ebp_bf89a4a8!WR_eax_bf89a4d8
+8048804!lea edx, ptr [eax+0x4]!RR_eax_bf89a4d8!WR_edx_bf89a4dc
+8048807!mov eax, dword ptr [ebp-0x20]!RM_bf89a488_4_6e089494!RR_ebp_bf89a4a8!WR_eax_6e089494
+804880a!mov dword ptr [edx], eax!RR_eax_6e089494_edx_bf89a4dc!WM_bf89a4dc_4_6e089494
+804880c!leave !RM_bf89a4a8_4_bf89a4e8!RR_ebp_bf89a4a8_esp_bf89a478!WR_ebp_bf89a4e8_esp_bf89a4ac
+804880d!ret !RM_bf89a4ac_4_8048a61!RR_esp_bf89a4ac!WR_esp_bf89a4b0
+!EOT

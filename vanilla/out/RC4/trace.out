@@ -1,0 +1,2273 @@
+!SOT
+8048d54!push ebp!RR_ebp_bff62d38_esp_bff62bfc!WM_bff62bf8_4_bff62d38!WR_esp_bff62bf8
+8048d55!mov ebp, esp!RR_esp_bff62bf8!WR_ebp_bff62bf8
+8048d57!push ebx!RR_ebx_21_esp_bff62bf8!WM_bff62bf4_4_21!WR_esp_bff62bf4
+8048d58!sub esp, 0x24!RR_esp_bff62bf4!WR_esp_bff62bd0
+8048d5b!mov eax, dword ptr [ebp+0x10]!RM_bff62c08_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048d5e!movzx eax, byte ptr [eax+0x100]!RM_bff62d2a_1_0!RR_eax_bff62c2a!WR_eax_0
+8048d65!mov byte ptr [ebp-0x11], al!RR_al_0_ebp_bff62bf8!WM_bff62be7_1_0
+8048d68!mov eax, dword ptr [ebp+0x10]!RM_bff62c08_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048d6b!movzx eax, byte ptr [eax+0x101]!RM_bff62d2b_1_0!RR_eax_bff62c2a!WR_eax_0
+8048d72!mov byte ptr [ebp-0x10], al!RR_al_0_ebp_bff62bf8!WM_bff62be8_1_0
+8048d75!mov eax, dword ptr [ebp+0x10]!RM_bff62c08_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048d78!mov dword ptr [ebp-0xc], eax!RR_eax_bff62c2a_ebp_bff62bf8!WM_bff62bec_4_bff62c2a
+8048d7b!mov word ptr [ebp-0xe], 0x0!RR_ebp_bff62bf8!WM_bff62bea_2_0
+8048d81!jmp 0x8048e1b
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_0!RR_ebp_bff62bf8!WR_eax_0
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_0_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_0!RR_ebp_bff62bf8!WR_eax_0
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_0!WR_edx_1
+8048d8d!mov eax, edx!RR_edx_1!WR_eax_1
+8048d8f!sar eax, 0x1f!RR_eax_1!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_1!WR_edx_1
+8048d97!movzx edx, dl!RR_dl_1!WR_edx_1
+8048d9a!sub edx, eax!RR_eax_0_edx_1!WR_edx_1
+8048d9c!mov eax, edx!RR_edx_1!WR_eax_1
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_1_ebp_bff62bf8!WM_bff62be7_1_1
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_1!RR_ebp_bff62bf8!WR_edx_1
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_1!WR_eax_bff62c2b
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c2b_1_c9!RR_eax_bff62c2b!WR_eax_c9
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_0!RR_al_c9_ebp_bff62bf8!WM_bff62be8_1_c9
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_c9!RR_ebp_bff62bf8!WR_edx_c9
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_c9!WR_edx_bff62cf3
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_1!RR_ebp_bff62bf8!WR_ecx_1
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_1!WR_eax_bff62c2b
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62cf3_esp_bff62bd0!WM_bff62bd4_4_bff62cf3
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c2b_esp_bff62bd0!WM_bff62bd0_4_bff62c2b
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c2b!RR_ebp_bff62bc8!WR_eax_bff62c2b
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c2b_1_c9!RR_eax_bff62c2b!WR_eax_c9
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_c9_ebp_bff62bc8!WM_bff62bc7_1_c9
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cf3!RR_ebp_bff62bc8!WR_eax_bff62cf3
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62cf3_1_61!RR_eax_bff62cf3!WR_edx_61
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c2b!RR_ebp_bff62bc8!WR_eax_bff62c2b
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c2b_dl_61!WM_bff62c2b_1_61
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cf3!RR_ebp_bff62bc8!WR_eax_bff62cf3
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_c9!RR_ebp_bff62bc8!WR_edx_c9
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62cf3_dl_c9!WM_bff62cf3_1_c9
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_1!RR_ebp_bff62bf8!WR_edx_1
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_1!WR_eax_bff62c2b
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c2b_1_61!RR_eax_bff62c2b!WR_edx_61
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_c9!RR_ebp_bff62bf8!WR_ecx_c9
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_c9!WR_eax_bff62cf3
+8048de3!movzx eax, byte ptr [eax]!RM_bff62cf3_1_c9!RR_eax_bff62cf3!WR_eax_c9
+8048de6!add eax, edx!RR_eax_c9_edx_61!WR_eax_12a
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_2a_ebp_bff62bf8!WM_bff62be9_1_2a
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_0!RR_ebp_bff62bf8!WR_edx_0
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_0!WR_edx_910c03c
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_0!RR_ebp_bff62bf8!WR_ecx_0
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_0!WR_eax_910c03c
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c03c_1_53!RR_eax_910c03c!WR_ecx_53
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_2a!RR_ebp_bff62bf8!WR_ebx_2a
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_2a!WR_eax_bff62c54
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c54_1_80!RR_eax_bff62c54!WR_eax_80
+8048e0c!xor eax, ecx!RR_eax_80_ecx_53!WR_eax_d3
+8048e0e!mov byte ptr [edx], al!RR_al_d3_edx_910c03c!WM_910c03c_1_d3
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_0!RR_ebp_bff62bf8!WR_eax_0
+8048e14!add eax, 0x1!RR_eax_0!WR_eax_1
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_1_ebp_bff62bf8!WM_bff62bea_2_1
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_1!RR_ebp_bff62bf8!WR_eax_1
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_1_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_1!RR_ebp_bff62bf8!WR_eax_1
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_1!WR_edx_2
+8048d8d!mov eax, edx!RR_edx_2!WR_eax_2
+8048d8f!sar eax, 0x1f!RR_eax_2!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_2!WR_edx_2
+8048d97!movzx edx, dl!RR_dl_2!WR_edx_2
+8048d9a!sub edx, eax!RR_eax_0_edx_2!WR_edx_2
+8048d9c!mov eax, edx!RR_edx_2!WR_eax_2
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_2_ebp_bff62bf8!WM_bff62be7_1_2
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_2!RR_ebp_bff62bf8!WR_edx_2
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_2!WR_eax_bff62c2c
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c2c_1_3b!RR_eax_bff62c2c!WR_eax_3b
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_c9!RR_al_3b_ebp_bff62bf8!WM_bff62be8_1_4
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_4!RR_ebp_bff62bf8!WR_edx_4
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_4!WR_edx_bff62c2e
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_2!RR_ebp_bff62bf8!WR_ecx_2
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_2!WR_eax_bff62c2c
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c2e_esp_bff62bd0!WM_bff62bd4_4_bff62c2e
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c2c_esp_bff62bd0!WM_bff62bd0_4_bff62c2c
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c2c!RR_ebp_bff62bc8!WR_eax_bff62c2c
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c2c_1_3b!RR_eax_bff62c2c!WR_eax_3b
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_3b_ebp_bff62bc8!WM_bff62bc7_1_3b
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c2e!RR_ebp_bff62bc8!WR_eax_bff62c2e
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c2e_1_45!RR_eax_bff62c2e!WR_edx_45
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c2c!RR_ebp_bff62bc8!WR_eax_bff62c2c
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c2c_dl_45!WM_bff62c2c_1_45
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c2e!RR_ebp_bff62bc8!WR_eax_bff62c2e
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_3b!RR_ebp_bff62bc8!WR_edx_3b
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c2e_dl_3b!WM_bff62c2e_1_3b
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_2!RR_ebp_bff62bf8!WR_edx_2
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_2!WR_eax_bff62c2c
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c2c_1_45!RR_eax_bff62c2c!WR_edx_45
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_4!RR_ebp_bff62bf8!WR_ecx_4
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_4!WR_eax_bff62c2e
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c2e_1_3b!RR_eax_bff62c2e!WR_eax_3b
+8048de6!add eax, edx!RR_eax_3b_edx_45!WR_eax_80
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_80_ebp_bff62bf8!WM_bff62be9_1_80
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_1!RR_ebp_bff62bf8!WR_edx_1
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_1!WR_edx_910c03d
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_1!RR_ebp_bff62bf8!WR_ecx_1
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_1!WR_eax_910c03d
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c03d_1_75!RR_eax_910c03d!WR_ecx_75
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_80!RR_ebp_bff62bf8!WR_ebx_80
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_80!WR_eax_bff62caa
+8048e09!movzx eax, byte ptr [eax]!RM_bff62caa_1_9d!RR_eax_bff62caa!WR_eax_9d
+8048e0c!xor eax, ecx!RR_eax_9d_ecx_75!WR_eax_e8
+8048e0e!mov byte ptr [edx], al!RR_al_e8_edx_910c03d!WM_910c03d_1_e8
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_1!RR_ebp_bff62bf8!WR_eax_1
+8048e14!add eax, 0x1!RR_eax_1!WR_eax_2
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_2_ebp_bff62bf8!WM_bff62bea_2_2
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_2!RR_ebp_bff62bf8!WR_eax_2
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_2_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_2!RR_ebp_bff62bf8!WR_eax_2
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_2!WR_edx_3
+8048d8d!mov eax, edx!RR_edx_3!WR_eax_3
+8048d8f!sar eax, 0x1f!RR_eax_3!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_3!WR_edx_3
+8048d97!movzx edx, dl!RR_dl_3!WR_edx_3
+8048d9a!sub edx, eax!RR_eax_0_edx_3!WR_edx_3
+8048d9c!mov eax, edx!RR_edx_3!WR_eax_3
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_3_ebp_bff62bf8!WM_bff62be7_1_3
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_3!RR_ebp_bff62bf8!WR_edx_3
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_3!WR_eax_bff62c2d
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c2d_1_e0!RR_eax_bff62c2d!WR_eax_e0
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_4!RR_al_e0_ebp_bff62bf8!WM_bff62be8_1_e4
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_e4!RR_ebp_bff62bf8!WR_edx_e4
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_e4!WR_edx_bff62d0e
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_3!RR_ebp_bff62bf8!WR_ecx_3
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_3!WR_eax_bff62c2d
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62d0e_esp_bff62bd0!WM_bff62bd4_4_bff62d0e
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c2d_esp_bff62bd0!WM_bff62bd0_4_bff62c2d
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c2d!RR_ebp_bff62bc8!WR_eax_bff62c2d
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c2d_1_e0!RR_eax_bff62c2d!WR_eax_e0
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_e0_ebp_bff62bc8!WM_bff62bc7_1_e0
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62d0e!RR_ebp_bff62bc8!WR_eax_bff62d0e
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62d0e_1_b2!RR_eax_bff62d0e!WR_edx_b2
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c2d!RR_ebp_bff62bc8!WR_eax_bff62c2d
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c2d_dl_b2!WM_bff62c2d_1_b2
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62d0e!RR_ebp_bff62bc8!WR_eax_bff62d0e
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_e0!RR_ebp_bff62bc8!WR_edx_e0
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62d0e_dl_e0!WM_bff62d0e_1_e0
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_3!RR_ebp_bff62bf8!WR_edx_3
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_3!WR_eax_bff62c2d
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c2d_1_b2!RR_eax_bff62c2d!WR_edx_b2
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_e4!RR_ebp_bff62bf8!WR_ecx_e4
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_e4!WR_eax_bff62d0e
+8048de3!movzx eax, byte ptr [eax]!RM_bff62d0e_1_e0!RR_eax_bff62d0e!WR_eax_e0
+8048de6!add eax, edx!RR_eax_e0_edx_b2!WR_eax_192
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_92_ebp_bff62bf8!WM_bff62be9_1_92
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_2!RR_ebp_bff62bf8!WR_edx_2
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_2!WR_edx_910c03e
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_2!RR_ebp_bff62bf8!WR_ecx_2
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_2!WR_eax_910c03e
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c03e_1_70!RR_eax_910c03e!WR_ecx_70
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_92!RR_ebp_bff62bf8!WR_ebx_92
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_92!WR_eax_bff62cbc
+8048e09!movzx eax, byte ptr [eax]!RM_bff62cbc_1_22!RR_eax_bff62cbc!WR_eax_22
+8048e0c!xor eax, ecx!RR_eax_22_ecx_70!WR_eax_52
+8048e0e!mov byte ptr [edx], al!RR_al_52_edx_910c03e!WM_910c03e_1_52
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_2!RR_ebp_bff62bf8!WR_eax_2
+8048e14!add eax, 0x1!RR_eax_2!WR_eax_3
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_3_ebp_bff62bf8!WM_bff62bea_2_3
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_3!RR_ebp_bff62bf8!WR_eax_3
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_3_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_3!RR_ebp_bff62bf8!WR_eax_3
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_3!WR_edx_4
+8048d8d!mov eax, edx!RR_edx_4!WR_eax_4
+8048d8f!sar eax, 0x1f!RR_eax_4!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_4!WR_edx_4
+8048d97!movzx edx, dl!RR_dl_4!WR_edx_4
+8048d9a!sub edx, eax!RR_eax_0_edx_4!WR_edx_4
+8048d9c!mov eax, edx!RR_edx_4!WR_eax_4
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_4_ebp_bff62bf8!WM_bff62be7_1_4
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_4!RR_ebp_bff62bf8!WR_edx_4
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_4!WR_eax_bff62c2e
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c2e_1_3b!RR_eax_bff62c2e!WR_eax_3b
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_e4!RR_al_3b_ebp_bff62bf8!WM_bff62be8_1_1f
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_1f!RR_ebp_bff62bf8!WR_edx_1f
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_1f!WR_edx_bff62c49
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_4!RR_ebp_bff62bf8!WR_ecx_4
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_4!WR_eax_bff62c2e
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c49_esp_bff62bd0!WM_bff62bd4_4_bff62c49
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c2e_esp_bff62bd0!WM_bff62bd0_4_bff62c2e
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c2e!RR_ebp_bff62bc8!WR_eax_bff62c2e
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c2e_1_3b!RR_eax_bff62c2e!WR_eax_3b
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_3b_ebp_bff62bc8!WM_bff62bc7_1_3b
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c49!RR_ebp_bff62bc8!WR_eax_bff62c49
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c49_1_38!RR_eax_bff62c49!WR_edx_38
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c2e!RR_ebp_bff62bc8!WR_eax_bff62c2e
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c2e_dl_38!WM_bff62c2e_1_38
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c49!RR_ebp_bff62bc8!WR_eax_bff62c49
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_3b!RR_ebp_bff62bc8!WR_edx_3b
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c49_dl_3b!WM_bff62c49_1_3b
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_4!RR_ebp_bff62bf8!WR_edx_4
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_4!WR_eax_bff62c2e
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c2e_1_38!RR_eax_bff62c2e!WR_edx_38
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_1f!RR_ebp_bff62bf8!WR_ecx_1f
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_1f!WR_eax_bff62c49
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c49_1_3b!RR_eax_bff62c49!WR_eax_3b
+8048de6!add eax, edx!RR_eax_3b_edx_38!WR_eax_73
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_73_ebp_bff62bf8!WM_bff62be9_1_73
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_3!RR_ebp_bff62bf8!WR_edx_3
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_3!WR_edx_910c03f
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_3!RR_ebp_bff62bf8!WR_ecx_3
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_3!WR_eax_910c03f
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c03f_1_65!RR_eax_910c03f!WR_ecx_65
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_73!RR_ebp_bff62bf8!WR_ebx_73
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_73!WR_eax_bff62c9d
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c9d_1_94!RR_eax_bff62c9d!WR_eax_94
+8048e0c!xor eax, ecx!RR_eax_94_ecx_65!WR_eax_f1
+8048e0e!mov byte ptr [edx], al!RR_al_f1_edx_910c03f!WM_910c03f_1_f1
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_3!RR_ebp_bff62bf8!WR_eax_3
+8048e14!add eax, 0x1!RR_eax_3!WR_eax_4
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_4_ebp_bff62bf8!WM_bff62bea_2_4
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_4!RR_ebp_bff62bf8!WR_eax_4
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_4_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_4!RR_ebp_bff62bf8!WR_eax_4
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_4!WR_edx_5
+8048d8d!mov eax, edx!RR_edx_5!WR_eax_5
+8048d8f!sar eax, 0x1f!RR_eax_5!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_5!WR_edx_5
+8048d97!movzx edx, dl!RR_dl_5!WR_edx_5
+8048d9a!sub edx, eax!RR_eax_0_edx_5!WR_edx_5
+8048d9c!mov eax, edx!RR_edx_5!WR_eax_5
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_5_ebp_bff62bf8!WM_bff62be7_1_5
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_5!RR_ebp_bff62bf8!WR_edx_5
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_5!WR_eax_bff62c2f
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c2f_1_3a!RR_eax_bff62c2f!WR_eax_3a
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_1f!RR_al_3a_ebp_bff62bf8!WM_bff62be8_1_59
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_59!RR_ebp_bff62bf8!WR_edx_59
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_59!WR_edx_bff62c83
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_5!RR_ebp_bff62bf8!WR_ecx_5
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_5!WR_eax_bff62c2f
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c83_esp_bff62bd0!WM_bff62bd4_4_bff62c83
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c2f_esp_bff62bd0!WM_bff62bd0_4_bff62c2f
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c2f!RR_ebp_bff62bc8!WR_eax_bff62c2f
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c2f_1_3a!RR_eax_bff62c2f!WR_eax_3a
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_3a_ebp_bff62bc8!WM_bff62bc7_1_3a
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c83!RR_ebp_bff62bc8!WR_eax_bff62c83
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c83_1_32!RR_eax_bff62c83!WR_edx_32
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c2f!RR_ebp_bff62bc8!WR_eax_bff62c2f
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c2f_dl_32!WM_bff62c2f_1_32
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c83!RR_ebp_bff62bc8!WR_eax_bff62c83
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_3a!RR_ebp_bff62bc8!WR_edx_3a
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c83_dl_3a!WM_bff62c83_1_3a
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_5!RR_ebp_bff62bf8!WR_edx_5
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_5!WR_eax_bff62c2f
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c2f_1_32!RR_eax_bff62c2f!WR_edx_32
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_59!RR_ebp_bff62bf8!WR_ecx_59
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_59!WR_eax_bff62c83
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c83_1_3a!RR_eax_bff62c83!WR_eax_3a
+8048de6!add eax, edx!RR_eax_3a_edx_32!WR_eax_6c
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_6c_ebp_bff62bf8!WM_bff62be9_1_6c
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_4!RR_ebp_bff62bf8!WR_edx_4
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_4!WR_edx_910c040
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_4!RR_ebp_bff62bf8!WR_ecx_4
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_4!WR_eax_910c040
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c040_1_72!RR_eax_910c040!WR_ecx_72
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_6c!RR_ebp_bff62bf8!WR_ebx_6c
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_6c!WR_eax_bff62c96
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c96_1_12!RR_eax_bff62c96!WR_eax_12
+8048e0c!xor eax, ecx!RR_eax_12_ecx_72!WR_eax_60
+8048e0e!mov byte ptr [edx], al!RR_al_60_edx_910c040!WM_910c040_1_60
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_4!RR_ebp_bff62bf8!WR_eax_4
+8048e14!add eax, 0x1!RR_eax_4!WR_eax_5
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_5_ebp_bff62bf8!WM_bff62bea_2_5
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_5!RR_ebp_bff62bf8!WR_eax_5
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_5_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_5!RR_ebp_bff62bf8!WR_eax_5
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_5!WR_edx_6
+8048d8d!mov eax, edx!RR_edx_6!WR_eax_6
+8048d8f!sar eax, 0x1f!RR_eax_6!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_6!WR_edx_6
+8048d97!movzx edx, dl!RR_dl_6!WR_edx_6
+8048d9a!sub edx, eax!RR_eax_0_edx_6!WR_edx_6
+8048d9c!mov eax, edx!RR_edx_6!WR_eax_6
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_6_ebp_bff62bf8!WM_bff62be7_1_6
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_6!RR_ebp_bff62bf8!WR_edx_6
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_6!WR_eax_bff62c30
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c30_1_d4!RR_eax_bff62c30!WR_eax_d4
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_59!RR_al_d4_ebp_bff62bf8!WM_bff62be8_1_2d
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_2d!RR_ebp_bff62bf8!WR_edx_2d
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_2d!WR_edx_bff62c57
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_6!RR_ebp_bff62bf8!WR_ecx_6
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_6!WR_eax_bff62c30
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c57_esp_bff62bd0!WM_bff62bd4_4_bff62c57
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c30_esp_bff62bd0!WM_bff62bd0_4_bff62c30
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c30!RR_ebp_bff62bc8!WR_eax_bff62c30
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c30_1_d4!RR_eax_bff62c30!WR_eax_d4
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_d4_ebp_bff62bc8!WM_bff62bc7_1_d4
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c57!RR_ebp_bff62bc8!WR_eax_bff62c57
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c57_1_ab!RR_eax_bff62c57!WR_edx_ab
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c30!RR_ebp_bff62bc8!WR_eax_bff62c30
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c30_dl_ab!WM_bff62c30_1_ab
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c57!RR_ebp_bff62bc8!WR_eax_bff62c57
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_d4!RR_ebp_bff62bc8!WR_edx_d4
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c57_dl_d4!WM_bff62c57_1_d4
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_6!RR_ebp_bff62bf8!WR_edx_6
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_6!WR_eax_bff62c30
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c30_1_ab!RR_eax_bff62c30!WR_edx_ab
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_2d!RR_ebp_bff62bf8!WR_ecx_2d
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_2d!WR_eax_bff62c57
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c57_1_d4!RR_eax_bff62c57!WR_eax_d4
+8048de6!add eax, edx!RR_eax_d4_edx_ab!WR_eax_17f
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_7f_ebp_bff62bf8!WM_bff62be9_1_7f
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_5!RR_ebp_bff62bf8!WR_edx_5
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_5!WR_edx_910c041
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_5!RR_ebp_bff62bf8!WR_ecx_5
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_5!WR_eax_910c041
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c041_1_50!RR_eax_910c041!WR_ecx_50
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_7f!RR_ebp_bff62bf8!WR_ebx_7f
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_7f!WR_eax_bff62ca9
+8048e09!movzx eax, byte ptr [eax]!RM_bff62ca9_1_86!RR_eax_bff62ca9!WR_eax_86
+8048e0c!xor eax, ecx!RR_eax_86_ecx_50!WR_eax_d6
+8048e0e!mov byte ptr [edx], al!RR_al_d6_edx_910c041!WM_910c041_1_d6
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_5!RR_ebp_bff62bf8!WR_eax_5
+8048e14!add eax, 0x1!RR_eax_5!WR_eax_6
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_6_ebp_bff62bf8!WM_bff62bea_2_6
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_6!RR_ebp_bff62bf8!WR_eax_6
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_6_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_6!RR_ebp_bff62bf8!WR_eax_6
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_6!WR_edx_7
+8048d8d!mov eax, edx!RR_edx_7!WR_eax_7
+8048d8f!sar eax, 0x1f!RR_eax_7!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_7!WR_edx_7
+8048d97!movzx edx, dl!RR_dl_7!WR_edx_7
+8048d9a!sub edx, eax!RR_eax_0_edx_7!WR_edx_7
+8048d9c!mov eax, edx!RR_edx_7!WR_eax_7
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_7_ebp_bff62bf8!WM_bff62be7_1_7
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_7!RR_ebp_bff62bf8!WR_edx_7
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_7!WR_eax_bff62c31
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c31_1_16!RR_eax_bff62c31!WR_eax_16
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_2d!RR_al_16_ebp_bff62bf8!WM_bff62be8_1_43
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_43!RR_ebp_bff62bf8!WR_edx_43
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_43!WR_edx_bff62c6d
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_7!RR_ebp_bff62bf8!WR_ecx_7
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_7!WR_eax_bff62c31
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c6d_esp_bff62bd0!WM_bff62bd4_4_bff62c6d
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c31_esp_bff62bd0!WM_bff62bd0_4_bff62c31
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c31!RR_ebp_bff62bc8!WR_eax_bff62c31
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c31_1_16!RR_eax_bff62c31!WR_eax_16
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_16_ebp_bff62bc8!WM_bff62bc7_1_16
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c6d!RR_ebp_bff62bc8!WR_eax_bff62c6d
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c6d_1_eb!RR_eax_bff62c6d!WR_edx_eb
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c31!RR_ebp_bff62bc8!WR_eax_bff62c31
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c31_dl_eb!WM_bff62c31_1_eb
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c6d!RR_ebp_bff62bc8!WR_eax_bff62c6d
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_16!RR_ebp_bff62bc8!WR_edx_16
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c6d_dl_16!WM_bff62c6d_1_16
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_7!RR_ebp_bff62bf8!WR_edx_7
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_7!WR_eax_bff62c31
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c31_1_eb!RR_eax_bff62c31!WR_edx_eb
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_43!RR_ebp_bff62bf8!WR_ecx_43
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_43!WR_eax_bff62c6d
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c6d_1_16!RR_eax_bff62c6d!WR_eax_16
+8048de6!add eax, edx!RR_eax_16_edx_eb!WR_eax_101
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_1_ebp_bff62bf8!WM_bff62be9_1_1
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_6!RR_ebp_bff62bf8!WR_edx_6
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_6!WR_edx_910c042
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_6!RR_ebp_bff62bf8!WR_ecx_6
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_6!WR_eax_910c042
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c042_1_6c!RR_eax_910c042!WR_ecx_6c
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_1!RR_ebp_bff62bf8!WR_ebx_1
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_1!WR_eax_bff62c2b
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c2b_1_61!RR_eax_bff62c2b!WR_eax_61
+8048e0c!xor eax, ecx!RR_eax_61_ecx_6c!WR_eax_d
+8048e0e!mov byte ptr [edx], al!RR_al_d_edx_910c042!WM_910c042_1_d
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_6!RR_ebp_bff62bf8!WR_eax_6
+8048e14!add eax, 0x1!RR_eax_6!WR_eax_7
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_7_ebp_bff62bf8!WM_bff62bea_2_7
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_7!RR_ebp_bff62bf8!WR_eax_7
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_7_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_7!RR_ebp_bff62bf8!WR_eax_7
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_7!WR_edx_8
+8048d8d!mov eax, edx!RR_edx_8!WR_eax_8
+8048d8f!sar eax, 0x1f!RR_eax_8!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_8!WR_edx_8
+8048d97!movzx edx, dl!RR_dl_8!WR_edx_8
+8048d9a!sub edx, eax!RR_eax_0_edx_8!WR_edx_8
+8048d9c!mov eax, edx!RR_edx_8!WR_eax_8
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_8_ebp_bff62bf8!WM_bff62be7_1_8
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_8!RR_ebp_bff62bf8!WR_edx_8
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_8!WR_eax_bff62c32
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c32_1_a5!RR_eax_bff62c32!WR_eax_a5
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_43!RR_al_a5_ebp_bff62bf8!WM_bff62be8_1_e8
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_e8!RR_ebp_bff62bf8!WR_edx_e8
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_e8!WR_edx_bff62d12
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_8!RR_ebp_bff62bf8!WR_ecx_8
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_8!WR_eax_bff62c32
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62d12_esp_bff62bd0!WM_bff62bd4_4_bff62d12
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c32_esp_bff62bd0!WM_bff62bd0_4_bff62c32
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c32!RR_ebp_bff62bc8!WR_eax_bff62c32
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c32_1_a5!RR_eax_bff62c32!WR_eax_a5
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_a5_ebp_bff62bc8!WM_bff62bc7_1_a5
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62d12!RR_ebp_bff62bc8!WR_eax_bff62d12
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62d12_1_bd!RR_eax_bff62d12!WR_edx_bd
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c32!RR_ebp_bff62bc8!WR_eax_bff62c32
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c32_dl_bd!WM_bff62c32_1_bd
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62d12!RR_ebp_bff62bc8!WR_eax_bff62d12
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_a5!RR_ebp_bff62bc8!WR_edx_a5
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62d12_dl_a5!WM_bff62d12_1_a5
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_8!RR_ebp_bff62bf8!WR_edx_8
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_8!WR_eax_bff62c32
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c32_1_bd!RR_eax_bff62c32!WR_edx_bd
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_e8!RR_ebp_bff62bf8!WR_ecx_e8
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_e8!WR_eax_bff62d12
+8048de3!movzx eax, byte ptr [eax]!RM_bff62d12_1_a5!RR_eax_bff62d12!WR_eax_a5
+8048de6!add eax, edx!RR_eax_a5_edx_bd!WR_eax_162
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_62_ebp_bff62bf8!WM_bff62be9_1_62
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_7!RR_ebp_bff62bf8!WR_edx_7
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_7!WR_edx_910c043
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_7!RR_ebp_bff62bf8!WR_ecx_7
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_7!WR_eax_910c043
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c043_1_61!RR_eax_910c043!WR_ecx_61
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_62!RR_ebp_bff62bf8!WR_ebx_62
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_62!WR_eax_bff62c8c
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c8c_1_b7!RR_eax_bff62c8c!WR_eax_b7
+8048e0c!xor eax, ecx!RR_eax_b7_ecx_61!WR_eax_d6
+8048e0e!mov byte ptr [edx], al!RR_al_d6_edx_910c043!WM_910c043_1_d6
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_7!RR_ebp_bff62bf8!WR_eax_7
+8048e14!add eax, 0x1!RR_eax_7!WR_eax_8
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_8_ebp_bff62bf8!WM_bff62bea_2_8
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_8!RR_ebp_bff62bf8!WR_eax_8
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_8_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_8!RR_ebp_bff62bf8!WR_eax_8
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_8!WR_edx_9
+8048d8d!mov eax, edx!RR_edx_9!WR_eax_9
+8048d8f!sar eax, 0x1f!RR_eax_9!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_9!WR_edx_9
+8048d97!movzx edx, dl!RR_dl_9!WR_edx_9
+8048d9a!sub edx, eax!RR_eax_0_edx_9!WR_edx_9
+8048d9c!mov eax, edx!RR_edx_9!WR_eax_9
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_9_ebp_bff62bf8!WM_bff62be7_1_9
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_9!RR_ebp_bff62bf8!WR_edx_9
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_9!WR_eax_bff62c33
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c33_1_57!RR_eax_bff62c33!WR_eax_57
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_e8!RR_al_57_ebp_bff62bf8!WM_bff62be8_1_3f
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_3f!RR_ebp_bff62bf8!WR_edx_3f
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_3f!WR_edx_bff62c69
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_9!RR_ebp_bff62bf8!WR_ecx_9
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_9!WR_eax_bff62c33
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c69_esp_bff62bd0!WM_bff62bd4_4_bff62c69
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c33_esp_bff62bd0!WM_bff62bd0_4_bff62c33
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c33!RR_ebp_bff62bc8!WR_eax_bff62c33
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c33_1_57!RR_eax_bff62c33!WR_eax_57
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_57_ebp_bff62bc8!WM_bff62bc7_1_57
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c69!RR_ebp_bff62bc8!WR_eax_bff62c69
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c69_1_5e!RR_eax_bff62c69!WR_edx_5e
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c33!RR_ebp_bff62bc8!WR_eax_bff62c33
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c33_dl_5e!WM_bff62c33_1_5e
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c69!RR_ebp_bff62bc8!WR_eax_bff62c69
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_57!RR_ebp_bff62bc8!WR_edx_57
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c69_dl_57!WM_bff62c69_1_57
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_9!RR_ebp_bff62bf8!WR_edx_9
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_9!WR_eax_bff62c33
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c33_1_5e!RR_eax_bff62c33!WR_edx_5e
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_3f!RR_ebp_bff62bf8!WR_ecx_3f
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_3f!WR_eax_bff62c69
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c69_1_57!RR_eax_bff62c69!WR_eax_57
+8048de6!add eax, edx!RR_eax_57_edx_5e!WR_eax_b5
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_b5_ebp_bff62bf8!WM_bff62be9_1_b5
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_8!RR_ebp_bff62bf8!WR_edx_8
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_8!WR_edx_910c044
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_8!RR_ebp_bff62bf8!WR_ecx_8
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_8!WR_eax_910c044
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c044_1_69!RR_eax_910c044!WR_ecx_69
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_b5!RR_ebp_bff62bf8!WR_ebx_b5
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_b5!WR_eax_bff62cdf
+8048e09!movzx eax, byte ptr [eax]!RM_bff62cdf_1_4e!RR_eax_bff62cdf!WR_eax_4e
+8048e0c!xor eax, ecx!RR_eax_4e_ecx_69!WR_eax_27
+8048e0e!mov byte ptr [edx], al!RR_al_27_edx_910c044!WM_910c044_1_27
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_8!RR_ebp_bff62bf8!WR_eax_8
+8048e14!add eax, 0x1!RR_eax_8!WR_eax_9
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_9_ebp_bff62bf8!WM_bff62bea_2_9
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_9!RR_ebp_bff62bf8!WR_eax_9
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_9_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_9!RR_ebp_bff62bf8!WR_eax_9
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_9!WR_edx_a
+8048d8d!mov eax, edx!RR_edx_a!WR_eax_a
+8048d8f!sar eax, 0x1f!RR_eax_a!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_a!WR_edx_a
+8048d97!movzx edx, dl!RR_dl_a!WR_edx_a
+8048d9a!sub edx, eax!RR_eax_0_edx_a!WR_edx_a
+8048d9c!mov eax, edx!RR_edx_a!WR_eax_a
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_a_ebp_bff62bf8!WM_bff62be7_1_a
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_a!RR_ebp_bff62bf8!WR_edx_a
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_a!WR_eax_bff62c34
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c34_1_92!RR_eax_bff62c34!WR_eax_92
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_3f!RR_al_92_ebp_bff62bf8!WM_bff62be8_1_d1
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_d1!RR_ebp_bff62bf8!WR_edx_d1
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_d1!WR_edx_bff62cfb
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_a!RR_ebp_bff62bf8!WR_ecx_a
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_a!WR_eax_bff62c34
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62cfb_esp_bff62bd0!WM_bff62bd4_4_bff62cfb
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c34_esp_bff62bd0!WM_bff62bd0_4_bff62c34
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c34!RR_ebp_bff62bc8!WR_eax_bff62c34
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c34_1_92!RR_eax_bff62c34!WR_eax_92
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_92_ebp_bff62bc8!WM_bff62bc7_1_92
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cfb!RR_ebp_bff62bc8!WR_eax_bff62cfb
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62cfb_1_88!RR_eax_bff62cfb!WR_edx_88
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c34!RR_ebp_bff62bc8!WR_eax_bff62c34
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c34_dl_88!WM_bff62c34_1_88
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cfb!RR_ebp_bff62bc8!WR_eax_bff62cfb
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_92!RR_ebp_bff62bc8!WR_edx_92
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62cfb_dl_92!WM_bff62cfb_1_92
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_a!RR_ebp_bff62bf8!WR_edx_a
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_a!WR_eax_bff62c34
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c34_1_88!RR_eax_bff62c34!WR_edx_88
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_d1!RR_ebp_bff62bf8!WR_ecx_d1
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_d1!WR_eax_bff62cfb
+8048de3!movzx eax, byte ptr [eax]!RM_bff62cfb_1_92!RR_eax_bff62cfb!WR_eax_92
+8048de6!add eax, edx!RR_eax_92_edx_88!WR_eax_11a
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_1a_ebp_bff62bf8!WM_bff62be9_1_1a
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_9!RR_ebp_bff62bf8!WR_edx_9
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_9!WR_edx_910c045
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_9!RR_ebp_bff62bf8!WR_ecx_9
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_9!WR_eax_910c045
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c045_1_6e!RR_eax_910c045!WR_ecx_6e
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_1a!RR_ebp_bff62bf8!WR_ebx_1a
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_1a!WR_eax_bff62c44
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c44_1_b8!RR_eax_bff62c44!WR_eax_b8
+8048e0c!xor eax, ecx!RR_eax_b8_ecx_6e!WR_eax_d6
+8048e0e!mov byte ptr [edx], al!RR_al_d6_edx_910c045!WM_910c045_1_d6
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_9!RR_ebp_bff62bf8!WR_eax_9
+8048e14!add eax, 0x1!RR_eax_9!WR_eax_a
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_a_ebp_bff62bf8!WM_bff62bea_2_a
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_a!RR_ebp_bff62bf8!WR_eax_a
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_a_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_a!RR_ebp_bff62bf8!WR_eax_a
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_a!WR_edx_b
+8048d8d!mov eax, edx!RR_edx_b!WR_eax_b
+8048d8f!sar eax, 0x1f!RR_eax_b!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_b!WR_edx_b
+8048d97!movzx edx, dl!RR_dl_b!WR_edx_b
+8048d9a!sub edx, eax!RR_eax_0_edx_b!WR_edx_b
+8048d9c!mov eax, edx!RR_edx_b!WR_eax_b
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_b_ebp_bff62bf8!WM_bff62be7_1_b
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_b!RR_ebp_bff62bf8!WR_edx_b
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_b!WR_eax_bff62c35
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c35_1_a7!RR_eax_bff62c35!WR_eax_a7
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_d1!RR_al_a7_ebp_bff62bf8!WM_bff62be8_1_78
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_78!RR_ebp_bff62bf8!WR_edx_78
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_78!WR_edx_bff62ca2
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_b!RR_ebp_bff62bf8!WR_ecx_b
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_b!WR_eax_bff62c35
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62ca2_esp_bff62bd0!WM_bff62bd4_4_bff62ca2
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c35_esp_bff62bd0!WM_bff62bd0_4_bff62c35
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c35!RR_ebp_bff62bc8!WR_eax_bff62c35
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c35_1_a7!RR_eax_bff62c35!WR_eax_a7
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_a7_ebp_bff62bc8!WM_bff62bc7_1_a7
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62ca2!RR_ebp_bff62bc8!WR_eax_bff62ca2
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62ca2_1_d7!RR_eax_bff62ca2!WR_edx_d7
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c35!RR_ebp_bff62bc8!WR_eax_bff62c35
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c35_dl_d7!WM_bff62c35_1_d7
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62ca2!RR_ebp_bff62bc8!WR_eax_bff62ca2
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_a7!RR_ebp_bff62bc8!WR_edx_a7
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62ca2_dl_a7!WM_bff62ca2_1_a7
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_b!RR_ebp_bff62bf8!WR_edx_b
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_b!WR_eax_bff62c35
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c35_1_d7!RR_eax_bff62c35!WR_edx_d7
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_78!RR_ebp_bff62bf8!WR_ecx_78
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_78!WR_eax_bff62ca2
+8048de3!movzx eax, byte ptr [eax]!RM_bff62ca2_1_a7!RR_eax_bff62ca2!WR_eax_a7
+8048de6!add eax, edx!RR_eax_a7_edx_d7!WR_eax_17e
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_7e_ebp_bff62bf8!WM_bff62be9_1_7e
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_a!RR_ebp_bff62bf8!WR_edx_a
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_a!WR_edx_910c046
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_a!RR_ebp_bff62bf8!WR_ecx_a
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_a!WR_eax_910c046
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c046_1_4d!RR_eax_910c046!WR_ecx_4d
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_7e!RR_ebp_bff62bf8!WR_ebx_7e
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_7e!WR_eax_bff62ca8
+8048e09!movzx eax, byte ptr [eax]!RM_bff62ca8_1_25!RR_eax_bff62ca8!WR_eax_25
+8048e0c!xor eax, ecx!RR_eax_25_ecx_4d!WR_eax_68
+8048e0e!mov byte ptr [edx], al!RR_al_68_edx_910c046!WM_910c046_1_68
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_a!RR_ebp_bff62bf8!WR_eax_a
+8048e14!add eax, 0x1!RR_eax_a!WR_eax_b
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_b_ebp_bff62bf8!WM_bff62bea_2_b
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_b!RR_ebp_bff62bf8!WR_eax_b
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_b_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_b!RR_ebp_bff62bf8!WR_eax_b
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_b!WR_edx_c
+8048d8d!mov eax, edx!RR_edx_c!WR_eax_c
+8048d8f!sar eax, 0x1f!RR_eax_c!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_c!WR_edx_c
+8048d97!movzx edx, dl!RR_dl_c!WR_edx_c
+8048d9a!sub edx, eax!RR_eax_0_edx_c!WR_edx_c
+8048d9c!mov eax, edx!RR_edx_c!WR_eax_c
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_c_ebp_bff62bf8!WM_bff62be7_1_c
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_c!RR_ebp_bff62bf8!WR_edx_c
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_c!WR_eax_bff62c36
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c36_1_a9!RR_eax_bff62c36!WR_eax_a9
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_78!RR_al_a9_ebp_bff62bf8!WM_bff62be8_1_21
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_21!RR_ebp_bff62bf8!WR_edx_21
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_21!WR_edx_bff62c4b
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_c!RR_ebp_bff62bf8!WR_ecx_c
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_c!WR_eax_bff62c36
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c4b_esp_bff62bd0!WM_bff62bd4_4_bff62c4b
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c36_esp_bff62bd0!WM_bff62bd0_4_bff62c36
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c36!RR_ebp_bff62bc8!WR_eax_bff62c36
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c36_1_a9!RR_eax_bff62c36!WR_eax_a9
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_a9_ebp_bff62bc8!WM_bff62bc7_1_a9
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c4b!RR_ebp_bff62bc8!WR_eax_bff62c4b
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c4b_1_36!RR_eax_bff62c4b!WR_edx_36
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c36!RR_ebp_bff62bc8!WR_eax_bff62c36
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c36_dl_36!WM_bff62c36_1_36
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c4b!RR_ebp_bff62bc8!WR_eax_bff62c4b
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_a9!RR_ebp_bff62bc8!WR_edx_a9
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c4b_dl_a9!WM_bff62c4b_1_a9
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_c!RR_ebp_bff62bf8!WR_edx_c
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_c!WR_eax_bff62c36
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c36_1_36!RR_eax_bff62c36!WR_edx_36
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_21!RR_ebp_bff62bf8!WR_ecx_21
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_21!WR_eax_bff62c4b
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c4b_1_a9!RR_eax_bff62c4b!WR_eax_a9
+8048de6!add eax, edx!RR_eax_a9_edx_36!WR_eax_df
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_df_ebp_bff62bf8!WM_bff62be9_1_df
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_b!RR_ebp_bff62bf8!WR_edx_b
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_b!WR_edx_910c047
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_b!RR_ebp_bff62bf8!WR_ecx_b
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_b!WR_eax_910c047
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c047_1_65!RR_eax_910c047!WR_ecx_65
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_df!RR_ebp_bff62bf8!WR_ebx_df
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_df!WR_eax_bff62d09
+8048e09!movzx eax, byte ptr [eax]!RM_bff62d09_1_5!RR_eax_bff62d09!WR_eax_5
+8048e0c!xor eax, ecx!RR_eax_5_ecx_65!WR_eax_60
+8048e0e!mov byte ptr [edx], al!RR_al_60_edx_910c047!WM_910c047_1_60
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_b!RR_ebp_bff62bf8!WR_eax_b
+8048e14!add eax, 0x1!RR_eax_b!WR_eax_c
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_c_ebp_bff62bf8!WM_bff62bea_2_c
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_c!RR_ebp_bff62bf8!WR_eax_c
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_c_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_c!RR_ebp_bff62bf8!WR_eax_c
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_c!WR_edx_d
+8048d8d!mov eax, edx!RR_edx_d!WR_eax_d
+8048d8f!sar eax, 0x1f!RR_eax_d!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_d!WR_edx_d
+8048d97!movzx edx, dl!RR_dl_d!WR_edx_d
+8048d9a!sub edx, eax!RR_eax_0_edx_d!WR_edx_d
+8048d9c!mov eax, edx!RR_edx_d!WR_eax_d
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_d_ebp_bff62bf8!WM_bff62be7_1_d
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_d!RR_ebp_bff62bf8!WR_edx_d
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_d!WR_eax_bff62c37
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c37_1_f3!RR_eax_bff62c37!WR_eax_f3
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_21!RR_al_f3_ebp_bff62bf8!WM_bff62be8_1_14
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_14!RR_ebp_bff62bf8!WR_edx_14
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_14!WR_edx_bff62c3e
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_d!RR_ebp_bff62bf8!WR_ecx_d
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_d!WR_eax_bff62c37
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c3e_esp_bff62bd0!WM_bff62bd4_4_bff62c3e
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c37_esp_bff62bd0!WM_bff62bd0_4_bff62c37
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c37!RR_ebp_bff62bc8!WR_eax_bff62c37
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c37_1_f3!RR_eax_bff62c37!WR_eax_f3
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_f3_ebp_bff62bc8!WM_bff62bc7_1_f3
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c3e!RR_ebp_bff62bc8!WR_eax_bff62c3e
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c3e_1_f9!RR_eax_bff62c3e!WR_edx_f9
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c37!RR_ebp_bff62bc8!WR_eax_bff62c37
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c37_dl_f9!WM_bff62c37_1_f9
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c3e!RR_ebp_bff62bc8!WR_eax_bff62c3e
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_f3!RR_ebp_bff62bc8!WR_edx_f3
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c3e_dl_f3!WM_bff62c3e_1_f3
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_d!RR_ebp_bff62bf8!WR_edx_d
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_d!WR_eax_bff62c37
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c37_1_f9!RR_eax_bff62c37!WR_edx_f9
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_14!RR_ebp_bff62bf8!WR_ecx_14
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_14!WR_eax_bff62c3e
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c3e_1_f3!RR_eax_bff62c3e!WR_eax_f3
+8048de6!add eax, edx!RR_eax_f3_edx_f9!WR_eax_1ec
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_ec_ebp_bff62bf8!WM_bff62be9_1_ec
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_c!RR_ebp_bff62bf8!WR_edx_c
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_c!WR_edx_910c048
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_c!RR_ebp_bff62bf8!WR_ecx_c
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_c!WR_eax_910c048
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c048_1_73!RR_eax_910c048!WR_ecx_73
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_ec!RR_ebp_bff62bf8!WR_ebx_ec
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_ec!WR_eax_bff62d16
+8048e09!movzx eax, byte ptr [eax]!RM_bff62d16_1_9a!RR_eax_bff62d16!WR_eax_9a
+8048e0c!xor eax, ecx!RR_eax_9a_ecx_73!WR_eax_e9
+8048e0e!mov byte ptr [edx], al!RR_al_e9_edx_910c048!WM_910c048_1_e9
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_c!RR_ebp_bff62bf8!WR_eax_c
+8048e14!add eax, 0x1!RR_eax_c!WR_eax_d
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_d_ebp_bff62bf8!WM_bff62bea_2_d
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_d!RR_ebp_bff62bf8!WR_eax_d
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_d_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_d!RR_ebp_bff62bf8!WR_eax_d
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_d!WR_edx_e
+8048d8d!mov eax, edx!RR_edx_e!WR_eax_e
+8048d8f!sar eax, 0x1f!RR_eax_e!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_e!WR_edx_e
+8048d97!movzx edx, dl!RR_dl_e!WR_edx_e
+8048d9a!sub edx, eax!RR_eax_0_edx_e!WR_edx_e
+8048d9c!mov eax, edx!RR_edx_e!WR_eax_e
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_e_ebp_bff62bf8!WM_bff62be7_1_e
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_e!RR_ebp_bff62bf8!WR_edx_e
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_e!WR_eax_bff62c38
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c38_1_2!RR_eax_bff62c38!WR_eax_2
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_14!RR_al_2_ebp_bff62bf8!WM_bff62be8_1_16
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_16!RR_ebp_bff62bf8!WR_edx_16
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_16!WR_edx_bff62c40
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_e!RR_ebp_bff62bf8!WR_ecx_e
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_e!WR_eax_bff62c38
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c40_esp_bff62bd0!WM_bff62bd4_4_bff62c40
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c38_esp_bff62bd0!WM_bff62bd0_4_bff62c38
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c38!RR_ebp_bff62bc8!WR_eax_bff62c38
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c38_1_2!RR_eax_bff62c38!WR_eax_2
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_2_ebp_bff62bc8!WM_bff62bc7_1_2
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c40!RR_ebp_bff62bc8!WR_eax_bff62c40
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c40_1_14!RR_eax_bff62c40!WR_edx_14
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c38!RR_ebp_bff62bc8!WR_eax_bff62c38
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c38_dl_14!WM_bff62c38_1_14
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c40!RR_ebp_bff62bc8!WR_eax_bff62c40
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_2!RR_ebp_bff62bc8!WR_edx_2
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c40_dl_2!WM_bff62c40_1_2
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_e!RR_ebp_bff62bf8!WR_edx_e
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_e!WR_eax_bff62c38
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c38_1_14!RR_eax_bff62c38!WR_edx_14
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_16!RR_ebp_bff62bf8!WR_ecx_16
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_16!WR_eax_bff62c40
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c40_1_2!RR_eax_bff62c40!WR_eax_2
+8048de6!add eax, edx!RR_eax_2_edx_14!WR_eax_16
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_16_ebp_bff62bf8!WM_bff62be9_1_16
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_d!RR_ebp_bff62bf8!WR_edx_d
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_d!WR_edx_910c049
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_d!RR_ebp_bff62bf8!WR_ecx_d
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_d!WR_eax_910c049
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c049_1_73!RR_eax_910c049!WR_ecx_73
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_16!RR_ebp_bff62bf8!WR_ebx_16
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_16!WR_eax_bff62c40
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c40_1_2!RR_eax_bff62c40!WR_eax_2
+8048e0c!xor eax, ecx!RR_eax_2_ecx_73!WR_eax_71
+8048e0e!mov byte ptr [edx], al!RR_al_71_edx_910c049!WM_910c049_1_71
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_d!RR_ebp_bff62bf8!WR_eax_d
+8048e14!add eax, 0x1!RR_eax_d!WR_eax_e
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_e_ebp_bff62bf8!WM_bff62bea_2_e
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_e!RR_ebp_bff62bf8!WR_eax_e
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_e_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_e!RR_ebp_bff62bf8!WR_eax_e
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_e!WR_edx_f
+8048d8d!mov eax, edx!RR_edx_f!WR_eax_f
+8048d8f!sar eax, 0x1f!RR_eax_f!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_f!WR_edx_f
+8048d97!movzx edx, dl!RR_dl_f!WR_edx_f
+8048d9a!sub edx, eax!RR_eax_0_edx_f!WR_edx_f
+8048d9c!mov eax, edx!RR_edx_f!WR_eax_f
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_f_ebp_bff62bf8!WM_bff62be7_1_f
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_f!RR_ebp_bff62bf8!WR_edx_f
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_f!WR_eax_bff62c39
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c39_1_bc!RR_eax_bff62c39!WR_eax_bc
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_16!RR_al_bc_ebp_bff62bf8!WM_bff62be8_1_d2
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_d2!RR_ebp_bff62bf8!WR_edx_d2
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_d2!WR_edx_bff62cfc
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_f!RR_ebp_bff62bf8!WR_ecx_f
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_f!WR_eax_bff62c39
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62cfc_esp_bff62bd0!WM_bff62bd4_4_bff62cfc
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c39_esp_bff62bd0!WM_bff62bd0_4_bff62c39
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c39!RR_ebp_bff62bc8!WR_eax_bff62c39
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c39_1_bc!RR_eax_bff62c39!WR_eax_bc
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_bc_ebp_bff62bc8!WM_bff62bc7_1_bc
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cfc!RR_ebp_bff62bc8!WR_eax_bff62cfc
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62cfc_1_1e!RR_eax_bff62cfc!WR_edx_1e
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c39!RR_ebp_bff62bc8!WR_eax_bff62c39
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c39_dl_1e!WM_bff62c39_1_1e
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cfc!RR_ebp_bff62bc8!WR_eax_bff62cfc
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_bc!RR_ebp_bff62bc8!WR_edx_bc
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62cfc_dl_bc!WM_bff62cfc_1_bc
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_f!RR_ebp_bff62bf8!WR_edx_f
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_f!WR_eax_bff62c39
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c39_1_1e!RR_eax_bff62c39!WR_edx_1e
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_d2!RR_ebp_bff62bf8!WR_ecx_d2
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_d2!WR_eax_bff62cfc
+8048de3!movzx eax, byte ptr [eax]!RM_bff62cfc_1_bc!RR_eax_bff62cfc!WR_eax_bc
+8048de6!add eax, edx!RR_eax_bc_edx_1e!WR_eax_da
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_da_ebp_bff62bf8!WM_bff62be9_1_da
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_e!RR_ebp_bff62bf8!WR_edx_e
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_e!WR_edx_910c04a
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_e!RR_ebp_bff62bf8!WR_ecx_e
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_e!WR_eax_910c04a
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c04a_1_61!RR_eax_910c04a!WR_ecx_61
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_da!RR_ebp_bff62bf8!WR_ebx_da
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_da!WR_eax_bff62d04
+8048e09!movzx eax, byte ptr [eax]!RM_bff62d04_1_29!RR_eax_bff62d04!WR_eax_29
+8048e0c!xor eax, ecx!RR_eax_29_ecx_61!WR_eax_48
+8048e0e!mov byte ptr [edx], al!RR_al_48_edx_910c04a!WM_910c04a_1_48
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_e!RR_ebp_bff62bf8!WR_eax_e
+8048e14!add eax, 0x1!RR_eax_e!WR_eax_f
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_f_ebp_bff62bf8!WM_bff62bea_2_f
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_f!RR_ebp_bff62bf8!WR_eax_f
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_f_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_f!RR_ebp_bff62bf8!WR_eax_f
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_f!WR_edx_10
+8048d8d!mov eax, edx!RR_edx_10!WR_eax_10
+8048d8f!sar eax, 0x1f!RR_eax_10!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_10!WR_edx_10
+8048d97!movzx edx, dl!RR_dl_10!WR_edx_10
+8048d9a!sub edx, eax!RR_eax_0_edx_10!WR_edx_10
+8048d9c!mov eax, edx!RR_edx_10!WR_eax_10
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_10_ebp_bff62bf8!WM_bff62be7_1_10
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_10!RR_ebp_bff62bf8!WR_edx_10
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_10!WR_eax_bff62c3a
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c3a_1_ef!RR_eax_bff62c3a!WR_eax_ef
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_d2!RR_al_ef_ebp_bff62bf8!WM_bff62be8_1_c1
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_c1!RR_ebp_bff62bf8!WR_edx_c1
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_c1!WR_edx_bff62ceb
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_10!RR_ebp_bff62bf8!WR_ecx_10
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_10!WR_eax_bff62c3a
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62ceb_esp_bff62bd0!WM_bff62bd4_4_bff62ceb
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c3a_esp_bff62bd0!WM_bff62bd0_4_bff62c3a
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c3a!RR_ebp_bff62bc8!WR_eax_bff62c3a
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c3a_1_ef!RR_eax_bff62c3a!WR_eax_ef
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_ef_ebp_bff62bc8!WM_bff62bc7_1_ef
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62ceb!RR_ebp_bff62bc8!WR_eax_bff62ceb
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62ceb_1_e2!RR_eax_bff62ceb!WR_edx_e2
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c3a!RR_ebp_bff62bc8!WR_eax_bff62c3a
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c3a_dl_e2!WM_bff62c3a_1_e2
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62ceb!RR_ebp_bff62bc8!WR_eax_bff62ceb
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_ef!RR_ebp_bff62bc8!WR_edx_ef
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62ceb_dl_ef!WM_bff62ceb_1_ef
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_10!RR_ebp_bff62bf8!WR_edx_10
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_10!WR_eax_bff62c3a
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c3a_1_e2!RR_eax_bff62c3a!WR_edx_e2
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_c1!RR_ebp_bff62bf8!WR_ecx_c1
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_c1!WR_eax_bff62ceb
+8048de3!movzx eax, byte ptr [eax]!RM_bff62ceb_1_ef!RR_eax_bff62ceb!WR_eax_ef
+8048de6!add eax, edx!RR_eax_ef_edx_e2!WR_eax_1d1
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_d1_ebp_bff62bf8!WM_bff62be9_1_d1
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_f!RR_ebp_bff62bf8!WR_edx_f
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_f!WR_edx_910c04b
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_f!RR_ebp_bff62bf8!WR_ecx_f
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_f!WR_eax_910c04b
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c04b_1_67!RR_eax_910c04b!WR_ecx_67
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_d1!RR_ebp_bff62bf8!WR_ebx_d1
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_d1!WR_eax_bff62cfb
+8048e09!movzx eax, byte ptr [eax]!RM_bff62cfb_1_92!RR_eax_bff62cfb!WR_eax_92
+8048e0c!xor eax, ecx!RR_eax_92_ecx_67!WR_eax_f5
+8048e0e!mov byte ptr [edx], al!RR_al_f5_edx_910c04b!WM_910c04b_1_f5
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_f!RR_ebp_bff62bf8!WR_eax_f
+8048e14!add eax, 0x1!RR_eax_f!WR_eax_10
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_10_ebp_bff62bf8!WM_bff62bea_2_10
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_10!RR_ebp_bff62bf8!WR_eax_10
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_10_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_10!RR_ebp_bff62bf8!WR_eax_10
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_10!WR_edx_11
+8048d8d!mov eax, edx!RR_edx_11!WR_eax_11
+8048d8f!sar eax, 0x1f!RR_eax_11!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_11!WR_edx_11
+8048d97!movzx edx, dl!RR_dl_11!WR_edx_11
+8048d9a!sub edx, eax!RR_eax_0_edx_11!WR_edx_11
+8048d9c!mov eax, edx!RR_edx_11!WR_eax_11
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_11_ebp_bff62bf8!WM_bff62be7_1_11
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_11!RR_ebp_bff62bf8!WR_edx_11
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_11!WR_eax_bff62c3b
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c3b_1_8d!RR_eax_bff62c3b!WR_eax_8d
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_c1!RR_al_8d_ebp_bff62bf8!WM_bff62be8_1_4e
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_4e!RR_ebp_bff62bf8!WR_edx_4e
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_4e!WR_edx_bff62c78
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_11!RR_ebp_bff62bf8!WR_ecx_11
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_11!WR_eax_bff62c3b
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c78_esp_bff62bd0!WM_bff62bd4_4_bff62c78
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c3b_esp_bff62bd0!WM_bff62bd0_4_bff62c3b
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c3b!RR_ebp_bff62bc8!WR_eax_bff62c3b
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c3b_1_8d!RR_eax_bff62c3b!WR_eax_8d
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_8d_ebp_bff62bc8!WM_bff62bc7_1_8d
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c78!RR_ebp_bff62bc8!WR_eax_bff62c78
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c78_1_96!RR_eax_bff62c78!WR_edx_96
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c3b!RR_ebp_bff62bc8!WR_eax_bff62c3b
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c3b_dl_96!WM_bff62c3b_1_96
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c78!RR_ebp_bff62bc8!WR_eax_bff62c78
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_8d!RR_ebp_bff62bc8!WR_edx_8d
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c78_dl_8d!WM_bff62c78_1_8d
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_11!RR_ebp_bff62bf8!WR_edx_11
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_11!WR_eax_bff62c3b
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c3b_1_96!RR_eax_bff62c3b!WR_edx_96
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_4e!RR_ebp_bff62bf8!WR_ecx_4e
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_4e!WR_eax_bff62c78
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c78_1_8d!RR_eax_bff62c78!WR_eax_8d
+8048de6!add eax, edx!RR_eax_8d_edx_96!WR_eax_123
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_23_ebp_bff62bf8!WM_bff62be9_1_23
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_10!RR_ebp_bff62bf8!WR_edx_10
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_10!WR_edx_910c04c
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_10!RR_ebp_bff62bf8!WR_ecx_10
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_10!WR_eax_910c04c
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c04c_1_65!RR_eax_910c04c!WR_ecx_65
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_23!RR_ebp_bff62bf8!WR_ebx_23
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_23!WR_eax_bff62c4d
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c4d_1_1f!RR_eax_bff62c4d!WR_eax_1f
+8048e0c!xor eax, ecx!RR_eax_1f_ecx_65!WR_eax_7a
+8048e0e!mov byte ptr [edx], al!RR_al_7a_edx_910c04c!WM_910c04c_1_7a
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_10!RR_ebp_bff62bf8!WR_eax_10
+8048e14!add eax, 0x1!RR_eax_10!WR_eax_11
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_11_ebp_bff62bf8!WM_bff62bea_2_11
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_11!RR_ebp_bff62bf8!WR_eax_11
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_11_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_11!RR_ebp_bff62bf8!WR_eax_11
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_11!WR_edx_12
+8048d8d!mov eax, edx!RR_edx_12!WR_eax_12
+8048d8f!sar eax, 0x1f!RR_eax_12!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_12!WR_edx_12
+8048d97!movzx edx, dl!RR_dl_12!WR_edx_12
+8048d9a!sub edx, eax!RR_eax_0_edx_12!WR_edx_12
+8048d9c!mov eax, edx!RR_edx_12!WR_eax_12
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_12_ebp_bff62bf8!WM_bff62be7_1_12
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_12!RR_ebp_bff62bf8!WR_edx_12
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_12!WR_eax_bff62c3c
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c3c_1_e8!RR_eax_bff62c3c!WR_eax_e8
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_4e!RR_al_e8_ebp_bff62bf8!WM_bff62be8_1_36
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_36!RR_ebp_bff62bf8!WR_edx_36
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_36!WR_edx_bff62c60
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_12!RR_ebp_bff62bf8!WR_ecx_12
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_12!WR_eax_bff62c3c
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c60_esp_bff62bd0!WM_bff62bd4_4_bff62c60
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c3c_esp_bff62bd0!WM_bff62bd0_4_bff62c3c
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c3c!RR_ebp_bff62bc8!WR_eax_bff62c3c
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c3c_1_e8!RR_eax_bff62c3c!WR_eax_e8
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_e8_ebp_bff62bc8!WM_bff62bc7_1_e8
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c60!RR_ebp_bff62bc8!WR_eax_bff62c60
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c60_1_da!RR_eax_bff62c60!WR_edx_da
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c3c!RR_ebp_bff62bc8!WR_eax_bff62c3c
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c3c_dl_da!WM_bff62c3c_1_da
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c60!RR_ebp_bff62bc8!WR_eax_bff62c60
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_e8!RR_ebp_bff62bc8!WR_edx_e8
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c60_dl_e8!WM_bff62c60_1_e8
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_12!RR_ebp_bff62bf8!WR_edx_12
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_12!WR_eax_bff62c3c
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c3c_1_da!RR_eax_bff62c3c!WR_edx_da
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_36!RR_ebp_bff62bf8!WR_ecx_36
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_36!WR_eax_bff62c60
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c60_1_e8!RR_eax_bff62c60!WR_eax_e8
+8048de6!add eax, edx!RR_eax_e8_edx_da!WR_eax_1c2
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_c2_ebp_bff62bf8!WM_bff62be9_1_c2
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_11!RR_ebp_bff62bf8!WR_edx_11
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_11!WR_edx_910c04d
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_11!RR_ebp_bff62bf8!WR_ecx_11
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_11!WR_eax_910c04d
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c04d_1_41!RR_eax_910c04d!WR_ecx_41
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_c2!RR_ebp_bff62bf8!WR_ebx_c2
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_c2!WR_eax_bff62cec
+8048e09!movzx eax, byte ptr [eax]!RM_bff62cec_1_30!RR_eax_bff62cec!WR_eax_30
+8048e0c!xor eax, ecx!RR_eax_30_ecx_41!WR_eax_71
+8048e0e!mov byte ptr [edx], al!RR_al_71_edx_910c04d!WM_910c04d_1_71
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_11!RR_ebp_bff62bf8!WR_eax_11
+8048e14!add eax, 0x1!RR_eax_11!WR_eax_12
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_12_ebp_bff62bf8!WM_bff62bea_2_12
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_12!RR_ebp_bff62bf8!WR_eax_12
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_12_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_12!RR_ebp_bff62bf8!WR_eax_12
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_12!WR_edx_13
+8048d8d!mov eax, edx!RR_edx_13!WR_eax_13
+8048d8f!sar eax, 0x1f!RR_eax_13!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_13!WR_edx_13
+8048d97!movzx edx, dl!RR_dl_13!WR_edx_13
+8048d9a!sub edx, eax!RR_eax_0_edx_13!WR_edx_13
+8048d9c!mov eax, edx!RR_edx_13!WR_eax_13
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_13_ebp_bff62bf8!WM_bff62be7_1_13
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_13!RR_ebp_bff62bf8!WR_edx_13
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_13!WR_eax_bff62c3d
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c3d_1_7e!RR_eax_bff62c3d!WR_eax_7e
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_36!RR_al_7e_ebp_bff62bf8!WM_bff62be8_1_b4
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_b4!RR_ebp_bff62bf8!WR_edx_b4
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_b4!WR_edx_bff62cde
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_13!RR_ebp_bff62bf8!WR_ecx_13
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_13!WR_eax_bff62c3d
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62cde_esp_bff62bd0!WM_bff62bd4_4_bff62cde
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c3d_esp_bff62bd0!WM_bff62bd0_4_bff62c3d
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c3d!RR_ebp_bff62bc8!WR_eax_bff62c3d
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c3d_1_7e!RR_eax_bff62c3d!WR_eax_7e
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_7e_ebp_bff62bc8!WM_bff62bc7_1_7e
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cde!RR_ebp_bff62bc8!WR_eax_bff62cde
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62cde_1_43!RR_eax_bff62cde!WR_edx_43
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c3d!RR_ebp_bff62bc8!WR_eax_bff62c3d
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c3d_dl_43!WM_bff62c3d_1_43
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cde!RR_ebp_bff62bc8!WR_eax_bff62cde
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_7e!RR_ebp_bff62bc8!WR_edx_7e
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62cde_dl_7e!WM_bff62cde_1_7e
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_13!RR_ebp_bff62bf8!WR_edx_13
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_13!WR_eax_bff62c3d
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c3d_1_43!RR_eax_bff62c3d!WR_edx_43
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_b4!RR_ebp_bff62bf8!WR_ecx_b4
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_b4!WR_eax_bff62cde
+8048de3!movzx eax, byte ptr [eax]!RM_bff62cde_1_7e!RR_eax_bff62cde!WR_eax_7e
+8048de6!add eax, edx!RR_eax_7e_edx_43!WR_eax_c1
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_c1_ebp_bff62bf8!WM_bff62be9_1_c1
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_12!RR_ebp_bff62bf8!WR_edx_12
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_12!WR_edx_910c04e
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_12!RR_ebp_bff62bf8!WR_ecx_12
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_12!WR_eax_910c04e
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c04e_1_42!RR_eax_910c04e!WR_ecx_42
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_c1!RR_ebp_bff62bf8!WR_ebx_c1
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_c1!WR_eax_bff62ceb
+8048e09!movzx eax, byte ptr [eax]!RM_bff62ceb_1_ef!RR_eax_bff62ceb!WR_eax_ef
+8048e0c!xor eax, ecx!RR_eax_ef_ecx_42!WR_eax_ad
+8048e0e!mov byte ptr [edx], al!RR_al_ad_edx_910c04e!WM_910c04e_1_ad
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_12!RR_ebp_bff62bf8!WR_eax_12
+8048e14!add eax, 0x1!RR_eax_12!WR_eax_13
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_13_ebp_bff62bf8!WM_bff62bea_2_13
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_13!RR_ebp_bff62bf8!WR_eax_13
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_13_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_13!RR_ebp_bff62bf8!WR_eax_13
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_13!WR_edx_14
+8048d8d!mov eax, edx!RR_edx_14!WR_eax_14
+8048d8f!sar eax, 0x1f!RR_eax_14!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_14!WR_edx_14
+8048d97!movzx edx, dl!RR_dl_14!WR_edx_14
+8048d9a!sub edx, eax!RR_eax_0_edx_14!WR_edx_14
+8048d9c!mov eax, edx!RR_edx_14!WR_eax_14
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_14_ebp_bff62bf8!WM_bff62be7_1_14
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_14!RR_ebp_bff62bf8!WR_edx_14
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_14!WR_eax_bff62c3e
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c3e_1_f3!RR_eax_bff62c3e!WR_eax_f3
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_b4!RR_al_f3_ebp_bff62bf8!WM_bff62be8_1_a7
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_a7!RR_ebp_bff62bf8!WR_edx_a7
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_a7!WR_edx_bff62cd1
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_14!RR_ebp_bff62bf8!WR_ecx_14
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_14!WR_eax_bff62c3e
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62cd1_esp_bff62bd0!WM_bff62bd4_4_bff62cd1
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c3e_esp_bff62bd0!WM_bff62bd0_4_bff62c3e
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c3e!RR_ebp_bff62bc8!WR_eax_bff62c3e
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c3e_1_f3!RR_eax_bff62c3e!WR_eax_f3
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_f3_ebp_bff62bc8!WM_bff62bc7_1_f3
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cd1!RR_ebp_bff62bc8!WR_eax_bff62cd1
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62cd1_1_dd!RR_eax_bff62cd1!WR_edx_dd
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c3e!RR_ebp_bff62bc8!WR_eax_bff62c3e
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c3e_dl_dd!WM_bff62c3e_1_dd
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cd1!RR_ebp_bff62bc8!WR_eax_bff62cd1
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_f3!RR_ebp_bff62bc8!WR_edx_f3
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62cd1_dl_f3!WM_bff62cd1_1_f3
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_14!RR_ebp_bff62bf8!WR_edx_14
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_14!WR_eax_bff62c3e
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c3e_1_dd!RR_eax_bff62c3e!WR_edx_dd
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_a7!RR_ebp_bff62bf8!WR_ecx_a7
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_a7!WR_eax_bff62cd1
+8048de3!movzx eax, byte ptr [eax]!RM_bff62cd1_1_f3!RR_eax_bff62cd1!WR_eax_f3
+8048de6!add eax, edx!RR_eax_f3_edx_dd!WR_eax_1d0
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_d0_ebp_bff62bf8!WM_bff62be9_1_d0
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_13!RR_ebp_bff62bf8!WR_edx_13
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_13!WR_edx_910c04f
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_13!RR_ebp_bff62bf8!WR_ecx_13
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_13!WR_eax_910c04f
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c04f_1_61!RR_eax_910c04f!WR_ecx_61
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_d0!RR_ebp_bff62bf8!WR_ebx_d0
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_d0!WR_eax_bff62cfa
+8048e09!movzx eax, byte ptr [eax]!RM_bff62cfa_1_c3!RR_eax_bff62cfa!WR_eax_c3
+8048e0c!xor eax, ecx!RR_eax_c3_ecx_61!WR_eax_a2
+8048e0e!mov byte ptr [edx], al!RR_al_a2_edx_910c04f!WM_910c04f_1_a2
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_13!RR_ebp_bff62bf8!WR_eax_13
+8048e14!add eax, 0x1!RR_eax_13!WR_eax_14
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_14_ebp_bff62bf8!WM_bff62bea_2_14
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_14!RR_ebp_bff62bf8!WR_eax_14
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_14_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_14!RR_ebp_bff62bf8!WR_eax_14
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_14!WR_edx_15
+8048d8d!mov eax, edx!RR_edx_15!WR_eax_15
+8048d8f!sar eax, 0x1f!RR_eax_15!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_15!WR_edx_15
+8048d97!movzx edx, dl!RR_dl_15!WR_edx_15
+8048d9a!sub edx, eax!RR_eax_0_edx_15!WR_edx_15
+8048d9c!mov eax, edx!RR_edx_15!WR_eax_15
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_15_ebp_bff62bf8!WM_bff62be7_1_15
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_15!RR_ebp_bff62bf8!WR_edx_15
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_15!WR_eax_bff62c3f
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c3f_1_26!RR_eax_bff62c3f!WR_eax_26
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_a7!RR_al_26_ebp_bff62bf8!WM_bff62be8_1_cd
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_cd!RR_ebp_bff62bf8!WR_edx_cd
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_cd!WR_edx_bff62cf7
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_15!RR_ebp_bff62bf8!WR_ecx_15
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_15!WR_eax_bff62c3f
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62cf7_esp_bff62bd0!WM_bff62bd4_4_bff62cf7
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c3f_esp_bff62bd0!WM_bff62bd0_4_bff62c3f
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c3f!RR_ebp_bff62bc8!WR_eax_bff62c3f
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c3f_1_26!RR_eax_bff62c3f!WR_eax_26
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_26_ebp_bff62bc8!WM_bff62bc7_1_26
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cf7!RR_ebp_bff62bc8!WR_eax_bff62cf7
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62cf7_1_82!RR_eax_bff62cf7!WR_edx_82
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c3f!RR_ebp_bff62bc8!WR_eax_bff62c3f
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c3f_dl_82!WM_bff62c3f_1_82
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cf7!RR_ebp_bff62bc8!WR_eax_bff62cf7
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_26!RR_ebp_bff62bc8!WR_edx_26
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62cf7_dl_26!WM_bff62cf7_1_26
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_15!RR_ebp_bff62bf8!WR_edx_15
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_15!WR_eax_bff62c3f
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c3f_1_82!RR_eax_bff62c3f!WR_edx_82
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_cd!RR_ebp_bff62bf8!WR_ecx_cd
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_cd!WR_eax_bff62cf7
+8048de3!movzx eax, byte ptr [eax]!RM_bff62cf7_1_26!RR_eax_bff62cf7!WR_eax_26
+8048de6!add eax, edx!RR_eax_26_edx_82!WR_eax_a8
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_a8_ebp_bff62bf8!WM_bff62be9_1_a8
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_14!RR_ebp_bff62bf8!WR_edx_14
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_14!WR_edx_910c050
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_14!RR_ebp_bff62bf8!WR_ecx_14
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_14!WR_eax_910c050
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c050_1_73!RR_eax_910c050!WR_ecx_73
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_a8!RR_ebp_bff62bf8!WR_ebx_a8
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_a8!WR_eax_bff62cd2
+8048e09!movzx eax, byte ptr [eax]!RM_bff62cd2_1_5c!RR_eax_bff62cd2!WR_eax_5c
+8048e0c!xor eax, ecx!RR_eax_5c_ecx_73!WR_eax_2f
+8048e0e!mov byte ptr [edx], al!RR_al_2f_edx_910c050!WM_910c050_1_2f
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_14!RR_ebp_bff62bf8!WR_eax_14
+8048e14!add eax, 0x1!RR_eax_14!WR_eax_15
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_15_ebp_bff62bf8!WM_bff62bea_2_15
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_15!RR_ebp_bff62bf8!WR_eax_15
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_15_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_15!RR_ebp_bff62bf8!WR_eax_15
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_15!WR_edx_16
+8048d8d!mov eax, edx!RR_edx_16!WR_eax_16
+8048d8f!sar eax, 0x1f!RR_eax_16!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_16!WR_edx_16
+8048d97!movzx edx, dl!RR_dl_16!WR_edx_16
+8048d9a!sub edx, eax!RR_eax_0_edx_16!WR_edx_16
+8048d9c!mov eax, edx!RR_edx_16!WR_eax_16
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_16_ebp_bff62bf8!WM_bff62be7_1_16
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_16!RR_ebp_bff62bf8!WR_edx_16
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_16!WR_eax_bff62c40
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c40_1_2!RR_eax_bff62c40!WR_eax_2
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_cd!RR_al_2_ebp_bff62bf8!WM_bff62be8_1_cf
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_cf!RR_ebp_bff62bf8!WR_edx_cf
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_cf!WR_edx_bff62cf9
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_16!RR_ebp_bff62bf8!WR_ecx_16
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_16!WR_eax_bff62c40
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62cf9_esp_bff62bd0!WM_bff62bd4_4_bff62cf9
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c40_esp_bff62bd0!WM_bff62bd0_4_bff62c40
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c40!RR_ebp_bff62bc8!WR_eax_bff62c40
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c40_1_2!RR_eax_bff62c40!WR_eax_2
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_2_ebp_bff62bc8!WM_bff62bc7_1_2
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cf9!RR_ebp_bff62bc8!WR_eax_bff62cf9
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62cf9_1_f7!RR_eax_bff62cf9!WR_edx_f7
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c40!RR_ebp_bff62bc8!WR_eax_bff62c40
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c40_dl_f7!WM_bff62c40_1_f7
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cf9!RR_ebp_bff62bc8!WR_eax_bff62cf9
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_2!RR_ebp_bff62bc8!WR_edx_2
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62cf9_dl_2!WM_bff62cf9_1_2
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_16!RR_ebp_bff62bf8!WR_edx_16
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_16!WR_eax_bff62c40
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c40_1_f7!RR_eax_bff62c40!WR_edx_f7
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_cf!RR_ebp_bff62bf8!WR_ecx_cf
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_cf!WR_eax_bff62cf9
+8048de3!movzx eax, byte ptr [eax]!RM_bff62cf9_1_2!RR_eax_bff62cf9!WR_eax_2
+8048de6!add eax, edx!RR_eax_2_edx_f7!WR_eax_f9
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_f9_ebp_bff62bf8!WM_bff62be9_1_f9
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_15!RR_ebp_bff62bf8!WR_edx_15
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_15!WR_edx_910c051
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_15!RR_ebp_bff62bf8!WR_ecx_15
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_15!WR_eax_910c051
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c051_1_65!RR_eax_910c051!WR_ecx_65
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_f9!RR_ebp_bff62bf8!WR_ebx_f9
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_f9!WR_eax_bff62d23
+8048e09!movzx eax, byte ptr [eax]!RM_bff62d23_1_54!RR_eax_bff62d23!WR_eax_54
+8048e0c!xor eax, ecx!RR_eax_54_ecx_65!WR_eax_31
+8048e0e!mov byte ptr [edx], al!RR_al_31_edx_910c051!WM_910c051_1_31
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_15!RR_ebp_bff62bf8!WR_eax_15
+8048e14!add eax, 0x1!RR_eax_15!WR_eax_16
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_16_ebp_bff62bf8!WM_bff62bea_2_16
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_16!RR_ebp_bff62bf8!WR_eax_16
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_16_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_16!RR_ebp_bff62bf8!WR_eax_16
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_16!WR_edx_17
+8048d8d!mov eax, edx!RR_edx_17!WR_eax_17
+8048d8f!sar eax, 0x1f!RR_eax_17!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_17!WR_edx_17
+8048d97!movzx edx, dl!RR_dl_17!WR_edx_17
+8048d9a!sub edx, eax!RR_eax_0_edx_17!WR_edx_17
+8048d9c!mov eax, edx!RR_edx_17!WR_eax_17
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_17_ebp_bff62bf8!WM_bff62be7_1_17
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_17!RR_ebp_bff62bf8!WR_edx_17
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_17!WR_eax_bff62c41
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c41_1_89!RR_eax_bff62c41!WR_eax_89
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_cf!RR_al_89_ebp_bff62bf8!WM_bff62be8_1_58
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_58!RR_ebp_bff62bf8!WR_edx_58
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_58!WR_edx_bff62c82
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_17!RR_ebp_bff62bf8!WR_ecx_17
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_17!WR_eax_bff62c41
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c82_esp_bff62bd0!WM_bff62bd4_4_bff62c82
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c41_esp_bff62bd0!WM_bff62bd0_4_bff62c41
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c41!RR_ebp_bff62bc8!WR_eax_bff62c41
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c41_1_89!RR_eax_bff62c41!WR_eax_89
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_89_ebp_bff62bc8!WM_bff62bc7_1_89
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c82!RR_ebp_bff62bc8!WR_eax_bff62c82
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c82_1_d6!RR_eax_bff62c82!WR_edx_d6
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c41!RR_ebp_bff62bc8!WR_eax_bff62c41
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c41_dl_d6!WM_bff62c41_1_d6
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c82!RR_ebp_bff62bc8!WR_eax_bff62c82
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_89!RR_ebp_bff62bc8!WR_edx_89
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c82_dl_89!WM_bff62c82_1_89
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_17!RR_ebp_bff62bf8!WR_edx_17
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_17!WR_eax_bff62c41
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c41_1_d6!RR_eax_bff62c41!WR_edx_d6
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_58!RR_ebp_bff62bf8!WR_ecx_58
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_58!WR_eax_bff62c82
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c82_1_89!RR_eax_bff62c82!WR_eax_89
+8048de6!add eax, edx!RR_eax_89_edx_d6!WR_eax_15f
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_5f_ebp_bff62bf8!WM_bff62be9_1_5f
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_16!RR_ebp_bff62bf8!WR_edx_16
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_16!WR_edx_910c052
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_16!RR_ebp_bff62bf8!WR_ecx_16
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_16!WR_eax_910c052
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c052_1_44!RR_eax_910c052!WR_ecx_44
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_5f!RR_ebp_bff62bf8!WR_ebx_5f
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_5f!WR_eax_bff62c89
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c89_1_de!RR_eax_bff62c89!WR_eax_de
+8048e0c!xor eax, ecx!RR_eax_de_ecx_44!WR_eax_9a
+8048e0e!mov byte ptr [edx], al!RR_al_9a_edx_910c052!WM_910c052_1_9a
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_16!RR_ebp_bff62bf8!WR_eax_16
+8048e14!add eax, 0x1!RR_eax_16!WR_eax_17
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_17_ebp_bff62bf8!WM_bff62bea_2_17
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_17!RR_ebp_bff62bf8!WR_eax_17
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_17_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_17!RR_ebp_bff62bf8!WR_eax_17
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_17!WR_edx_18
+8048d8d!mov eax, edx!RR_edx_18!WR_eax_18
+8048d8f!sar eax, 0x1f!RR_eax_18!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_18!WR_edx_18
+8048d97!movzx edx, dl!RR_dl_18!WR_edx_18
+8048d9a!sub edx, eax!RR_eax_0_edx_18!WR_edx_18
+8048d9c!mov eax, edx!RR_edx_18!WR_eax_18
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_18_ebp_bff62bf8!WM_bff62be7_1_18
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_18!RR_ebp_bff62bf8!WR_edx_18
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_18!WR_eax_bff62c42
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c42_1_6f!RR_eax_bff62c42!WR_eax_6f
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_58!RR_al_6f_ebp_bff62bf8!WM_bff62be8_1_c7
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_c7!RR_ebp_bff62bf8!WR_edx_c7
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_c7!WR_edx_bff62cf1
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_18!RR_ebp_bff62bf8!WR_ecx_18
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_18!WR_eax_bff62c42
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62cf1_esp_bff62bd0!WM_bff62bd4_4_bff62cf1
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c42_esp_bff62bd0!WM_bff62bd0_4_bff62c42
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c42!RR_ebp_bff62bc8!WR_eax_bff62c42
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c42_1_6f!RR_eax_bff62c42!WR_eax_6f
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_6f_ebp_bff62bc8!WM_bff62bc7_1_6f
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cf1!RR_ebp_bff62bc8!WR_eax_bff62cf1
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62cf1_1_b1!RR_eax_bff62cf1!WR_edx_b1
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c42!RR_ebp_bff62bc8!WR_eax_bff62c42
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c42_dl_b1!WM_bff62c42_1_b1
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cf1!RR_ebp_bff62bc8!WR_eax_bff62cf1
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_6f!RR_ebp_bff62bc8!WR_edx_6f
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62cf1_dl_6f!WM_bff62cf1_1_6f
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_18!RR_ebp_bff62bf8!WR_edx_18
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_18!WR_eax_bff62c42
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c42_1_b1!RR_eax_bff62c42!WR_edx_b1
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_c7!RR_ebp_bff62bf8!WR_ecx_c7
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_c7!WR_eax_bff62cf1
+8048de3!movzx eax, byte ptr [eax]!RM_bff62cf1_1_6f!RR_eax_bff62cf1!WR_eax_6f
+8048de6!add eax, edx!RR_eax_6f_edx_b1!WR_eax_120
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_20_ebp_bff62bf8!WM_bff62be9_1_20
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_17!RR_ebp_bff62bf8!WR_edx_17
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_17!WR_edx_910c053
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_17!RR_ebp_bff62bf8!WR_ecx_17
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_17!WR_eax_910c053
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c053_1_65!RR_eax_910c053!WR_ecx_65
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_20!RR_ebp_bff62bf8!WR_ebx_20
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_20!WR_eax_bff62c4a
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c4a_1_ad!RR_eax_bff62c4a!WR_eax_ad
+8048e0c!xor eax, ecx!RR_eax_ad_ecx_65!WR_eax_c8
+8048e0e!mov byte ptr [edx], al!RR_al_c8_edx_910c053!WM_910c053_1_c8
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_17!RR_ebp_bff62bf8!WR_eax_17
+8048e14!add eax, 0x1!RR_eax_17!WR_eax_18
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_18_ebp_bff62bf8!WM_bff62bea_2_18
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_18!RR_ebp_bff62bf8!WR_eax_18
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_18_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_18!RR_ebp_bff62bf8!WR_eax_18
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_18!WR_edx_19
+8048d8d!mov eax, edx!RR_edx_19!WR_eax_19
+8048d8f!sar eax, 0x1f!RR_eax_19!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_19!WR_edx_19
+8048d97!movzx edx, dl!RR_dl_19!WR_edx_19
+8048d9a!sub edx, eax!RR_eax_0_edx_19!WR_edx_19
+8048d9c!mov eax, edx!RR_edx_19!WR_eax_19
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_19_ebp_bff62bf8!WM_bff62be7_1_19
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_19!RR_ebp_bff62bf8!WR_edx_19
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_19!WR_eax_bff62c43
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c43_1_4f!RR_eax_bff62c43!WR_eax_4f
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_c7!RR_al_4f_ebp_bff62bf8!WM_bff62be8_1_16
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_16!RR_ebp_bff62bf8!WR_edx_16
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_16!WR_edx_bff62c40
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_19!RR_ebp_bff62bf8!WR_ecx_19
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_19!WR_eax_bff62c43
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c40_esp_bff62bd0!WM_bff62bd4_4_bff62c40
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c43_esp_bff62bd0!WM_bff62bd0_4_bff62c43
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c43!RR_ebp_bff62bc8!WR_eax_bff62c43
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c43_1_4f!RR_eax_bff62c43!WR_eax_4f
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_4f_ebp_bff62bc8!WM_bff62bc7_1_4f
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c40!RR_ebp_bff62bc8!WR_eax_bff62c40
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c40_1_f7!RR_eax_bff62c40!WR_edx_f7
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c43!RR_ebp_bff62bc8!WR_eax_bff62c43
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c43_dl_f7!WM_bff62c43_1_f7
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c40!RR_ebp_bff62bc8!WR_eax_bff62c40
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_4f!RR_ebp_bff62bc8!WR_edx_4f
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c40_dl_4f!WM_bff62c40_1_4f
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_19!RR_ebp_bff62bf8!WR_edx_19
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_19!WR_eax_bff62c43
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c43_1_f7!RR_eax_bff62c43!WR_edx_f7
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_16!RR_ebp_bff62bf8!WR_ecx_16
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_16!WR_eax_bff62c40
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c40_1_4f!RR_eax_bff62c40!WR_eax_4f
+8048de6!add eax, edx!RR_eax_4f_edx_f7!WR_eax_146
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_46_ebp_bff62bf8!WM_bff62be9_1_46
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_18!RR_ebp_bff62bf8!WR_edx_18
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_18!WR_edx_910c054
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_18!RR_ebp_bff62bf8!WR_ecx_18
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_18!WR_eax_910c054
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c054_1_54!RR_eax_910c054!WR_ecx_54
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_46!RR_ebp_bff62bf8!WR_ebx_46
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_46!WR_eax_bff62c70
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c70_1_e9!RR_eax_bff62c70!WR_eax_e9
+8048e0c!xor eax, ecx!RR_eax_e9_ecx_54!WR_eax_bd
+8048e0e!mov byte ptr [edx], al!RR_al_bd_edx_910c054!WM_910c054_1_bd
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_18!RR_ebp_bff62bf8!WR_eax_18
+8048e14!add eax, 0x1!RR_eax_18!WR_eax_19
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_19_ebp_bff62bf8!WM_bff62bea_2_19
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_19!RR_ebp_bff62bf8!WR_eax_19
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_19_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_19!RR_ebp_bff62bf8!WR_eax_19
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_19!WR_edx_1a
+8048d8d!mov eax, edx!RR_edx_1a!WR_eax_1a
+8048d8f!sar eax, 0x1f!RR_eax_1a!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_1a!WR_edx_1a
+8048d97!movzx edx, dl!RR_dl_1a!WR_edx_1a
+8048d9a!sub edx, eax!RR_eax_0_edx_1a!WR_edx_1a
+8048d9c!mov eax, edx!RR_edx_1a!WR_eax_1a
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_1a_ebp_bff62bf8!WM_bff62be7_1_1a
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_1a!RR_ebp_bff62bf8!WR_edx_1a
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_1a!WR_eax_bff62c44
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c44_1_b8!RR_eax_bff62c44!WR_eax_b8
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_16!RR_al_b8_ebp_bff62bf8!WM_bff62be8_1_ce
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_ce!RR_ebp_bff62bf8!WR_edx_ce
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_ce!WR_edx_bff62cf8
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_1a!RR_ebp_bff62bf8!WR_ecx_1a
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_1a!WR_eax_bff62c44
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62cf8_esp_bff62bd0!WM_bff62bd4_4_bff62cf8
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c44_esp_bff62bd0!WM_bff62bd0_4_bff62c44
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c44!RR_ebp_bff62bc8!WR_eax_bff62c44
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c44_1_b8!RR_eax_bff62c44!WR_eax_b8
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_b8_ebp_bff62bc8!WM_bff62bc7_1_b8
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cf8!RR_ebp_bff62bc8!WR_eax_bff62cf8
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62cf8_1_50!RR_eax_bff62cf8!WR_edx_50
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c44!RR_ebp_bff62bc8!WR_eax_bff62c44
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c44_dl_50!WM_bff62c44_1_50
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cf8!RR_ebp_bff62bc8!WR_eax_bff62cf8
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_b8!RR_ebp_bff62bc8!WR_edx_b8
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62cf8_dl_b8!WM_bff62cf8_1_b8
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_1a!RR_ebp_bff62bf8!WR_edx_1a
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_1a!WR_eax_bff62c44
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c44_1_50!RR_eax_bff62c44!WR_edx_50
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_ce!RR_ebp_bff62bf8!WR_ecx_ce
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_ce!WR_eax_bff62cf8
+8048de3!movzx eax, byte ptr [eax]!RM_bff62cf8_1_b8!RR_eax_bff62cf8!WR_eax_b8
+8048de6!add eax, edx!RR_eax_b8_edx_50!WR_eax_108
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_8_ebp_bff62bf8!WM_bff62be9_1_8
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_19!RR_ebp_bff62bf8!WR_edx_19
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_19!WR_edx_910c055
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_19!RR_ebp_bff62bf8!WR_ecx_19
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_19!WR_eax_910c055
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c055_1_72!RR_eax_910c055!WR_ecx_72
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_8!RR_ebp_bff62bf8!WR_ebx_8
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_8!WR_eax_bff62c32
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c32_1_bd!RR_eax_bff62c32!WR_eax_bd
+8048e0c!xor eax, ecx!RR_eax_bd_ecx_72!WR_eax_cf
+8048e0e!mov byte ptr [edx], al!RR_al_cf_edx_910c055!WM_910c055_1_cf
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_19!RR_ebp_bff62bf8!WR_eax_19
+8048e14!add eax, 0x1!RR_eax_19!WR_eax_1a
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_1a_ebp_bff62bf8!WM_bff62bea_2_1a
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_1a!RR_ebp_bff62bf8!WR_eax_1a
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_1a_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_1a!RR_ebp_bff62bf8!WR_eax_1a
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_1a!WR_edx_1b
+8048d8d!mov eax, edx!RR_edx_1b!WR_eax_1b
+8048d8f!sar eax, 0x1f!RR_eax_1b!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_1b!WR_edx_1b
+8048d97!movzx edx, dl!RR_dl_1b!WR_edx_1b
+8048d9a!sub edx, eax!RR_eax_0_edx_1b!WR_edx_1b
+8048d9c!mov eax, edx!RR_edx_1b!WR_eax_1b
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_1b_ebp_bff62bf8!WM_bff62be7_1_1b
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_1b!RR_ebp_bff62bf8!WR_edx_1b
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_1b!WR_eax_bff62c45
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c45_1_46!RR_eax_bff62c45!WR_eax_46
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_ce!RR_al_46_ebp_bff62bf8!WM_bff62be8_1_14
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_14!RR_ebp_bff62bf8!WR_edx_14
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_14!WR_edx_bff62c3e
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_1b!RR_ebp_bff62bf8!WR_ecx_1b
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_1b!WR_eax_bff62c45
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c3e_esp_bff62bd0!WM_bff62bd4_4_bff62c3e
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c45_esp_bff62bd0!WM_bff62bd0_4_bff62c45
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c45!RR_ebp_bff62bc8!WR_eax_bff62c45
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c45_1_46!RR_eax_bff62c45!WR_eax_46
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_46_ebp_bff62bc8!WM_bff62bc7_1_46
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c3e!RR_ebp_bff62bc8!WR_eax_bff62c3e
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c3e_1_dd!RR_eax_bff62c3e!WR_edx_dd
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c45!RR_ebp_bff62bc8!WR_eax_bff62c45
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c45_dl_dd!WM_bff62c45_1_dd
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c3e!RR_ebp_bff62bc8!WR_eax_bff62c3e
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_46!RR_ebp_bff62bc8!WR_edx_46
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c3e_dl_46!WM_bff62c3e_1_46
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_1b!RR_ebp_bff62bf8!WR_edx_1b
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_1b!WR_eax_bff62c45
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c45_1_dd!RR_eax_bff62c45!WR_edx_dd
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_14!RR_ebp_bff62bf8!WR_ecx_14
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_14!WR_eax_bff62c3e
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c3e_1_46!RR_eax_bff62c3e!WR_eax_46
+8048de6!add eax, edx!RR_eax_46_edx_dd!WR_eax_123
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_23_ebp_bff62bf8!WM_bff62be9_1_23
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_1a!RR_ebp_bff62bf8!WR_edx_1a
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_1a!WR_edx_910c056
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_1a!RR_ebp_bff62bf8!WR_ecx_1a
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_1a!WR_eax_910c056
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c056_1_6f!RR_eax_910c056!WR_ecx_6f
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_23!RR_ebp_bff62bf8!WR_ebx_23
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_23!WR_eax_bff62c4d
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c4d_1_1f!RR_eax_bff62c4d!WR_eax_1f
+8048e0c!xor eax, ecx!RR_eax_1f_ecx_6f!WR_eax_70
+8048e0e!mov byte ptr [edx], al!RR_al_70_edx_910c056!WM_910c056_1_70
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_1a!RR_ebp_bff62bf8!WR_eax_1a
+8048e14!add eax, 0x1!RR_eax_1a!WR_eax_1b
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_1b_ebp_bff62bf8!WM_bff62bea_2_1b
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_1b!RR_ebp_bff62bf8!WR_eax_1b
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_1b_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_1b!RR_ebp_bff62bf8!WR_eax_1b
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_1b!WR_edx_1c
+8048d8d!mov eax, edx!RR_edx_1c!WR_eax_1c
+8048d8f!sar eax, 0x1f!RR_eax_1c!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_1c!WR_edx_1c
+8048d97!movzx edx, dl!RR_dl_1c!WR_edx_1c
+8048d9a!sub edx, eax!RR_eax_0_edx_1c!WR_edx_1c
+8048d9c!mov eax, edx!RR_edx_1c!WR_eax_1c
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_1c_ebp_bff62bf8!WM_bff62be7_1_1c
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_1c!RR_ebp_bff62bf8!WR_edx_1c
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_1c!WR_eax_bff62c46
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c46_1_c5!RR_eax_bff62c46!WR_eax_c5
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_14!RR_al_c5_ebp_bff62bf8!WM_bff62be8_1_d9
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_d9!RR_ebp_bff62bf8!WR_edx_d9
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_d9!WR_edx_bff62d03
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_1c!RR_ebp_bff62bf8!WR_ecx_1c
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_1c!WR_eax_bff62c46
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62d03_esp_bff62bd0!WM_bff62bd4_4_bff62d03
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c46_esp_bff62bd0!WM_bff62bd0_4_bff62c46
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c46!RR_ebp_bff62bc8!WR_eax_bff62c46
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c46_1_c5!RR_eax_bff62c46!WR_eax_c5
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_c5_ebp_bff62bc8!WM_bff62bc7_1_c5
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62d03!RR_ebp_bff62bc8!WR_eax_bff62d03
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62d03_1_a8!RR_eax_bff62d03!WR_edx_a8
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c46!RR_ebp_bff62bc8!WR_eax_bff62c46
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c46_dl_a8!WM_bff62c46_1_a8
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62d03!RR_ebp_bff62bc8!WR_eax_bff62d03
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_c5!RR_ebp_bff62bc8!WR_edx_c5
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62d03_dl_c5!WM_bff62d03_1_c5
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_1c!RR_ebp_bff62bf8!WR_edx_1c
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_1c!WR_eax_bff62c46
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c46_1_a8!RR_eax_bff62c46!WR_edx_a8
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_d9!RR_ebp_bff62bf8!WR_ecx_d9
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_d9!WR_eax_bff62d03
+8048de3!movzx eax, byte ptr [eax]!RM_bff62d03_1_c5!RR_eax_bff62d03!WR_eax_c5
+8048de6!add eax, edx!RR_eax_c5_edx_a8!WR_eax_16d
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_6d_ebp_bff62bf8!WM_bff62be9_1_6d
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_1b!RR_ebp_bff62bf8!WR_edx_1b
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_1b!WR_edx_910c057
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_1b!RR_ebp_bff62bf8!WR_ecx_1b
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_1b!WR_eax_910c057
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c057_1_6d!RR_eax_910c057!WR_ecx_6d
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_6d!RR_ebp_bff62bf8!WR_ebx_6d
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_6d!WR_eax_bff62c97
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c97_1_3e!RR_eax_bff62c97!WR_eax_3e
+8048e0c!xor eax, ecx!RR_eax_3e_ecx_6d!WR_eax_53
+8048e0e!mov byte ptr [edx], al!RR_al_53_edx_910c057!WM_910c057_1_53
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_1b!RR_ebp_bff62bf8!WR_eax_1b
+8048e14!add eax, 0x1!RR_eax_1b!WR_eax_1c
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_1c_ebp_bff62bf8!WM_bff62bea_2_1c
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_1c!RR_ebp_bff62bf8!WR_eax_1c
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_1c_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_1c!RR_ebp_bff62bf8!WR_eax_1c
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_1c!WR_edx_1d
+8048d8d!mov eax, edx!RR_edx_1d!WR_eax_1d
+8048d8f!sar eax, 0x1f!RR_eax_1d!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_1d!WR_edx_1d
+8048d97!movzx edx, dl!RR_dl_1d!WR_edx_1d
+8048d9a!sub edx, eax!RR_eax_0_edx_1d!WR_edx_1d
+8048d9c!mov eax, edx!RR_edx_1d!WR_eax_1d
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_1d_ebp_bff62bf8!WM_bff62be7_1_1d
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_1d!RR_ebp_bff62bf8!WR_edx_1d
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_1d!WR_eax_bff62c47
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c47_1_81!RR_eax_bff62c47!WR_eax_81
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_d9!RR_al_81_ebp_bff62bf8!WM_bff62be8_1_5a
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_5a!RR_ebp_bff62bf8!WR_edx_5a
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_5a!WR_edx_bff62c84
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_1d!RR_ebp_bff62bf8!WR_ecx_1d
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_1d!WR_eax_bff62c47
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c84_esp_bff62bd0!WM_bff62bd4_4_bff62c84
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c47_esp_bff62bd0!WM_bff62bd0_4_bff62c47
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c47!RR_ebp_bff62bc8!WR_eax_bff62c47
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c47_1_81!RR_eax_bff62c47!WR_eax_81
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_81_ebp_bff62bc8!WM_bff62bc7_1_81
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c84!RR_ebp_bff62bc8!WR_eax_bff62c84
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c84_1_44!RR_eax_bff62c84!WR_edx_44
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c47!RR_ebp_bff62bc8!WR_eax_bff62c47
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c47_dl_44!WM_bff62c47_1_44
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c84!RR_ebp_bff62bc8!WR_eax_bff62c84
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_81!RR_ebp_bff62bc8!WR_edx_81
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c84_dl_81!WM_bff62c84_1_81
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_1d!RR_ebp_bff62bf8!WR_edx_1d
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_1d!WR_eax_bff62c47
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c47_1_44!RR_eax_bff62c47!WR_edx_44
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_5a!RR_ebp_bff62bf8!WR_ecx_5a
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_5a!WR_eax_bff62c84
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c84_1_81!RR_eax_bff62c84!WR_eax_81
+8048de6!add eax, edx!RR_eax_81_edx_44!WR_eax_c5
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_c5_ebp_bff62bf8!WM_bff62be9_1_c5
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_1c!RR_ebp_bff62bf8!WR_edx_1c
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_1c!WR_edx_910c058
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_1c!RR_ebp_bff62bf8!WR_ecx_1c
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_1c!WR_eax_910c058
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c058_1_70!RR_eax_910c058!WR_ecx_70
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_c5!RR_ebp_bff62bf8!WR_ebx_c5
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_c5!WR_eax_bff62cef
+8048e09!movzx eax, byte ptr [eax]!RM_bff62cef_1_90!RR_eax_bff62cef!WR_eax_90
+8048e0c!xor eax, ecx!RR_eax_90_ecx_70!WR_eax_e0
+8048e0e!mov byte ptr [edx], al!RR_al_e0_edx_910c058!WM_910c058_1_e0
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_1c!RR_ebp_bff62bf8!WR_eax_1c
+8048e14!add eax, 0x1!RR_eax_1c!WR_eax_1d
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_1d_ebp_bff62bf8!WM_bff62bea_2_1d
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_1d!RR_ebp_bff62bf8!WR_eax_1d
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_1d_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_1d!RR_ebp_bff62bf8!WR_eax_1d
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_1d!WR_edx_1e
+8048d8d!mov eax, edx!RR_edx_1e!WR_eax_1e
+8048d8f!sar eax, 0x1f!RR_eax_1e!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_1e!WR_edx_1e
+8048d97!movzx edx, dl!RR_dl_1e!WR_edx_1e
+8048d9a!sub edx, eax!RR_eax_0_edx_1e!WR_edx_1e
+8048d9c!mov eax, edx!RR_edx_1e!WR_eax_1e
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_1e_ebp_bff62bf8!WM_bff62be7_1_1e
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_1e!RR_ebp_bff62bf8!WR_edx_1e
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_1e!WR_eax_bff62c48
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c48_1_39!RR_eax_bff62c48!WR_eax_39
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_5a!RR_al_39_ebp_bff62bf8!WM_bff62be8_1_93
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_93!RR_ebp_bff62bf8!WR_edx_93
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_93!WR_edx_bff62cbd
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_1e!RR_ebp_bff62bf8!WR_ecx_1e
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_1e!WR_eax_bff62c48
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62cbd_esp_bff62bd0!WM_bff62bd4_4_bff62cbd
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c48_esp_bff62bd0!WM_bff62bd0_4_bff62c48
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c48!RR_ebp_bff62bc8!WR_eax_bff62c48
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c48_1_39!RR_eax_bff62c48!WR_eax_39
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_39_ebp_bff62bc8!WM_bff62bc7_1_39
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cbd!RR_ebp_bff62bc8!WR_eax_bff62cbd
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62cbd_1_d5!RR_eax_bff62cbd!WR_edx_d5
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c48!RR_ebp_bff62bc8!WR_eax_bff62c48
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c48_dl_d5!WM_bff62c48_1_d5
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cbd!RR_ebp_bff62bc8!WR_eax_bff62cbd
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_39!RR_ebp_bff62bc8!WR_edx_39
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62cbd_dl_39!WM_bff62cbd_1_39
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_1e!RR_ebp_bff62bf8!WR_edx_1e
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_1e!WR_eax_bff62c48
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c48_1_d5!RR_eax_bff62c48!WR_edx_d5
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_93!RR_ebp_bff62bf8!WR_ecx_93
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_93!WR_eax_bff62cbd
+8048de3!movzx eax, byte ptr [eax]!RM_bff62cbd_1_39!RR_eax_bff62cbd!WR_eax_39
+8048de6!add eax, edx!RR_eax_39_edx_d5!WR_eax_10e
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_e_ebp_bff62bf8!WM_bff62be9_1_e
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_1d!RR_ebp_bff62bf8!WR_edx_1d
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_1d!WR_edx_910c059
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_1d!RR_ebp_bff62bf8!WR_ecx_1d
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_1d!WR_eax_910c059
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c059_1_65!RR_eax_910c059!WR_ecx_65
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_e!RR_ebp_bff62bf8!WR_ebx_e
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_e!WR_eax_bff62c38
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c38_1_14!RR_eax_bff62c38!WR_eax_14
+8048e0c!xor eax, ecx!RR_eax_14_ecx_65!WR_eax_71
+8048e0e!mov byte ptr [edx], al!RR_al_71_edx_910c059!WM_910c059_1_71
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_1d!RR_ebp_bff62bf8!WR_eax_1d
+8048e14!add eax, 0x1!RR_eax_1d!WR_eax_1e
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_1e_ebp_bff62bf8!WM_bff62bea_2_1e
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_1e!RR_ebp_bff62bf8!WR_eax_1e
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_1e_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_1e!RR_ebp_bff62bf8!WR_eax_1e
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_1e!WR_edx_1f
+8048d8d!mov eax, edx!RR_edx_1f!WR_eax_1f
+8048d8f!sar eax, 0x1f!RR_eax_1f!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_1f!WR_edx_1f
+8048d97!movzx edx, dl!RR_dl_1f!WR_edx_1f
+8048d9a!sub edx, eax!RR_eax_0_edx_1f!WR_edx_1f
+8048d9c!mov eax, edx!RR_edx_1f!WR_eax_1f
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_1f_ebp_bff62bf8!WM_bff62be7_1_1f
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_1f!RR_ebp_bff62bf8!WR_edx_1f
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_1f!WR_eax_bff62c49
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c49_1_3b!RR_eax_bff62c49!WR_eax_3b
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_93!RR_al_3b_ebp_bff62bf8!WM_bff62be8_1_ce
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_ce!RR_ebp_bff62bf8!WR_edx_ce
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_ce!WR_edx_bff62cf8
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_1f!RR_ebp_bff62bf8!WR_ecx_1f
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_1f!WR_eax_bff62c49
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62cf8_esp_bff62bd0!WM_bff62bd4_4_bff62cf8
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c49_esp_bff62bd0!WM_bff62bd0_4_bff62c49
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c49!RR_ebp_bff62bc8!WR_eax_bff62c49
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c49_1_3b!RR_eax_bff62c49!WR_eax_3b
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_3b_ebp_bff62bc8!WM_bff62bc7_1_3b
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cf8!RR_ebp_bff62bc8!WR_eax_bff62cf8
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62cf8_1_b8!RR_eax_bff62cf8!WR_edx_b8
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c49!RR_ebp_bff62bc8!WR_eax_bff62c49
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c49_dl_b8!WM_bff62c49_1_b8
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62cf8!RR_ebp_bff62bc8!WR_eax_bff62cf8
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_3b!RR_ebp_bff62bc8!WR_edx_3b
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62cf8_dl_3b!WM_bff62cf8_1_3b
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_1f!RR_ebp_bff62bf8!WR_edx_1f
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_1f!WR_eax_bff62c49
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c49_1_b8!RR_eax_bff62c49!WR_edx_b8
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_ce!RR_ebp_bff62bf8!WR_ecx_ce
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_ce!WR_eax_bff62cf8
+8048de3!movzx eax, byte ptr [eax]!RM_bff62cf8_1_3b!RR_eax_bff62cf8!WR_eax_3b
+8048de6!add eax, edx!RR_eax_3b_edx_b8!WR_eax_f3
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_f3_ebp_bff62bf8!WM_bff62be9_1_f3
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_1e!RR_ebp_bff62bf8!WR_edx_1e
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_1e!WR_edx_910c05a
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_1e!RR_ebp_bff62bf8!WR_ecx_1e
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_1e!WR_eax_910c05a
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c05a_1_74!RR_eax_910c05a!WR_ecx_74
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_f3!RR_ebp_bff62bf8!WR_ebx_f3
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_f3!WR_eax_bff62d1d
+8048e09!movzx eax, byte ptr [eax]!RM_bff62d1d_1_c8!RR_eax_bff62d1d!WR_eax_c8
+8048e0c!xor eax, ecx!RR_eax_c8_ecx_74!WR_eax_bc
+8048e0e!mov byte ptr [edx], al!RR_al_bc_edx_910c05a!WM_910c05a_1_bc
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_1e!RR_ebp_bff62bf8!WR_eax_1e
+8048e14!add eax, 0x1!RR_eax_1e!WR_eax_1f
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_1f_ebp_bff62bf8!WM_bff62bea_2_1f
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_1f!RR_ebp_bff62bf8!WR_eax_1f
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_1f_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_1f!RR_ebp_bff62bf8!WR_eax_1f
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_1f!WR_edx_20
+8048d8d!mov eax, edx!RR_edx_20!WR_eax_20
+8048d8f!sar eax, 0x1f!RR_eax_20!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_20!WR_edx_20
+8048d97!movzx edx, dl!RR_dl_20!WR_edx_20
+8048d9a!sub edx, eax!RR_eax_0_edx_20!WR_edx_20
+8048d9c!mov eax, edx!RR_edx_20!WR_eax_20
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_20_ebp_bff62bf8!WM_bff62be7_1_20
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_20!RR_ebp_bff62bf8!WR_edx_20
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_20!WR_eax_bff62c4a
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c4a_1_ad!RR_eax_bff62c4a!WR_eax_ad
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_ce!RR_al_ad_ebp_bff62bf8!WM_bff62be8_1_7b
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_7b!RR_ebp_bff62bf8!WR_edx_7b
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_7b!WR_edx_bff62ca5
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_20!RR_ebp_bff62bf8!WR_ecx_20
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_20!WR_eax_bff62c4a
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62ca5_esp_bff62bd0!WM_bff62bd4_4_bff62ca5
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c4a_esp_bff62bd0!WM_bff62bd0_4_bff62c4a
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c4a!RR_ebp_bff62bc8!WR_eax_bff62c4a
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c4a_1_ad!RR_eax_bff62c4a!WR_eax_ad
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_ad_ebp_bff62bc8!WM_bff62bc7_1_ad
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62ca5!RR_ebp_bff62bc8!WR_eax_bff62ca5
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62ca5_1_64!RR_eax_bff62ca5!WR_edx_64
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c4a!RR_ebp_bff62bc8!WR_eax_bff62c4a
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c4a_dl_64!WM_bff62c4a_1_64
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62ca5!RR_ebp_bff62bc8!WR_eax_bff62ca5
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_ad!RR_ebp_bff62bc8!WR_edx_ad
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62ca5_dl_ad!WM_bff62ca5_1_ad
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_20!RR_ebp_bff62bf8!WR_edx_20
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_20!WR_eax_bff62c4a
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c4a_1_64!RR_eax_bff62c4a!WR_edx_64
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_7b!RR_ebp_bff62bf8!WR_ecx_7b
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_7b!WR_eax_bff62ca5
+8048de3!movzx eax, byte ptr [eax]!RM_bff62ca5_1_ad!RR_eax_bff62ca5!WR_eax_ad
+8048de6!add eax, edx!RR_eax_ad_edx_64!WR_eax_111
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_11_ebp_bff62bf8!WM_bff62be9_1_11
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_1f!RR_ebp_bff62bf8!WR_edx_1f
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_1f!WR_edx_910c05b
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_1f!RR_ebp_bff62bf8!WR_ecx_1f
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_1f!WR_eax_910c05b
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c05b_1_74!RR_eax_910c05b!WR_ecx_74
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_11!RR_ebp_bff62bf8!WR_ebx_11
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_11!WR_eax_bff62c3b
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c3b_1_96!RR_eax_bff62c3b!WR_eax_96
+8048e0c!xor eax, ecx!RR_eax_96_ecx_74!WR_eax_e2
+8048e0e!mov byte ptr [edx], al!RR_al_e2_edx_910c05b!WM_910c05b_1_e2
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_1f!RR_ebp_bff62bf8!WR_eax_1f
+8048e14!add eax, 0x1!RR_eax_1f!WR_eax_20
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_20_ebp_bff62bf8!WM_bff62bea_2_20
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_20!RR_ebp_bff62bf8!WR_eax_20
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_20_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048d86!movzx eax, byte ptr [ebp-0x11]!RM_bff62be7_1_20!RR_ebp_bff62bf8!WR_eax_20
+8048d8a!lea edx, ptr [eax+0x1]!RR_eax_20!WR_edx_21
+8048d8d!mov eax, edx!RR_edx_21!WR_eax_21
+8048d8f!sar eax, 0x1f!RR_eax_21!WR_eax_0
+8048d92!shr eax, 0x18!RR_eax_0!WR_eax_0
+8048d95!add edx, eax!RR_eax_0_edx_21!WR_edx_21
+8048d97!movzx edx, dl!RR_dl_21!WR_edx_21
+8048d9a!sub edx, eax!RR_eax_0_edx_21!WR_edx_21
+8048d9c!mov eax, edx!RR_edx_21!WR_eax_21
+8048d9e!mov byte ptr [ebp-0x11], al!RR_al_21_ebp_bff62bf8!WM_bff62be7_1_21
+8048da1!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_21!RR_ebp_bff62bf8!WR_edx_21
+8048da5!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048da8!add eax, edx!RR_eax_bff62c2a_edx_21!WR_eax_bff62c4b
+8048daa!movzx eax, byte ptr [eax]!RM_bff62c4b_1_a9!RR_eax_bff62c4b!WR_eax_a9
+8048dad!add byte ptr [ebp-0x10], al!RM_bff62be8_1_7b!RR_al_a9_ebp_bff62bf8!WM_bff62be8_1_24
+8048db0!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_24!RR_ebp_bff62bf8!WR_edx_24
+8048db4!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048db7!add edx, eax!RR_eax_bff62c2a_edx_24!WR_edx_bff62c4e
+8048db9!movzx ecx, byte ptr [ebp-0x11]!RM_bff62be7_1_21!RR_ebp_bff62bf8!WR_ecx_21
+8048dbd!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dc0!add eax, ecx!RR_eax_bff62c2a_ecx_21!WR_eax_bff62c4b
+8048dc2!mov dword ptr [esp+0x4], edx!RR_edx_bff62c4e_esp_bff62bd0!WM_bff62bd4_4_bff62c4e
+8048dc6!mov dword ptr [esp], eax!RR_eax_bff62c4b_esp_bff62bd0!WM_bff62bd0_4_bff62c4b
+8048dc9!call 0x8048e48!RR_esp_bff62bd0!WM_bff62bcc_4_8048dce!WR_esp_bff62bcc
+8048e48!push ebp!RR_ebp_bff62bf8_esp_bff62bcc!WM_bff62bc8_4_bff62bf8!WR_esp_bff62bc8
+8048e49!mov ebp, esp!RR_esp_bff62bc8!WR_ebp_bff62bc8
+8048e4b!sub esp, 0x10!RR_esp_bff62bc8!WR_esp_bff62bb8
+8048e4e!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c4b!RR_ebp_bff62bc8!WR_eax_bff62c4b
+8048e51!movzx eax, byte ptr [eax]!RM_bff62c4b_1_a9!RR_eax_bff62c4b!WR_eax_a9
+8048e54!mov byte ptr [ebp-0x1], al!RR_al_a9_ebp_bff62bc8!WM_bff62bc7_1_a9
+8048e57!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c4e!RR_ebp_bff62bc8!WR_eax_bff62c4e
+8048e5a!movzx edx, byte ptr [eax]!RM_bff62c4e_1_c1!RR_eax_bff62c4e!WR_edx_c1
+8048e5d!mov eax, dword ptr [ebp+0x8]!RM_bff62bd0_4_bff62c4b!RR_ebp_bff62bc8!WR_eax_bff62c4b
+8048e60!mov byte ptr [eax], dl!RR_eax_bff62c4b_dl_c1!WM_bff62c4b_1_c1
+8048e62!mov eax, dword ptr [ebp+0xc]!RM_bff62bd4_4_bff62c4e!RR_ebp_bff62bc8!WR_eax_bff62c4e
+8048e65!movzx edx, byte ptr [ebp-0x1]!RM_bff62bc7_1_a9!RR_ebp_bff62bc8!WR_edx_a9
+8048e69!mov byte ptr [eax], dl!RR_eax_bff62c4e_dl_a9!WM_bff62c4e_1_a9
+8048e6b!leave !RM_bff62bc8_4_bff62bf8!RR_ebp_bff62bc8_esp_bff62bb8!WR_ebp_bff62bf8_esp_bff62bcc
+8048e6c!ret !RM_bff62bcc_4_8048dce!RR_esp_bff62bcc!WR_esp_bff62bd0
+8048dce!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_21!RR_ebp_bff62bf8!WR_edx_21
+8048dd2!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048dd5!add eax, edx!RR_eax_bff62c2a_edx_21!WR_eax_bff62c4b
+8048dd7!movzx edx, byte ptr [eax]!RM_bff62c4b_1_c1!RR_eax_bff62c4b!WR_edx_c1
+8048dda!movzx ecx, byte ptr [ebp-0x10]!RM_bff62be8_1_24!RR_ebp_bff62bf8!WR_ecx_24
+8048dde!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048de1!add eax, ecx!RR_eax_bff62c2a_ecx_24!WR_eax_bff62c4e
+8048de3!movzx eax, byte ptr [eax]!RM_bff62c4e_1_a9!RR_eax_bff62c4e!WR_eax_a9
+8048de6!add eax, edx!RR_eax_a9_edx_c1!WR_eax_16a
+8048de8!mov byte ptr [ebp-0xf], al!RR_al_6a_ebp_bff62bf8!WM_bff62be9_1_6a
+8048deb!movsx edx, word ptr [ebp-0xe]!RM_bff62bea_2_20!RR_ebp_bff62bf8!WR_edx_20
+8048def!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048df2!add edx, eax!RR_eax_910c03c_edx_20!WR_edx_910c05c
+8048df4!movsx ecx, word ptr [ebp-0xe]!RM_bff62bea_2_20!RR_ebp_bff62bf8!WR_ecx_20
+8048df8!mov eax, dword ptr [ebp+0x8]!RM_bff62c00_4_910c03c!RR_ebp_bff62bf8!WR_eax_910c03c
+8048dfb!add eax, ecx!RR_eax_910c03c_ecx_20!WR_eax_910c05c
+8048dfd!movzx ecx, byte ptr [eax]!RM_910c05c_1_65!RR_eax_910c05c!WR_ecx_65
+8048e00!movzx ebx, byte ptr [ebp-0xf]!RM_bff62be9_1_6a!RR_ebp_bff62bf8!WR_ebx_6a
+8048e04!mov eax, dword ptr [ebp-0xc]!RM_bff62bec_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e07!add eax, ebx!RR_eax_bff62c2a_ebx_6a!WR_eax_bff62c94
+8048e09!movzx eax, byte ptr [eax]!RM_bff62c94_1_fb!RR_eax_bff62c94!WR_eax_fb
+8048e0c!xor eax, ecx!RR_eax_fb_ecx_65!WR_eax_9e
+8048e0e!mov byte ptr [edx], al!RR_al_9e_edx_910c05c!WM_910c05c_1_9e
+8048e10!movzx eax, word ptr [ebp-0xe]!RM_bff62bea_2_20!RR_ebp_bff62bf8!WR_eax_20
+8048e14!add eax, 0x1!RR_eax_20!WR_eax_21
+8048e17!mov word ptr [ebp-0xe], ax!RR_ax_21_ebp_bff62bf8!WM_bff62bea_2_21
+8048e1b!movsx eax, word ptr [ebp-0xe]!RM_bff62bea_2_21!RR_ebp_bff62bf8!WR_eax_21
+8048e1f!cmp eax, dword ptr [ebp+0xc]!RM_bff62c04_4_21!RR_eax_21_ebp_bff62bf8
+8048e22!jl 0x8048d86
+8048e28!mov eax, dword ptr [ebp+0x10]!RM_bff62c08_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e2b!movzx edx, byte ptr [ebp-0x11]!RM_bff62be7_1_21!RR_ebp_bff62bf8!WR_edx_21
+8048e2f!mov byte ptr [eax+0x100], dl!RR_eax_bff62c2a_dl_21!WM_bff62d2a_1_21
+8048e35!mov eax, dword ptr [ebp+0x10]!RM_bff62c08_4_bff62c2a!RR_ebp_bff62bf8!WR_eax_bff62c2a
+8048e38!movzx edx, byte ptr [ebp-0x10]!RM_bff62be8_1_24!RR_ebp_bff62bf8!WR_edx_24
+8048e3c!mov byte ptr [eax+0x101], dl!RR_eax_bff62c2a_dl_24!WM_bff62d2b_1_24
+8048e42!add esp, 0x24!RR_esp_bff62bd0!WR_esp_bff62bf4
+8048e45!pop ebx!RM_bff62bf4_4_21!RR_esp_bff62bf4!WR_ebx_21_esp_bff62bf8
+8048e46!pop ebp!RM_bff62bf8_4_bff62d38!RR_esp_bff62bf8!WR_ebp_bff62d38_esp_bff62bfc
+8048e47!ret !RM_bff62bfc_4_8049154!RR_esp_bff62bfc!WR_esp_bff62c00
+!EOT
