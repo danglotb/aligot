@@ -1,0 +1,688 @@
+!SOT
+8049074!push ebp!RR_ebp_bfd65198_esp_bfd6505c!WM_bfd65058_4_bfd65198!WR_esp_bfd65058
+8049075!push edi!RR_esp_bfd65058_edi_0!WM_bfd65054_4_0!WR_esp_bfd65054
+8049076!push esi!RR_esp_bfd65054_esi_0!WM_bfd65050_4_0!WR_esp_bfd65050
+8049077!push ebx!RR_ebx_bfd6508a_esp_bfd65050!WM_bfd6504c_4_bfd6508a!WR_esp_bfd6504c
+8049078!sub esp, 0x4!RR_esp_bfd6504c!WR_esp_bfd65048
+804907b!mov ebp, dword ptr [esp+0x18]!RM_bfd65060_4_8d8703c!RR_esp_bfd65048!WR_ebp_8d8703c
+804907f!mov eax, dword ptr [esp+0x20]!RM_bfd65068_4_bfd6508a!RR_esp_bfd65048!WR_eax_bfd6508a
+8049083!movzx edi, byte ptr [eax+0x100]!RM_bfd6518a_1_0!RR_eax_bfd6508a!WR_edi_0
+804908a!movzx eax, byte ptr [eax+0x101]!RM_bfd6518b_1_0!RR_eax_bfd6508a!WR_eax_0
+8049091!mov byte ptr [esp+0x3], al!RR_al_0_esp_bfd65048!WM_bfd6504b_1_0
+8049095!mov ebx, dword ptr [esp+0x20]!RM_bfd65068_4_bfd6508a!RR_esp_bfd65048!WR_ebx_bfd6508a
+8049099!cmp dword ptr [esp+0x1c], 0x0!RM_bfd65064_4_21!RR_esp_bfd65048
+804909e!jle 0x80490e8
+80490a0!mov eax, 0x0!WR_eax_0
+80490a5!mov word ptr [esp], ax!RR_ax_0_esp_bfd65048!WM_bfd65048_2_0
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_0!WR_edx_1
+80490ac!movzx edx, dl!RR_dl_1!WR_edx_1
+80490af!mov edi, edx!RR_edx_1!WR_edi_1
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_1!WR_edx_bfd6508b
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd6508b_1_c9!RR_edx_bfd6508b!WR_ecx_c9
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_0!RR_cl_c9_esp_bfd65048!WM_bfd6504b_1_c9
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_c9!RR_esp_bfd65048!WR_esi_c9
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_c9!WR_esi_bfd65153
+80490c1!movzx eax, byte ptr [esi]!RM_bfd65153_1_61!RR_esi_bfd65153!WR_eax_61
+80490c4!mov byte ptr [edx], al!RR_al_61_edx_bfd6508b!WM_bfd6508b_1_61
+80490c6!mov byte ptr [esi], cl!RR_cl_c9_esi_bfd65153!WM_bfd65153_1_c9
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_0!RR_esp_bfd65048!WR_esi_0
+80490cc!add cl, byte ptr [edx]!RM_bfd6508b_1_61!RR_cl_c9_edx_bfd6508b!WR_cl_2a
+80490ce!movzx ecx, cl!RR_cl_2a!WR_ecx_2a
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd650b4_1_80!RR_ebx_bfd6508a_ecx_2a!WR_edx_80
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d8703c_1_53!RR_dl_80_ebp_8d8703c_esi_0!WM_8d8703c_1_d3
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_0!RR_esp_bfd65048!WM_bfd65048_2_1
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_1!RR_esp_bfd65048!WR_edx_1
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_1_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_1!WR_edx_2
+80490ac!movzx edx, dl!RR_dl_2!WR_edx_2
+80490af!mov edi, edx!RR_edx_2!WR_edi_2
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_2!WR_edx_bfd6508c
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd6508c_1_3b!RR_edx_bfd6508c!WR_ecx_3b
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_c9!RR_cl_3b_esp_bfd65048!WM_bfd6504b_1_4
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_4!RR_esp_bfd65048!WR_esi_4
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_4!WR_esi_bfd6508e
+80490c1!movzx eax, byte ptr [esi]!RM_bfd6508e_1_45!RR_esi_bfd6508e!WR_eax_45
+80490c4!mov byte ptr [edx], al!RR_al_45_edx_bfd6508c!WM_bfd6508c_1_45
+80490c6!mov byte ptr [esi], cl!RR_cl_3b_esi_bfd6508e!WM_bfd6508e_1_3b
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_1!RR_esp_bfd65048!WR_esi_1
+80490cc!add cl, byte ptr [edx]!RM_bfd6508c_1_45!RR_cl_3b_edx_bfd6508c!WR_cl_80
+80490ce!movzx ecx, cl!RR_cl_80!WR_ecx_80
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd6510a_1_9d!RR_ebx_bfd6508a_ecx_80!WR_edx_9d
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d8703d_1_75!RR_dl_9d_ebp_8d8703c_esi_1!WM_8d8703d_1_e8
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_1!RR_esp_bfd65048!WM_bfd65048_2_2
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_2!RR_esp_bfd65048!WR_edx_2
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_2_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_2!WR_edx_3
+80490ac!movzx edx, dl!RR_dl_3!WR_edx_3
+80490af!mov edi, edx!RR_edx_3!WR_edi_3
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_3!WR_edx_bfd6508d
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd6508d_1_e0!RR_edx_bfd6508d!WR_ecx_e0
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_4!RR_cl_e0_esp_bfd65048!WM_bfd6504b_1_e4
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_e4!RR_esp_bfd65048!WR_esi_e4
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_e4!WR_esi_bfd6516e
+80490c1!movzx eax, byte ptr [esi]!RM_bfd6516e_1_b2!RR_esi_bfd6516e!WR_eax_b2
+80490c4!mov byte ptr [edx], al!RR_al_b2_edx_bfd6508d!WM_bfd6508d_1_b2
+80490c6!mov byte ptr [esi], cl!RR_cl_e0_esi_bfd6516e!WM_bfd6516e_1_e0
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_2!RR_esp_bfd65048!WR_esi_2
+80490cc!add cl, byte ptr [edx]!RM_bfd6508d_1_b2!RR_cl_e0_edx_bfd6508d!WR_cl_92
+80490ce!movzx ecx, cl!RR_cl_92!WR_ecx_92
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd6511c_1_22!RR_ebx_bfd6508a_ecx_92!WR_edx_22
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d8703e_1_70!RR_dl_22_ebp_8d8703c_esi_2!WM_8d8703e_1_52
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_2!RR_esp_bfd65048!WM_bfd65048_2_3
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_3!RR_esp_bfd65048!WR_edx_3
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_3_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_3!WR_edx_4
+80490ac!movzx edx, dl!RR_dl_4!WR_edx_4
+80490af!mov edi, edx!RR_edx_4!WR_edi_4
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_4!WR_edx_bfd6508e
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd6508e_1_3b!RR_edx_bfd6508e!WR_ecx_3b
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_e4!RR_cl_3b_esp_bfd65048!WM_bfd6504b_1_1f
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_1f!RR_esp_bfd65048!WR_esi_1f
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_1f!WR_esi_bfd650a9
+80490c1!movzx eax, byte ptr [esi]!RM_bfd650a9_1_38!RR_esi_bfd650a9!WR_eax_38
+80490c4!mov byte ptr [edx], al!RR_al_38_edx_bfd6508e!WM_bfd6508e_1_38
+80490c6!mov byte ptr [esi], cl!RR_cl_3b_esi_bfd650a9!WM_bfd650a9_1_3b
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_3!RR_esp_bfd65048!WR_esi_3
+80490cc!add cl, byte ptr [edx]!RM_bfd6508e_1_38!RR_cl_3b_edx_bfd6508e!WR_cl_73
+80490ce!movzx ecx, cl!RR_cl_73!WR_ecx_73
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd650fd_1_94!RR_ebx_bfd6508a_ecx_73!WR_edx_94
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d8703f_1_65!RR_dl_94_ebp_8d8703c_esi_3!WM_8d8703f_1_f1
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_3!RR_esp_bfd65048!WM_bfd65048_2_4
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_4!RR_esp_bfd65048!WR_edx_4
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_4_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_4!WR_edx_5
+80490ac!movzx edx, dl!RR_dl_5!WR_edx_5
+80490af!mov edi, edx!RR_edx_5!WR_edi_5
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_5!WR_edx_bfd6508f
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd6508f_1_3a!RR_edx_bfd6508f!WR_ecx_3a
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_1f!RR_cl_3a_esp_bfd65048!WM_bfd6504b_1_59
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_59!RR_esp_bfd65048!WR_esi_59
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_59!WR_esi_bfd650e3
+80490c1!movzx eax, byte ptr [esi]!RM_bfd650e3_1_32!RR_esi_bfd650e3!WR_eax_32
+80490c4!mov byte ptr [edx], al!RR_al_32_edx_bfd6508f!WM_bfd6508f_1_32
+80490c6!mov byte ptr [esi], cl!RR_cl_3a_esi_bfd650e3!WM_bfd650e3_1_3a
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_4!RR_esp_bfd65048!WR_esi_4
+80490cc!add cl, byte ptr [edx]!RM_bfd6508f_1_32!RR_cl_3a_edx_bfd6508f!WR_cl_6c
+80490ce!movzx ecx, cl!RR_cl_6c!WR_ecx_6c
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd650f6_1_12!RR_ebx_bfd6508a_ecx_6c!WR_edx_12
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87040_1_72!RR_dl_12_ebp_8d8703c_esi_4!WM_8d87040_1_60
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_4!RR_esp_bfd65048!WM_bfd65048_2_5
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_5!RR_esp_bfd65048!WR_edx_5
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_5_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_5!WR_edx_6
+80490ac!movzx edx, dl!RR_dl_6!WR_edx_6
+80490af!mov edi, edx!RR_edx_6!WR_edi_6
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_6!WR_edx_bfd65090
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd65090_1_d4!RR_edx_bfd65090!WR_ecx_d4
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_59!RR_cl_d4_esp_bfd65048!WM_bfd6504b_1_2d
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_2d!RR_esp_bfd65048!WR_esi_2d
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_2d!WR_esi_bfd650b7
+80490c1!movzx eax, byte ptr [esi]!RM_bfd650b7_1_ab!RR_esi_bfd650b7!WR_eax_ab
+80490c4!mov byte ptr [edx], al!RR_al_ab_edx_bfd65090!WM_bfd65090_1_ab
+80490c6!mov byte ptr [esi], cl!RR_cl_d4_esi_bfd650b7!WM_bfd650b7_1_d4
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_5!RR_esp_bfd65048!WR_esi_5
+80490cc!add cl, byte ptr [edx]!RM_bfd65090_1_ab!RR_cl_d4_edx_bfd65090!WR_cl_7f
+80490ce!movzx ecx, cl!RR_cl_7f!WR_ecx_7f
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd65109_1_86!RR_ebx_bfd6508a_ecx_7f!WR_edx_86
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87041_1_50!RR_dl_86_ebp_8d8703c_esi_5!WM_8d87041_1_d6
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_5!RR_esp_bfd65048!WM_bfd65048_2_6
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_6!RR_esp_bfd65048!WR_edx_6
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_6_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_6!WR_edx_7
+80490ac!movzx edx, dl!RR_dl_7!WR_edx_7
+80490af!mov edi, edx!RR_edx_7!WR_edi_7
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_7!WR_edx_bfd65091
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd65091_1_16!RR_edx_bfd65091!WR_ecx_16
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_2d!RR_cl_16_esp_bfd65048!WM_bfd6504b_1_43
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_43!RR_esp_bfd65048!WR_esi_43
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_43!WR_esi_bfd650cd
+80490c1!movzx eax, byte ptr [esi]!RM_bfd650cd_1_eb!RR_esi_bfd650cd!WR_eax_eb
+80490c4!mov byte ptr [edx], al!RR_al_eb_edx_bfd65091!WM_bfd65091_1_eb
+80490c6!mov byte ptr [esi], cl!RR_cl_16_esi_bfd650cd!WM_bfd650cd_1_16
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_6!RR_esp_bfd65048!WR_esi_6
+80490cc!add cl, byte ptr [edx]!RM_bfd65091_1_eb!RR_cl_16_edx_bfd65091!WR_cl_1
+80490ce!movzx ecx, cl!RR_cl_1!WR_ecx_1
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd6508b_1_61!RR_ebx_bfd6508a_ecx_1!WR_edx_61
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87042_1_6c!RR_dl_61_ebp_8d8703c_esi_6!WM_8d87042_1_d
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_6!RR_esp_bfd65048!WM_bfd65048_2_7
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_7!RR_esp_bfd65048!WR_edx_7
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_7_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_7!WR_edx_8
+80490ac!movzx edx, dl!RR_dl_8!WR_edx_8
+80490af!mov edi, edx!RR_edx_8!WR_edi_8
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_8!WR_edx_bfd65092
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd65092_1_a5!RR_edx_bfd65092!WR_ecx_a5
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_43!RR_cl_a5_esp_bfd65048!WM_bfd6504b_1_e8
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_e8!RR_esp_bfd65048!WR_esi_e8
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_e8!WR_esi_bfd65172
+80490c1!movzx eax, byte ptr [esi]!RM_bfd65172_1_bd!RR_esi_bfd65172!WR_eax_bd
+80490c4!mov byte ptr [edx], al!RR_al_bd_edx_bfd65092!WM_bfd65092_1_bd
+80490c6!mov byte ptr [esi], cl!RR_cl_a5_esi_bfd65172!WM_bfd65172_1_a5
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_7!RR_esp_bfd65048!WR_esi_7
+80490cc!add cl, byte ptr [edx]!RM_bfd65092_1_bd!RR_cl_a5_edx_bfd65092!WR_cl_62
+80490ce!movzx ecx, cl!RR_cl_62!WR_ecx_62
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd650ec_1_b7!RR_ebx_bfd6508a_ecx_62!WR_edx_b7
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87043_1_61!RR_dl_b7_ebp_8d8703c_esi_7!WM_8d87043_1_d6
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_7!RR_esp_bfd65048!WM_bfd65048_2_8
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_8!RR_esp_bfd65048!WR_edx_8
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_8_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_8!WR_edx_9
+80490ac!movzx edx, dl!RR_dl_9!WR_edx_9
+80490af!mov edi, edx!RR_edx_9!WR_edi_9
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_9!WR_edx_bfd65093
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd65093_1_57!RR_edx_bfd65093!WR_ecx_57
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_e8!RR_cl_57_esp_bfd65048!WM_bfd6504b_1_3f
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_3f!RR_esp_bfd65048!WR_esi_3f
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_3f!WR_esi_bfd650c9
+80490c1!movzx eax, byte ptr [esi]!RM_bfd650c9_1_5e!RR_esi_bfd650c9!WR_eax_5e
+80490c4!mov byte ptr [edx], al!RR_al_5e_edx_bfd65093!WM_bfd65093_1_5e
+80490c6!mov byte ptr [esi], cl!RR_cl_57_esi_bfd650c9!WM_bfd650c9_1_57
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_8!RR_esp_bfd65048!WR_esi_8
+80490cc!add cl, byte ptr [edx]!RM_bfd65093_1_5e!RR_cl_57_edx_bfd65093!WR_cl_b5
+80490ce!movzx ecx, cl!RR_cl_b5!WR_ecx_b5
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd6513f_1_4e!RR_ebx_bfd6508a_ecx_b5!WR_edx_4e
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87044_1_69!RR_dl_4e_ebp_8d8703c_esi_8!WM_8d87044_1_27
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_8!RR_esp_bfd65048!WM_bfd65048_2_9
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_9!RR_esp_bfd65048!WR_edx_9
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_9_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_9!WR_edx_a
+80490ac!movzx edx, dl!RR_dl_a!WR_edx_a
+80490af!mov edi, edx!RR_edx_a!WR_edi_a
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_a!WR_edx_bfd65094
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd65094_1_92!RR_edx_bfd65094!WR_ecx_92
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_3f!RR_cl_92_esp_bfd65048!WM_bfd6504b_1_d1
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_d1!RR_esp_bfd65048!WR_esi_d1
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_d1!WR_esi_bfd6515b
+80490c1!movzx eax, byte ptr [esi]!RM_bfd6515b_1_88!RR_esi_bfd6515b!WR_eax_88
+80490c4!mov byte ptr [edx], al!RR_al_88_edx_bfd65094!WM_bfd65094_1_88
+80490c6!mov byte ptr [esi], cl!RR_cl_92_esi_bfd6515b!WM_bfd6515b_1_92
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_9!RR_esp_bfd65048!WR_esi_9
+80490cc!add cl, byte ptr [edx]!RM_bfd65094_1_88!RR_cl_92_edx_bfd65094!WR_cl_1a
+80490ce!movzx ecx, cl!RR_cl_1a!WR_ecx_1a
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd650a4_1_b8!RR_ebx_bfd6508a_ecx_1a!WR_edx_b8
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87045_1_6e!RR_dl_b8_ebp_8d8703c_esi_9!WM_8d87045_1_d6
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_9!RR_esp_bfd65048!WM_bfd65048_2_a
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_a!RR_esp_bfd65048!WR_edx_a
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_a_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_a!WR_edx_b
+80490ac!movzx edx, dl!RR_dl_b!WR_edx_b
+80490af!mov edi, edx!RR_edx_b!WR_edi_b
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_b!WR_edx_bfd65095
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd65095_1_a7!RR_edx_bfd65095!WR_ecx_a7
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_d1!RR_cl_a7_esp_bfd65048!WM_bfd6504b_1_78
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_78!RR_esp_bfd65048!WR_esi_78
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_78!WR_esi_bfd65102
+80490c1!movzx eax, byte ptr [esi]!RM_bfd65102_1_d7!RR_esi_bfd65102!WR_eax_d7
+80490c4!mov byte ptr [edx], al!RR_al_d7_edx_bfd65095!WM_bfd65095_1_d7
+80490c6!mov byte ptr [esi], cl!RR_cl_a7_esi_bfd65102!WM_bfd65102_1_a7
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_a!RR_esp_bfd65048!WR_esi_a
+80490cc!add cl, byte ptr [edx]!RM_bfd65095_1_d7!RR_cl_a7_edx_bfd65095!WR_cl_7e
+80490ce!movzx ecx, cl!RR_cl_7e!WR_ecx_7e
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd65108_1_25!RR_ebx_bfd6508a_ecx_7e!WR_edx_25
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87046_1_4d!RR_dl_25_ebp_8d8703c_esi_a!WM_8d87046_1_68
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_a!RR_esp_bfd65048!WM_bfd65048_2_b
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_b!RR_esp_bfd65048!WR_edx_b
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_b_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_b!WR_edx_c
+80490ac!movzx edx, dl!RR_dl_c!WR_edx_c
+80490af!mov edi, edx!RR_edx_c!WR_edi_c
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_c!WR_edx_bfd65096
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd65096_1_a9!RR_edx_bfd65096!WR_ecx_a9
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_78!RR_cl_a9_esp_bfd65048!WM_bfd6504b_1_21
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_21!RR_esp_bfd65048!WR_esi_21
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_21!WR_esi_bfd650ab
+80490c1!movzx eax, byte ptr [esi]!RM_bfd650ab_1_36!RR_esi_bfd650ab!WR_eax_36
+80490c4!mov byte ptr [edx], al!RR_al_36_edx_bfd65096!WM_bfd65096_1_36
+80490c6!mov byte ptr [esi], cl!RR_cl_a9_esi_bfd650ab!WM_bfd650ab_1_a9
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_b!RR_esp_bfd65048!WR_esi_b
+80490cc!add cl, byte ptr [edx]!RM_bfd65096_1_36!RR_cl_a9_edx_bfd65096!WR_cl_df
+80490ce!movzx ecx, cl!RR_cl_df!WR_ecx_df
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd65169_1_5!RR_ebx_bfd6508a_ecx_df!WR_edx_5
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87047_1_65!RR_dl_5_ebp_8d8703c_esi_b!WM_8d87047_1_60
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_b!RR_esp_bfd65048!WM_bfd65048_2_c
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_c!RR_esp_bfd65048!WR_edx_c
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_c_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_c!WR_edx_d
+80490ac!movzx edx, dl!RR_dl_d!WR_edx_d
+80490af!mov edi, edx!RR_edx_d!WR_edi_d
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_d!WR_edx_bfd65097
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd65097_1_f3!RR_edx_bfd65097!WR_ecx_f3
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_21!RR_cl_f3_esp_bfd65048!WM_bfd6504b_1_14
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_14!RR_esp_bfd65048!WR_esi_14
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_14!WR_esi_bfd6509e
+80490c1!movzx eax, byte ptr [esi]!RM_bfd6509e_1_f9!RR_esi_bfd6509e!WR_eax_f9
+80490c4!mov byte ptr [edx], al!RR_al_f9_edx_bfd65097!WM_bfd65097_1_f9
+80490c6!mov byte ptr [esi], cl!RR_cl_f3_esi_bfd6509e!WM_bfd6509e_1_f3
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_c!RR_esp_bfd65048!WR_esi_c
+80490cc!add cl, byte ptr [edx]!RM_bfd65097_1_f9!RR_cl_f3_edx_bfd65097!WR_cl_ec
+80490ce!movzx ecx, cl!RR_cl_ec!WR_ecx_ec
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd65176_1_9a!RR_ebx_bfd6508a_ecx_ec!WR_edx_9a
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87048_1_73!RR_dl_9a_ebp_8d8703c_esi_c!WM_8d87048_1_e9
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_c!RR_esp_bfd65048!WM_bfd65048_2_d
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_d!RR_esp_bfd65048!WR_edx_d
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_d_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_d!WR_edx_e
+80490ac!movzx edx, dl!RR_dl_e!WR_edx_e
+80490af!mov edi, edx!RR_edx_e!WR_edi_e
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_e!WR_edx_bfd65098
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd65098_1_2!RR_edx_bfd65098!WR_ecx_2
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_14!RR_cl_2_esp_bfd65048!WM_bfd6504b_1_16
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_16!RR_esp_bfd65048!WR_esi_16
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_16!WR_esi_bfd650a0
+80490c1!movzx eax, byte ptr [esi]!RM_bfd650a0_1_14!RR_esi_bfd650a0!WR_eax_14
+80490c4!mov byte ptr [edx], al!RR_al_14_edx_bfd65098!WM_bfd65098_1_14
+80490c6!mov byte ptr [esi], cl!RR_cl_2_esi_bfd650a0!WM_bfd650a0_1_2
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_d!RR_esp_bfd65048!WR_esi_d
+80490cc!add cl, byte ptr [edx]!RM_bfd65098_1_14!RR_cl_2_edx_bfd65098!WR_cl_16
+80490ce!movzx ecx, cl!RR_cl_16!WR_ecx_16
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd650a0_1_2!RR_ebx_bfd6508a_ecx_16!WR_edx_2
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87049_1_73!RR_dl_2_ebp_8d8703c_esi_d!WM_8d87049_1_71
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_d!RR_esp_bfd65048!WM_bfd65048_2_e
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_e!RR_esp_bfd65048!WR_edx_e
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_e_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_e!WR_edx_f
+80490ac!movzx edx, dl!RR_dl_f!WR_edx_f
+80490af!mov edi, edx!RR_edx_f!WR_edi_f
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_f!WR_edx_bfd65099
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd65099_1_bc!RR_edx_bfd65099!WR_ecx_bc
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_16!RR_cl_bc_esp_bfd65048!WM_bfd6504b_1_d2
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_d2!RR_esp_bfd65048!WR_esi_d2
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_d2!WR_esi_bfd6515c
+80490c1!movzx eax, byte ptr [esi]!RM_bfd6515c_1_1e!RR_esi_bfd6515c!WR_eax_1e
+80490c4!mov byte ptr [edx], al!RR_al_1e_edx_bfd65099!WM_bfd65099_1_1e
+80490c6!mov byte ptr [esi], cl!RR_cl_bc_esi_bfd6515c!WM_bfd6515c_1_bc
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_e!RR_esp_bfd65048!WR_esi_e
+80490cc!add cl, byte ptr [edx]!RM_bfd65099_1_1e!RR_cl_bc_edx_bfd65099!WR_cl_da
+80490ce!movzx ecx, cl!RR_cl_da!WR_ecx_da
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd65164_1_29!RR_ebx_bfd6508a_ecx_da!WR_edx_29
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d8704a_1_61!RR_dl_29_ebp_8d8703c_esi_e!WM_8d8704a_1_48
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_e!RR_esp_bfd65048!WM_bfd65048_2_f
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_f!RR_esp_bfd65048!WR_edx_f
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_f_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_f!WR_edx_10
+80490ac!movzx edx, dl!RR_dl_10!WR_edx_10
+80490af!mov edi, edx!RR_edx_10!WR_edi_10
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_10!WR_edx_bfd6509a
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd6509a_1_ef!RR_edx_bfd6509a!WR_ecx_ef
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_d2!RR_cl_ef_esp_bfd65048!WM_bfd6504b_1_c1
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_c1!RR_esp_bfd65048!WR_esi_c1
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_c1!WR_esi_bfd6514b
+80490c1!movzx eax, byte ptr [esi]!RM_bfd6514b_1_e2!RR_esi_bfd6514b!WR_eax_e2
+80490c4!mov byte ptr [edx], al!RR_al_e2_edx_bfd6509a!WM_bfd6509a_1_e2
+80490c6!mov byte ptr [esi], cl!RR_cl_ef_esi_bfd6514b!WM_bfd6514b_1_ef
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_f!RR_esp_bfd65048!WR_esi_f
+80490cc!add cl, byte ptr [edx]!RM_bfd6509a_1_e2!RR_cl_ef_edx_bfd6509a!WR_cl_d1
+80490ce!movzx ecx, cl!RR_cl_d1!WR_ecx_d1
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd6515b_1_92!RR_ebx_bfd6508a_ecx_d1!WR_edx_92
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d8704b_1_67!RR_dl_92_ebp_8d8703c_esi_f!WM_8d8704b_1_f5
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_f!RR_esp_bfd65048!WM_bfd65048_2_10
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_10!RR_esp_bfd65048!WR_edx_10
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_10_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_10!WR_edx_11
+80490ac!movzx edx, dl!RR_dl_11!WR_edx_11
+80490af!mov edi, edx!RR_edx_11!WR_edi_11
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_11!WR_edx_bfd6509b
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd6509b_1_8d!RR_edx_bfd6509b!WR_ecx_8d
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_c1!RR_cl_8d_esp_bfd65048!WM_bfd6504b_1_4e
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_4e!RR_esp_bfd65048!WR_esi_4e
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_4e!WR_esi_bfd650d8
+80490c1!movzx eax, byte ptr [esi]!RM_bfd650d8_1_96!RR_esi_bfd650d8!WR_eax_96
+80490c4!mov byte ptr [edx], al!RR_al_96_edx_bfd6509b!WM_bfd6509b_1_96
+80490c6!mov byte ptr [esi], cl!RR_cl_8d_esi_bfd650d8!WM_bfd650d8_1_8d
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_10!RR_esp_bfd65048!WR_esi_10
+80490cc!add cl, byte ptr [edx]!RM_bfd6509b_1_96!RR_cl_8d_edx_bfd6509b!WR_cl_23
+80490ce!movzx ecx, cl!RR_cl_23!WR_ecx_23
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd650ad_1_1f!RR_ebx_bfd6508a_ecx_23!WR_edx_1f
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d8704c_1_65!RR_dl_1f_ebp_8d8703c_esi_10!WM_8d8704c_1_7a
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_10!RR_esp_bfd65048!WM_bfd65048_2_11
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_11!RR_esp_bfd65048!WR_edx_11
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_11_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_11!WR_edx_12
+80490ac!movzx edx, dl!RR_dl_12!WR_edx_12
+80490af!mov edi, edx!RR_edx_12!WR_edi_12
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_12!WR_edx_bfd6509c
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd6509c_1_e8!RR_edx_bfd6509c!WR_ecx_e8
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_4e!RR_cl_e8_esp_bfd65048!WM_bfd6504b_1_36
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_36!RR_esp_bfd65048!WR_esi_36
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_36!WR_esi_bfd650c0
+80490c1!movzx eax, byte ptr [esi]!RM_bfd650c0_1_da!RR_esi_bfd650c0!WR_eax_da
+80490c4!mov byte ptr [edx], al!RR_al_da_edx_bfd6509c!WM_bfd6509c_1_da
+80490c6!mov byte ptr [esi], cl!RR_cl_e8_esi_bfd650c0!WM_bfd650c0_1_e8
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_11!RR_esp_bfd65048!WR_esi_11
+80490cc!add cl, byte ptr [edx]!RM_bfd6509c_1_da!RR_cl_e8_edx_bfd6509c!WR_cl_c2
+80490ce!movzx ecx, cl!RR_cl_c2!WR_ecx_c2
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd6514c_1_30!RR_ebx_bfd6508a_ecx_c2!WR_edx_30
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d8704d_1_41!RR_dl_30_ebp_8d8703c_esi_11!WM_8d8704d_1_71
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_11!RR_esp_bfd65048!WM_bfd65048_2_12
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_12!RR_esp_bfd65048!WR_edx_12
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_12_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_12!WR_edx_13
+80490ac!movzx edx, dl!RR_dl_13!WR_edx_13
+80490af!mov edi, edx!RR_edx_13!WR_edi_13
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_13!WR_edx_bfd6509d
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd6509d_1_7e!RR_edx_bfd6509d!WR_ecx_7e
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_36!RR_cl_7e_esp_bfd65048!WM_bfd6504b_1_b4
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_b4!RR_esp_bfd65048!WR_esi_b4
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_b4!WR_esi_bfd6513e
+80490c1!movzx eax, byte ptr [esi]!RM_bfd6513e_1_43!RR_esi_bfd6513e!WR_eax_43
+80490c4!mov byte ptr [edx], al!RR_al_43_edx_bfd6509d!WM_bfd6509d_1_43
+80490c6!mov byte ptr [esi], cl!RR_cl_7e_esi_bfd6513e!WM_bfd6513e_1_7e
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_12!RR_esp_bfd65048!WR_esi_12
+80490cc!add cl, byte ptr [edx]!RM_bfd6509d_1_43!RR_cl_7e_edx_bfd6509d!WR_cl_c1
+80490ce!movzx ecx, cl!RR_cl_c1!WR_ecx_c1
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd6514b_1_ef!RR_ebx_bfd6508a_ecx_c1!WR_edx_ef
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d8704e_1_42!RR_dl_ef_ebp_8d8703c_esi_12!WM_8d8704e_1_ad
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_12!RR_esp_bfd65048!WM_bfd65048_2_13
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_13!RR_esp_bfd65048!WR_edx_13
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_13_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_13!WR_edx_14
+80490ac!movzx edx, dl!RR_dl_14!WR_edx_14
+80490af!mov edi, edx!RR_edx_14!WR_edi_14
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_14!WR_edx_bfd6509e
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd6509e_1_f3!RR_edx_bfd6509e!WR_ecx_f3
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_b4!RR_cl_f3_esp_bfd65048!WM_bfd6504b_1_a7
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_a7!RR_esp_bfd65048!WR_esi_a7
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_a7!WR_esi_bfd65131
+80490c1!movzx eax, byte ptr [esi]!RM_bfd65131_1_dd!RR_esi_bfd65131!WR_eax_dd
+80490c4!mov byte ptr [edx], al!RR_al_dd_edx_bfd6509e!WM_bfd6509e_1_dd
+80490c6!mov byte ptr [esi], cl!RR_cl_f3_esi_bfd65131!WM_bfd65131_1_f3
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_13!RR_esp_bfd65048!WR_esi_13
+80490cc!add cl, byte ptr [edx]!RM_bfd6509e_1_dd!RR_cl_f3_edx_bfd6509e!WR_cl_d0
+80490ce!movzx ecx, cl!RR_cl_d0!WR_ecx_d0
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd6515a_1_c3!RR_ebx_bfd6508a_ecx_d0!WR_edx_c3
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d8704f_1_61!RR_dl_c3_ebp_8d8703c_esi_13!WM_8d8704f_1_a2
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_13!RR_esp_bfd65048!WM_bfd65048_2_14
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_14!RR_esp_bfd65048!WR_edx_14
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_14_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_14!WR_edx_15
+80490ac!movzx edx, dl!RR_dl_15!WR_edx_15
+80490af!mov edi, edx!RR_edx_15!WR_edi_15
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_15!WR_edx_bfd6509f
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd6509f_1_26!RR_edx_bfd6509f!WR_ecx_26
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_a7!RR_cl_26_esp_bfd65048!WM_bfd6504b_1_cd
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_cd!RR_esp_bfd65048!WR_esi_cd
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_cd!WR_esi_bfd65157
+80490c1!movzx eax, byte ptr [esi]!RM_bfd65157_1_82!RR_esi_bfd65157!WR_eax_82
+80490c4!mov byte ptr [edx], al!RR_al_82_edx_bfd6509f!WM_bfd6509f_1_82
+80490c6!mov byte ptr [esi], cl!RR_cl_26_esi_bfd65157!WM_bfd65157_1_26
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_14!RR_esp_bfd65048!WR_esi_14
+80490cc!add cl, byte ptr [edx]!RM_bfd6509f_1_82!RR_cl_26_edx_bfd6509f!WR_cl_a8
+80490ce!movzx ecx, cl!RR_cl_a8!WR_ecx_a8
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd65132_1_5c!RR_ebx_bfd6508a_ecx_a8!WR_edx_5c
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87050_1_73!RR_dl_5c_ebp_8d8703c_esi_14!WM_8d87050_1_2f
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_14!RR_esp_bfd65048!WM_bfd65048_2_15
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_15!RR_esp_bfd65048!WR_edx_15
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_15_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_15!WR_edx_16
+80490ac!movzx edx, dl!RR_dl_16!WR_edx_16
+80490af!mov edi, edx!RR_edx_16!WR_edi_16
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_16!WR_edx_bfd650a0
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd650a0_1_2!RR_edx_bfd650a0!WR_ecx_2
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_cd!RR_cl_2_esp_bfd65048!WM_bfd6504b_1_cf
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_cf!RR_esp_bfd65048!WR_esi_cf
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_cf!WR_esi_bfd65159
+80490c1!movzx eax, byte ptr [esi]!RM_bfd65159_1_f7!RR_esi_bfd65159!WR_eax_f7
+80490c4!mov byte ptr [edx], al!RR_al_f7_edx_bfd650a0!WM_bfd650a0_1_f7
+80490c6!mov byte ptr [esi], cl!RR_cl_2_esi_bfd65159!WM_bfd65159_1_2
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_15!RR_esp_bfd65048!WR_esi_15
+80490cc!add cl, byte ptr [edx]!RM_bfd650a0_1_f7!RR_cl_2_edx_bfd650a0!WR_cl_f9
+80490ce!movzx ecx, cl!RR_cl_f9!WR_ecx_f9
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd65183_1_54!RR_ebx_bfd6508a_ecx_f9!WR_edx_54
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87051_1_65!RR_dl_54_ebp_8d8703c_esi_15!WM_8d87051_1_31
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_15!RR_esp_bfd65048!WM_bfd65048_2_16
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_16!RR_esp_bfd65048!WR_edx_16
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_16_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_16!WR_edx_17
+80490ac!movzx edx, dl!RR_dl_17!WR_edx_17
+80490af!mov edi, edx!RR_edx_17!WR_edi_17
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_17!WR_edx_bfd650a1
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd650a1_1_89!RR_edx_bfd650a1!WR_ecx_89
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_cf!RR_cl_89_esp_bfd65048!WM_bfd6504b_1_58
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_58!RR_esp_bfd65048!WR_esi_58
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_58!WR_esi_bfd650e2
+80490c1!movzx eax, byte ptr [esi]!RM_bfd650e2_1_d6!RR_esi_bfd650e2!WR_eax_d6
+80490c4!mov byte ptr [edx], al!RR_al_d6_edx_bfd650a1!WM_bfd650a1_1_d6
+80490c6!mov byte ptr [esi], cl!RR_cl_89_esi_bfd650e2!WM_bfd650e2_1_89
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_16!RR_esp_bfd65048!WR_esi_16
+80490cc!add cl, byte ptr [edx]!RM_bfd650a1_1_d6!RR_cl_89_edx_bfd650a1!WR_cl_5f
+80490ce!movzx ecx, cl!RR_cl_5f!WR_ecx_5f
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd650e9_1_de!RR_ebx_bfd6508a_ecx_5f!WR_edx_de
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87052_1_44!RR_dl_de_ebp_8d8703c_esi_16!WM_8d87052_1_9a
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_16!RR_esp_bfd65048!WM_bfd65048_2_17
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_17!RR_esp_bfd65048!WR_edx_17
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_17_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_17!WR_edx_18
+80490ac!movzx edx, dl!RR_dl_18!WR_edx_18
+80490af!mov edi, edx!RR_edx_18!WR_edi_18
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_18!WR_edx_bfd650a2
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd650a2_1_6f!RR_edx_bfd650a2!WR_ecx_6f
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_58!RR_cl_6f_esp_bfd65048!WM_bfd6504b_1_c7
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_c7!RR_esp_bfd65048!WR_esi_c7
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_c7!WR_esi_bfd65151
+80490c1!movzx eax, byte ptr [esi]!RM_bfd65151_1_b1!RR_esi_bfd65151!WR_eax_b1
+80490c4!mov byte ptr [edx], al!RR_al_b1_edx_bfd650a2!WM_bfd650a2_1_b1
+80490c6!mov byte ptr [esi], cl!RR_cl_6f_esi_bfd65151!WM_bfd65151_1_6f
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_17!RR_esp_bfd65048!WR_esi_17
+80490cc!add cl, byte ptr [edx]!RM_bfd650a2_1_b1!RR_cl_6f_edx_bfd650a2!WR_cl_20
+80490ce!movzx ecx, cl!RR_cl_20!WR_ecx_20
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd650aa_1_ad!RR_ebx_bfd6508a_ecx_20!WR_edx_ad
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87053_1_65!RR_dl_ad_ebp_8d8703c_esi_17!WM_8d87053_1_c8
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_17!RR_esp_bfd65048!WM_bfd65048_2_18
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_18!RR_esp_bfd65048!WR_edx_18
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_18_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_18!WR_edx_19
+80490ac!movzx edx, dl!RR_dl_19!WR_edx_19
+80490af!mov edi, edx!RR_edx_19!WR_edi_19
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_19!WR_edx_bfd650a3
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd650a3_1_4f!RR_edx_bfd650a3!WR_ecx_4f
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_c7!RR_cl_4f_esp_bfd65048!WM_bfd6504b_1_16
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_16!RR_esp_bfd65048!WR_esi_16
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_16!WR_esi_bfd650a0
+80490c1!movzx eax, byte ptr [esi]!RM_bfd650a0_1_f7!RR_esi_bfd650a0!WR_eax_f7
+80490c4!mov byte ptr [edx], al!RR_al_f7_edx_bfd650a3!WM_bfd650a3_1_f7
+80490c6!mov byte ptr [esi], cl!RR_cl_4f_esi_bfd650a0!WM_bfd650a0_1_4f
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_18!RR_esp_bfd65048!WR_esi_18
+80490cc!add cl, byte ptr [edx]!RM_bfd650a3_1_f7!RR_cl_4f_edx_bfd650a3!WR_cl_46
+80490ce!movzx ecx, cl!RR_cl_46!WR_ecx_46
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd650d0_1_e9!RR_ebx_bfd6508a_ecx_46!WR_edx_e9
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87054_1_54!RR_dl_e9_ebp_8d8703c_esi_18!WM_8d87054_1_bd
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_18!RR_esp_bfd65048!WM_bfd65048_2_19
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_19!RR_esp_bfd65048!WR_edx_19
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_19_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_19!WR_edx_1a
+80490ac!movzx edx, dl!RR_dl_1a!WR_edx_1a
+80490af!mov edi, edx!RR_edx_1a!WR_edi_1a
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_1a!WR_edx_bfd650a4
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd650a4_1_b8!RR_edx_bfd650a4!WR_ecx_b8
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_16!RR_cl_b8_esp_bfd65048!WM_bfd6504b_1_ce
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_ce!RR_esp_bfd65048!WR_esi_ce
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_ce!WR_esi_bfd65158
+80490c1!movzx eax, byte ptr [esi]!RM_bfd65158_1_50!RR_esi_bfd65158!WR_eax_50
+80490c4!mov byte ptr [edx], al!RR_al_50_edx_bfd650a4!WM_bfd650a4_1_50
+80490c6!mov byte ptr [esi], cl!RR_cl_b8_esi_bfd65158!WM_bfd65158_1_b8
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_19!RR_esp_bfd65048!WR_esi_19
+80490cc!add cl, byte ptr [edx]!RM_bfd650a4_1_50!RR_cl_b8_edx_bfd650a4!WR_cl_8
+80490ce!movzx ecx, cl!RR_cl_8!WR_ecx_8
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd65092_1_bd!RR_ebx_bfd6508a_ecx_8!WR_edx_bd
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87055_1_72!RR_dl_bd_ebp_8d8703c_esi_19!WM_8d87055_1_cf
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_19!RR_esp_bfd65048!WM_bfd65048_2_1a
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_1a!RR_esp_bfd65048!WR_edx_1a
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_1a_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_1a!WR_edx_1b
+80490ac!movzx edx, dl!RR_dl_1b!WR_edx_1b
+80490af!mov edi, edx!RR_edx_1b!WR_edi_1b
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_1b!WR_edx_bfd650a5
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd650a5_1_46!RR_edx_bfd650a5!WR_ecx_46
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_ce!RR_cl_46_esp_bfd65048!WM_bfd6504b_1_14
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_14!RR_esp_bfd65048!WR_esi_14
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_14!WR_esi_bfd6509e
+80490c1!movzx eax, byte ptr [esi]!RM_bfd6509e_1_dd!RR_esi_bfd6509e!WR_eax_dd
+80490c4!mov byte ptr [edx], al!RR_al_dd_edx_bfd650a5!WM_bfd650a5_1_dd
+80490c6!mov byte ptr [esi], cl!RR_cl_46_esi_bfd6509e!WM_bfd6509e_1_46
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_1a!RR_esp_bfd65048!WR_esi_1a
+80490cc!add cl, byte ptr [edx]!RM_bfd650a5_1_dd!RR_cl_46_edx_bfd650a5!WR_cl_23
+80490ce!movzx ecx, cl!RR_cl_23!WR_ecx_23
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd650ad_1_1f!RR_ebx_bfd6508a_ecx_23!WR_edx_1f
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87056_1_6f!RR_dl_1f_ebp_8d8703c_esi_1a!WM_8d87056_1_70
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_1a!RR_esp_bfd65048!WM_bfd65048_2_1b
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_1b!RR_esp_bfd65048!WR_edx_1b
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_1b_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_1b!WR_edx_1c
+80490ac!movzx edx, dl!RR_dl_1c!WR_edx_1c
+80490af!mov edi, edx!RR_edx_1c!WR_edi_1c
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_1c!WR_edx_bfd650a6
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd650a6_1_c5!RR_edx_bfd650a6!WR_ecx_c5
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_14!RR_cl_c5_esp_bfd65048!WM_bfd6504b_1_d9
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_d9!RR_esp_bfd65048!WR_esi_d9
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_d9!WR_esi_bfd65163
+80490c1!movzx eax, byte ptr [esi]!RM_bfd65163_1_a8!RR_esi_bfd65163!WR_eax_a8
+80490c4!mov byte ptr [edx], al!RR_al_a8_edx_bfd650a6!WM_bfd650a6_1_a8
+80490c6!mov byte ptr [esi], cl!RR_cl_c5_esi_bfd65163!WM_bfd65163_1_c5
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_1b!RR_esp_bfd65048!WR_esi_1b
+80490cc!add cl, byte ptr [edx]!RM_bfd650a6_1_a8!RR_cl_c5_edx_bfd650a6!WR_cl_6d
+80490ce!movzx ecx, cl!RR_cl_6d!WR_ecx_6d
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd650f7_1_3e!RR_ebx_bfd6508a_ecx_6d!WR_edx_3e
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87057_1_6d!RR_dl_3e_ebp_8d8703c_esi_1b!WM_8d87057_1_53
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_1b!RR_esp_bfd65048!WM_bfd65048_2_1c
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_1c!RR_esp_bfd65048!WR_edx_1c
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_1c_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_1c!WR_edx_1d
+80490ac!movzx edx, dl!RR_dl_1d!WR_edx_1d
+80490af!mov edi, edx!RR_edx_1d!WR_edi_1d
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_1d!WR_edx_bfd650a7
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd650a7_1_81!RR_edx_bfd650a7!WR_ecx_81
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_d9!RR_cl_81_esp_bfd65048!WM_bfd6504b_1_5a
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_5a!RR_esp_bfd65048!WR_esi_5a
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_5a!WR_esi_bfd650e4
+80490c1!movzx eax, byte ptr [esi]!RM_bfd650e4_1_44!RR_esi_bfd650e4!WR_eax_44
+80490c4!mov byte ptr [edx], al!RR_al_44_edx_bfd650a7!WM_bfd650a7_1_44
+80490c6!mov byte ptr [esi], cl!RR_cl_81_esi_bfd650e4!WM_bfd650e4_1_81
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_1c!RR_esp_bfd65048!WR_esi_1c
+80490cc!add cl, byte ptr [edx]!RM_bfd650a7_1_44!RR_cl_81_edx_bfd650a7!WR_cl_c5
+80490ce!movzx ecx, cl!RR_cl_c5!WR_ecx_c5
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd6514f_1_90!RR_ebx_bfd6508a_ecx_c5!WR_edx_90
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87058_1_70!RR_dl_90_ebp_8d8703c_esi_1c!WM_8d87058_1_e0
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_1c!RR_esp_bfd65048!WM_bfd65048_2_1d
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_1d!RR_esp_bfd65048!WR_edx_1d
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_1d_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_1d!WR_edx_1e
+80490ac!movzx edx, dl!RR_dl_1e!WR_edx_1e
+80490af!mov edi, edx!RR_edx_1e!WR_edi_1e
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_1e!WR_edx_bfd650a8
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd650a8_1_39!RR_edx_bfd650a8!WR_ecx_39
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_5a!RR_cl_39_esp_bfd65048!WM_bfd6504b_1_93
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_93!RR_esp_bfd65048!WR_esi_93
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_93!WR_esi_bfd6511d
+80490c1!movzx eax, byte ptr [esi]!RM_bfd6511d_1_d5!RR_esi_bfd6511d!WR_eax_d5
+80490c4!mov byte ptr [edx], al!RR_al_d5_edx_bfd650a8!WM_bfd650a8_1_d5
+80490c6!mov byte ptr [esi], cl!RR_cl_39_esi_bfd6511d!WM_bfd6511d_1_39
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_1d!RR_esp_bfd65048!WR_esi_1d
+80490cc!add cl, byte ptr [edx]!RM_bfd650a8_1_d5!RR_cl_39_edx_bfd650a8!WR_cl_e
+80490ce!movzx ecx, cl!RR_cl_e!WR_ecx_e
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd65098_1_14!RR_ebx_bfd6508a_ecx_e!WR_edx_14
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d87059_1_65!RR_dl_14_ebp_8d8703c_esi_1d!WM_8d87059_1_71
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_1d!RR_esp_bfd65048!WM_bfd65048_2_1e
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_1e!RR_esp_bfd65048!WR_edx_1e
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_1e_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_1e!WR_edx_1f
+80490ac!movzx edx, dl!RR_dl_1f!WR_edx_1f
+80490af!mov edi, edx!RR_edx_1f!WR_edi_1f
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_1f!WR_edx_bfd650a9
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd650a9_1_3b!RR_edx_bfd650a9!WR_ecx_3b
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_93!RR_cl_3b_esp_bfd65048!WM_bfd6504b_1_ce
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_ce!RR_esp_bfd65048!WR_esi_ce
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_ce!WR_esi_bfd65158
+80490c1!movzx eax, byte ptr [esi]!RM_bfd65158_1_b8!RR_esi_bfd65158!WR_eax_b8
+80490c4!mov byte ptr [edx], al!RR_al_b8_edx_bfd650a9!WM_bfd650a9_1_b8
+80490c6!mov byte ptr [esi], cl!RR_cl_3b_esi_bfd65158!WM_bfd65158_1_3b
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_1e!RR_esp_bfd65048!WR_esi_1e
+80490cc!add cl, byte ptr [edx]!RM_bfd650a9_1_b8!RR_cl_3b_edx_bfd650a9!WR_cl_f3
+80490ce!movzx ecx, cl!RR_cl_f3!WR_ecx_f3
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd6517d_1_c8!RR_ebx_bfd6508a_ecx_f3!WR_edx_c8
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d8705a_1_74!RR_dl_c8_ebp_8d8703c_esi_1e!WM_8d8705a_1_bc
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_1e!RR_esp_bfd65048!WM_bfd65048_2_1f
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_1f!RR_esp_bfd65048!WR_edx_1f
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_1f_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_1f!WR_edx_20
+80490ac!movzx edx, dl!RR_dl_20!WR_edx_20
+80490af!mov edi, edx!RR_edx_20!WR_edi_20
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_20!WR_edx_bfd650aa
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd650aa_1_ad!RR_edx_bfd650aa!WR_ecx_ad
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_ce!RR_cl_ad_esp_bfd65048!WM_bfd6504b_1_7b
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_7b!RR_esp_bfd65048!WR_esi_7b
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_7b!WR_esi_bfd65105
+80490c1!movzx eax, byte ptr [esi]!RM_bfd65105_1_64!RR_esi_bfd65105!WR_eax_64
+80490c4!mov byte ptr [edx], al!RR_al_64_edx_bfd650aa!WM_bfd650aa_1_64
+80490c6!mov byte ptr [esi], cl!RR_cl_ad_esi_bfd65105!WM_bfd65105_1_ad
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_1f!RR_esp_bfd65048!WR_esi_1f
+80490cc!add cl, byte ptr [edx]!RM_bfd650aa_1_64!RR_cl_ad_edx_bfd650aa!WR_cl_11
+80490ce!movzx ecx, cl!RR_cl_11!WR_ecx_11
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd6509b_1_96!RR_ebx_bfd6508a_ecx_11!WR_edx_96
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d8705b_1_74!RR_dl_96_ebp_8d8703c_esi_1f!WM_8d8705b_1_e2
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_1f!RR_esp_bfd65048!WM_bfd65048_2_20
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_20!RR_esp_bfd65048!WR_edx_20
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_20_esp_bfd65048
+80490e6!jl 0x80490a9
+80490a9!lea edx, ptr [edi+0x1]!RR_edi_20!WR_edx_21
+80490ac!movzx edx, dl!RR_dl_21!WR_edx_21
+80490af!mov edi, edx!RR_edx_21!WR_edi_21
+80490b1!add edx, ebx!RR_ebx_bfd6508a_edx_21!WR_edx_bfd650ab
+80490b3!movzx ecx, byte ptr [edx]!RM_bfd650ab_1_a9!RR_edx_bfd650ab!WR_ecx_a9
+80490b6!add byte ptr [esp+0x3], cl!RM_bfd6504b_1_7b!RR_cl_a9_esp_bfd65048!WM_bfd6504b_1_24
+80490ba!movzx esi, byte ptr [esp+0x3]!RM_bfd6504b_1_24!RR_esp_bfd65048!WR_esi_24
+80490bf!add esi, ebx!RR_ebx_bfd6508a_esi_24!WR_esi_bfd650ae
+80490c1!movzx eax, byte ptr [esi]!RM_bfd650ae_1_c1!RR_esi_bfd650ae!WR_eax_c1
+80490c4!mov byte ptr [edx], al!RR_al_c1_edx_bfd650ab!WM_bfd650ab_1_c1
+80490c6!mov byte ptr [esi], cl!RR_cl_a9_esi_bfd650ae!WM_bfd650ae_1_a9
+80490c8!movsx esi, word ptr [esp]!RM_bfd65048_2_20!RR_esp_bfd65048!WR_esi_20
+80490cc!add cl, byte ptr [edx]!RM_bfd650ab_1_c1!RR_cl_a9_edx_bfd650ab!WR_cl_6a
+80490ce!movzx ecx, cl!RR_cl_6a!WR_ecx_6a
+80490d1!movzx edx, byte ptr [ebx+ecx*1]!RM_bfd650f4_1_fb!RR_ebx_bfd6508a_ecx_6a!WR_edx_fb
+80490d5!xor byte ptr [ebp+esi*1], dl!RM_8d8705c_1_65!RR_dl_fb_ebp_8d8703c_esi_20!WM_8d8705c_1_9e
+80490d9!add word ptr [esp], 0x1!RM_bfd65048_2_20!RR_esp_bfd65048!WM_bfd65048_2_21
+80490de!movsx edx, word ptr [esp]!RM_bfd65048_2_21!RR_esp_bfd65048!WR_edx_21
+80490e2!cmp edx, dword ptr [esp+0x1c]!RM_bfd65064_4_21!RR_edx_21_esp_bfd65048
+80490e6!jl 0x80490a9
+80490e8!mov ebx, dword ptr [esp+0x20]!RM_bfd65068_4_bfd6508a!RR_esp_bfd65048!WR_ebx_bfd6508a
+80490ec!mov eax, edi!RR_edi_21!WR_eax_21
+80490ee!mov byte ptr [ebx+0x100], al!RR_al_21_ebx_bfd6508a!WM_bfd6518a_1_21
+80490f4!movzx eax, byte ptr [esp+0x3]!RM_bfd6504b_1_24!RR_esp_bfd65048!WR_eax_24
+80490f9!mov byte ptr [ebx+0x101], al!RR_al_24_ebx_bfd6508a!WM_bfd6518b_1_24
+80490ff!add esp, 0x4!RR_esp_bfd65048!WR_esp_bfd6504c
+8049102!pop ebx!RM_bfd6504c_4_bfd6508a!RR_esp_bfd6504c!WR_ebx_bfd6508a_esp_bfd65050
+8049103!pop esi!RM_bfd65050_4_0!RR_esp_bfd65050!WR_esp_bfd65054_esi_0
+8049104!pop edi!RM_bfd65054_4_0!RR_esp_bfd65054!WR_esp_bfd65058_edi_0
+8049105!pop ebp!RM_bfd65058_4_bfd65198!RR_esp_bfd65058!WR_ebp_bfd65198_esp_bfd6505c
+8049106!ret !RM_bfd6505c_4_8049740!RR_esp_bfd6505c!WR_esp_bfd65060
+!EOT
